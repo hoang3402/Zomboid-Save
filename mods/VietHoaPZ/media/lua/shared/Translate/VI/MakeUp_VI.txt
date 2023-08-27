@@ -1,0 +1,38 @@
+MakeUp_EN = {
+    MakeUpCategory_Eyes = "Mắt",
+    MakeUpCategory_EyesShadow = "Phấn mắt",
+    MakeUpCategory_FullFace = " Khắp mặt",
+    MakeUpCategory_Lips = "Môi",
+
+    MakeUpType_EyesCrow = "Mắt quạ",
+    MakeUpType_EyesRedStripes1 = "Sọc đỏ 1",
+    MakeUpType_EyesRedStripes2 = "Sọc đỏ 2",
+    MakeUpType_EyesCamo1 = "Camo 1",
+    MakeUpType_EyesCamo2 = "Camo 2",
+    MakeUpType_EyesCamoStripes = "Sọc",
+    MakeUpType_EyesFootball = "Bóng đá mắt",
+
+    MakeUpType_EyeShadowWhite = "Phấn mắt màu trắng",
+    MakeUpType_EyeShadowLightBlue = "Phấn mắt màu xanh nhạt",
+    MakeUpType_EyeShadowBlue = "Phấn mắt màu xanh lam",
+    MakeUpType_EyeShadowRed = "Phấn mắt màu đỏ",
+    MakeUpType_EyeShadowPink = "Phấn mắt màu hồng",
+    MakeUpType_EyeShadowGreen = "Phấn mắt màu xanh lá",
+    MakeUpType_EyeShadowYellow = "Phấn mắt màu vàng",
+
+    MakeUpType_FullFaceCamo1 = "Full Camo 1",
+    MakeUpType_FullFaceCamo2 = "Full Camo 2",
+    MakeUpType_FullFaceWarrior = "Chiến binh",
+    MakeUpType_FullFaceClown1 = "Hề 1",
+    MakeUpType_FullFaceClown2 = "Hề 2",
+    MakeUpType_FullFaceSkull1 = "Đầu lâu 1",
+    MakeUpType_FullFaceSkull2 = "Đầu lâu 2",
+
+    MakeUpType_LipsRed = "Son môi màu đỏ",
+    MakeUpType_LipsLightBlue = "Son môi màu xanh nhạt",
+    MakeUpType_LipsBlue = "Son môi màu xanh biển",
+    MakeUpType_LipsBlack = "Son môi màu đen",
+    MakeUpType_LipsGreen = "Son môi màu xanh lá",
+    MakeUpType_LipsPink = "Son môi màu hồng",
+}
+

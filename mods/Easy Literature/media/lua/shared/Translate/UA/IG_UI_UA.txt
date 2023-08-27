@@ -1,0 +1,45 @@
+IGUI_UA = {
+
+	IGUI_Easy_Literature_Menu_Header = "Літературна колекція",
+
+	IGUI_Easy_Literature_Menu_Settings = "Налаштування",
+	IGUI_Easy_Literature_Menu_Back = "Назад",
+
+	IGUI_Easy_Literature_Menu_Close = "Закрити",
+
+	IGUI_Easy_Literature_Menu_Category = "Категорії",
+
+	IGUI_Easy_Literature_Menu_Category_Skill_Books = "Навички",
+	IGUI_Easy_Literature_Menu_Category_Recipes_Magazines = "Рецепти",
+	IGUI_Easy_Literature_Menu_Category_VHS = "VHS",
+	IGUI_Easy_Literature_Menu_Category_Home_VHS = "Домашнє VHS",
+	IGUI_Easy_Literature_Menu_Category_CD = "CD",
+	IGUI_Easy_Literature_Menu_Category_TrueActionsDancing_Magazines = "Танцювальні журнали",
+	IGUI_Easy_Literature_Menu_Category_TrueActionsDancing_Cards = "Танцювальні карточки",
+
+	IGUI_Easy_Literature_Menu_Literature_Name_Filter = "Фільтр назви літератури",
+
+	IGUI_Easy_Literature_Menu_Not_Found = "Не знайдено",
+	IGUI_Easy_Literature_Menu_Found = "Знайдено",
+
+	IGUI_Easy_Literature_Menu_Settings_Base = "Головне",
+	IGUI_Easy_Literature_Menu_Settings_Base_Auto_Mark_Transfered_Literature_As_Found = "Автоматично позначити перенесену літературу як знайдену",
+	IGUI_Easy_Literature_Menu_Settings_Base_Show_Not_Found_Mark = "Показати позначки 'Не знайдено'",
+	IGUI_Easy_Literature_Menu_Settings_Base_Show_Found_Mark = "Показати позначки 'Знайдено'",
+	IGUI_Easy_Literature_Menu_Settings_Base_Show_Known_Mark = "Показати позначки 'Відомо'",
+	IGUI_Easy_Literature_Menu_Settings_Base_Lazy_Lists_Fill = "Ледаче наповнення списків"
+
+	IGUI_Easy_Literature_Menu_Settings_Found_Status = "Статус 'Знайдено'",
+	IGUI_Easy_Literature_Menu_Settings_Known_Status = "Статус 'Відомо'",
+
+	IGUI_Easy_Literature_Menu_Settings_Skill_Books = "Книги навичок",
+	IGUI_Easy_Literature_Menu_Settings_Recipes_Magazines = "Журнали рецептів",
+	IGUI_Easy_Literature_Menu_Settings_VHS = "VHS",
+	IGUI_Easy_Literature_Menu_Settings_Home_VHS = "Домашнє VHS",
+	IGUI_Easy_Literature_Menu_Settings_CD = "CD",
+	IGUI_Easy_Literature_Menu_Settings_TrueActionsDancing_Magazines = "Танцювальні журнали",
+	IGUI_Easy_Literature_Menu_Settings_TrueActionsDancing_Cards = "Танцювальні карточки",
+
+	IGUI_Easy_Literature_Menu_Settings_Clear_Found_Literature_Data = "Очистити дані про знайдену літературу",
+
+}

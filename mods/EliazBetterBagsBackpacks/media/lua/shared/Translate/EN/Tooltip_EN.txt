@@ -1,0 +1,5 @@
+Tooltip_EN = {
+
+    Tooltip_DeleteBag = "It'll DELETE your bag so EMPTY IT before clicking !<br>Only use this recipe if you have incorrect stats with your bag/backpack<br>It'll spawn a fresh new bag/backpack with correct values<br>(Recipe from Eliaz Better Bags & Backpacks MOD)",
+	
+}

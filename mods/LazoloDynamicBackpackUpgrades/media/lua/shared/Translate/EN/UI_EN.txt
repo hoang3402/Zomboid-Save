@@ -1,0 +1,14 @@
+UI_EN = {
+	UI_UpgradeCapacity = "Increases Base Capacity by ",
+	UI_UpgradeWeightReduction = "Increases Weight Efficiency by ",
+	UI_UpgradeCapacityCloth = "Cloth Bag Upgrade",
+	UI_UpgradeCapacityJean = "Denim Bag Upgrade",
+	UI_UpgradeCapacityLeather = "Leather Bag Upgrade",
+	UI_UpgradeCapacityMilitary = "Military Bag Upgrade",
+	
+	
+	UI_UpgradeWeightReductionCloth = "Cloth Straps Upgrade",
+	UI_UpgradeWeightReductionJean = "Denim Straps Upgrade",
+	UI_UpgradeWeightReductionLeather = "Leather Straps Upgrade",
+	UI_UpgradeWeightReductionMilitary = "Military Straps Upgrade",
+}

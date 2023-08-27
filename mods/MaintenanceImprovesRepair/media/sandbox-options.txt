@@ -1,0 +1,25 @@
+VERSION = 1,
+
+option MIR.SkipItems
+{
+	type = string,
+	page = MIR,
+	default = ,
+	translation = MIR_SkipItems,
+}
+
+option MIR.SkipSkills
+{
+	type = string,
+	page = MIR,
+	default = Mechanics;Aiming,
+	translation = MIR_SkipSkills,
+}
+
+option MIR.SkipFixers
+{
+	type = string,
+	page = MIR,
+	default = ,
+	translation = MIR_SkipFixers,
+}

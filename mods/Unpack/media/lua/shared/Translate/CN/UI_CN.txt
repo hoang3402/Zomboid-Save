@@ -1,0 +1,18 @@
+UI_CN = {
+    UI_optionscreen_binding_Unpack = "快速存放",
+    UI_optionscreen_binding_UnpackKey = "存放到附近的容器",
+
+    UI_ContextMenu_PutItemsInContainerSingular = "把这 %1 个放进 %2",
+    UI_ContextMenu_PutItemsInContainerPlural = "把这 %1 个放进 %2",
+    UI_WorldContextMenu_Stock = "堆进",
+    UI_WorldContextMenu_StockContainerFrom = "把 %1 中的物品堆进 %2",
+
+    UI_MenuOptions_ExcludeMannequinContainer = "忽略人体模型",
+    UI_MenuOptions_ExcludeMannequinContainerTooltip = "选中此项禁用转移物品到人体模型",
+    UI_MenuOptions_ExcludeTrashContainer = "忽略垃圾桶",
+    UI_MenuOptions_ExcludeTrashContainerTooltip = "选中此项禁用转移物品到垃圾桶",
+    UI_MenuOptions_DisableItemCategories = "禁用Mod自带的物品类别",
+    UI_MenuOptions_DisableItemCategoriesTooltip = "更改此设定，需要重新加载你的游戏世界.",
+    UI_MenuOptions_ContainerPercentageItemCount = "容器比例",
+    UI_MenuOptions_ContainerPercentageItemCountTooltip = "当容器中该物品的分类低于你设定的值时，才会自动放入.",
+}

@@ -1,0 +1,49 @@
+IGUI_EN = {
+
+	IGUI_Easy_Literature_Menu_Header = "Literature Collection",
+
+	IGUI_Easy_Literature_Menu_Settings = "Settings",
+	IGUI_Easy_Literature_Menu_Back = "Back",
+
+	IGUI_Easy_Literature_Menu_Close = "Close",
+
+	IGUI_Easy_Literature_Menu_Category = "Categories",
+
+	IGUI_Easy_Literature_Menu_Category_Skill_Books = "Skills",
+	IGUI_Easy_Literature_Menu_Category_Recipes_Magazines = "Recipes",
+	IGUI_Easy_Literature_Menu_Category_VHS = "VHS",
+	IGUI_Easy_Literature_Menu_Category_Home_VHS = "Home-VHS",
+	IGUI_Easy_Literature_Menu_Category_CD = "CD",
+	IGUI_Easy_Literature_Menu_Category_TrueActionsDancing_Magazines = "Dancing Magazines",
+	IGUI_Easy_Literature_Menu_Category_TrueActionsDancing_Cards = "Dancing Cards",
+	IGUI_Easy_Literature_Menu_Category_SpiffoTradingCards = "Spiffo Trading Cards",
+	IGUI_Easy_Literature_Menu_Category_WulfTradingCards = "Trading Cards by Wulf",
+
+	IGUI_Easy_Literature_Menu_Literature_Name_Filter = "Literature Name Filter",
+
+	IGUI_Easy_Literature_Menu_Not_Found = "Not Found",
+	IGUI_Easy_Literature_Menu_Found = "Found",
+
+	IGUI_Easy_Literature_Menu_Settings_Base = "Main",
+	IGUI_Easy_Literature_Menu_Settings_Base_Auto_Mark_Transfered_Literature_As_Found = "Auto Mark Transfered Literature as Found",
+	IGUI_Easy_Literature_Menu_Settings_Base_Show_Not_Found_Mark = "Show Not Found Marks",
+	IGUI_Easy_Literature_Menu_Settings_Base_Show_Found_Mark = "Show Found Marks",
+	IGUI_Easy_Literature_Menu_Settings_Base_Show_Known_Mark = "Show Known Marks",
+	IGUI_Easy_Literature_Menu_Settings_Base_Lazy_Lists_Fill = "Lazy Lists Fill"
+
+	IGUI_Easy_Literature_Menu_Settings_Found_Status = "Found Status",
+	IGUI_Easy_Literature_Menu_Settings_Known_Status = "Known Status",
+
+	IGUI_Easy_Literature_Menu_Settings_Skill_Books = "Skill Books",
+	IGUI_Easy_Literature_Menu_Settings_Recipes_Magazines = "Recipes Magazines",
+	IGUI_Easy_Literature_Menu_Settings_VHS = "VHS",
+	IGUI_Easy_Literature_Menu_Settings_Home_VHS = "Home VHS",
+	IGUI_Easy_Literature_Menu_Settings_CD = "CD",
+	IGUI_Easy_Literature_Menu_Settings_TrueActionsDancing_Magazines = "Dancing Magazines",
+	IGUI_Easy_Literature_Menu_Settings_TrueActionsDancing_Cards = "Dancing Cards",
+	IGUI_Easy_Literature_Menu_Settings_SpiffoTradingCards = "Spiffo Trading Cards",
+	IGUI_Easy_Literature_Menu_Settings_WulfTradingCards = "Trading Cards by Wulf",
+
+	IGUI_Easy_Literature_Menu_Settings_Clear_Found_Literature_Data = "Clear Found Literature Data",
+
+}

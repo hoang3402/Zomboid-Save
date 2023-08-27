@@ -1,0 +1,18 @@
+UI_TR = {
+    UI_optionscreen_binding_Unpack = "Çantadan Çıkar",
+    UI_optionscreen_binding_UnpackKey = "Yakındaki konteynıra stokla",
+
+    UI_ContextMenu_PutItemsInContainerSingular = "%2 slotuna %1 eşyasını yerleştir",
+    UI_ContextMenu_PutItemsInContainerPlural = "%2 slotuna %1 eşyalarını yerleştir",
+    UI_WorldContextMenu_Stock = "Stok",
+    UI_WorldContextMenu_StockContainerFrom = "%2'den %1 stokla",
+
+    UI_MenuOptions_ExcludeMannequinContainer = "Mankenleri yok say",
+    UI_MenuOptions_ExcludeMannequinContainerTooltip = "Mankenlere eşya transferini iptal etmek için işaretleyin",
+    UI_MenuOptions_ExcludeTrashContainer = "Çöp kutularını yok say",
+    UI_MenuOptions_ExcludeTrashContainerTooltip = "Çöp kutusuna eşya transferini iptal etmek için işaretleyin",
+    UI_MenuOptions_DisableItemCategories = "Özel Eşya Kategorisini devre dışı bırak",
+    UI_MenuOptions_DisableItemCategoriesTooltip = "Bu moddaki özel eşya kategorisini iptal etmek işaretleyin. Dünyanızın yeniden yüklenmesi gerekir.",
+    UI_MenuOptions_ContainerPercentageItemCount = "Konteynır Yüzdesi Sayısı",
+    UI_MenuOptions_ContainerPercentageItemCountTooltip = "Aşağıdaki yüzdelik yapılandırması uygulanmadan önce konteynırda olması gereken eşya sayısı.",
+}

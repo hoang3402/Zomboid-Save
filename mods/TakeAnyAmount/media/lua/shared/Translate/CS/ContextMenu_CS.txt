@@ -1,0 +1,5 @@
+ContextMenu_CS{
+ ContextMenu_GrabAmount = "Vyber mnozstvi, ktere chces vzit",
+ ContextMenu_PutAmount = "Vyber mnozstvi, ktere chces dat",
+ ContextMenu_TransferAmountInfo = "Pocet kusu (max.",
+}

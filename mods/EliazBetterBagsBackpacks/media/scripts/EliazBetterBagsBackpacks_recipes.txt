@@ -1,0 +1,375 @@
+module EliazBetterBagsBackpacks {
+	imports {
+		Base
+	}
+
+
+    recipe DELETE BAG => Empty it before !
+	{
+		Bag_Schoolbag,
+		LeatherStrips=5,
+        Thread=10,
+        keep Scissors,
+        keep Needle,
+		
+	    OnCreate:PleaseKeepColor,
+		Result:Bag_Schoolbag,
+		Time:200.0,
+        AnimNode:Disassemble,	   
+		Category:Tailoring,
+        Tooltip:Tooltip_DeleteBag,
+	}
+	
+    recipe DELETE BAG => Empty it before !
+	{
+		Suitcase,
+		LeatherStrips=5,
+        Thread=10,
+        keep Scissors,
+        keep Needle,
+		
+	    OnCreate:PleaseKeepColor,
+		Result:Suitcase,
+		Time:200.0,
+        AnimNode:Disassemble,	   
+		Category:Tailoring,
+        Tooltip:Tooltip_DeleteBag,
+	}
+
+    recipe DELETE BAG => Empty it before !
+	{
+		Tote,
+		LeatherStrips=5,
+        Thread=10,
+        keep Scissors,
+        keep Needle,
+		
+	    OnCreate:PleaseKeepColor,
+		Result:Tote,
+		Time:200.0,
+        AnimNode:Disassemble,	   
+		Category:Tailoring,
+        Tooltip:Tooltip_DeleteBag,
+	}
+
+    recipe DELETE BAG => Empty it before !
+	{
+		Purse,
+		LeatherStrips=5,
+        Thread=10,
+        keep Scissors,
+        keep Needle,
+		
+	    OnCreate:PleaseKeepColor,
+		Result:Purse,
+		Time:200.0,
+        AnimNode:Disassemble,	   
+		Category:Tailoring,
+        Tooltip:Tooltip_DeleteBag,
+	}
+
+    recipe DELETE BAG => Empty it before !
+	{
+		Bag_GolfBag,
+		LeatherStrips=5,
+        Thread=10,
+        keep Scissors,
+        keep Needle,
+		
+	    OnCreate:PleaseKeepColor,
+		Result:Bag_GolfBag,
+		Time:200.0,
+        AnimNode:Disassemble,	   
+		Category:Tailoring,
+        Tooltip:Tooltip_DeleteBag,
+	}
+
+    recipe DELETE BAG => Empty it before !
+	{
+		Bag_WeaponBag,
+		LeatherStrips=5,
+        Thread=10,
+        keep Scissors,
+        keep Needle,
+		
+	    OnCreate:PleaseKeepColor,
+		Result:Bag_WeaponBag,
+		Time:200.0,
+        AnimNode:Disassemble,	   
+		Category:Tailoring,
+        Tooltip:Tooltip_DeleteBag,
+	}
+
+    recipe DELETE BAG => Empty it before !
+	{
+		Bag_InmateEscapedBag,
+		LeatherStrips=5,
+        Thread=10,
+        keep Scissors,
+        keep Needle,
+		
+	    OnCreate:PleaseKeepColor,
+		Result:Bag_InmateEscapedBag,
+		Time:200.0,
+        AnimNode:Disassemble,	   
+		Category:Tailoring,
+        Tooltip:Tooltip_DeleteBag,
+	}
+
+    recipe DELETE BAG => Empty it before !
+	{
+		Bag_MoneyBag,
+		LeatherStrips=5,
+        Thread=10,
+        keep Scissors,
+        keep Needle,
+		
+	    OnCreate:PleaseKeepColor,
+		Result:Bag_MoneyBag,
+		Time:200.0,
+        AnimNode:Disassemble,	   
+		Category:Tailoring,
+        Tooltip:Tooltip_DeleteBag,
+	}
+	
+    recipe DELETE BAG => Empty it before !
+	{
+		Bag_WorkerBag,
+		LeatherStrips=5,
+        Thread=10,
+        keep Scissors,
+        keep Needle,
+		
+	    OnCreate:PleaseKeepColor,
+		Result:Bag_WorkerBag,
+		Time:200.0,
+        AnimNode:Disassemble,	   
+		Category:Tailoring,
+        Tooltip:Tooltip_DeleteBag,
+	}
+
+    recipe DELETE BAG => Empty it before !
+	{
+		Bag_DuffelBag,
+		LeatherStrips=5,
+        Thread=10,
+        keep Scissors,
+        keep Needle,
+		
+	    OnCreate:PleaseKeepColor,
+		Result:Bag_DuffelBag,
+		Time:200.0,
+        AnimNode:Disassemble,	   
+		Category:Tailoring,
+        Tooltip:Tooltip_DeleteBag,
+	}
+
+    recipe DELETE BAG => Empty it before !
+	{
+		Bag_DuffelBagTINT,
+		LeatherStrips=5,
+        Thread=10,
+        keep Scissors,
+        keep Needle,
+		
+	    OnCreate:PleaseKeepColor,
+		Result:Bag_DuffelBagTINT,
+		Time:200.0,
+        AnimNode:Disassemble,	   
+		Category:Tailoring,
+        Tooltip:Tooltip_DeleteBag,
+	}
+
+    recipe DELETE BAG => Empty it before !
+	{
+		Bag_ShotgunBag,
+		LeatherStrips=5,
+        Thread=10,
+        keep Scissors,
+        keep Needle,
+		
+	    OnCreate:PleaseKeepColor,
+		Result:Bag_ShotgunBag,
+		Time:200.0,
+        AnimNode:Disassemble,	   
+		Category:Tailoring,
+        Tooltip:Tooltip_DeleteBag,
+	}
+
+    recipe DELETE BAG => Empty it before !
+	{
+		Bag_ShotgunSawnoffBag,
+		LeatherStrips=5,
+        Thread=10,
+        keep Scissors,
+        keep Needle,
+		
+	    OnCreate:PleaseKeepColor,
+		Result:Bag_ShotgunSawnoffBag,
+		Time:200.0,
+        AnimNode:Disassemble,	   
+		Category:Tailoring,
+        Tooltip:Tooltip_DeleteBag,
+	}
+
+    recipe DELETE BAG => Empty it before !
+	{
+		Bag_ShotgunDblBag,
+		LeatherStrips=5,
+        Thread=10,
+        keep Scissors,
+        keep Needle,
+		
+	    OnCreate:PleaseKeepColor,
+		Result:Bag_ShotgunDblBag,
+		Time:200.0,
+        AnimNode:Disassemble,	   
+		Category:Tailoring,
+        Tooltip:Tooltip_DeleteBag,
+	}
+
+    recipe DELETE BAG => Empty it before !
+	{
+		Bag_ShotgunDblSawnoffBag,
+		LeatherStrips=5,
+        Thread=10,
+        keep Scissors,
+        keep Needle,
+		
+	    OnCreate:PleaseKeepColor,
+		Result:Bag_ShotgunDblSawnoffBag,
+		Time:200.0,
+        AnimNode:Disassemble,	   
+		Category:Tailoring,
+        Tooltip:Tooltip_DeleteBag,
+	}
+
+    recipe DELETE BAG => Empty it before !
+	{
+		Bag_NormalHikingBag,
+		LeatherStrips=5,
+        Thread=10,
+        keep Scissors,
+        keep Needle,
+		
+	    OnCreate:PleaseKeepColor,
+		Result:Bag_NormalHikingBag,
+		Time:200.0,
+        AnimNode:Disassemble,	   
+		Category:Tailoring,
+        Tooltip:Tooltip_DeleteBag,
+	}
+
+    recipe DELETE BAG => Empty it before !
+	{
+		Bag_BigHikingBag,
+		LeatherStrips=5,
+        Thread=10,
+        keep Scissors,
+        keep Needle,
+		
+	    OnCreate:PleaseKeepColor,
+		Result:Bag_BigHikingBag,
+		Time:200.0,
+        AnimNode:Disassemble,	   
+		Category:Tailoring,
+        Tooltip:Tooltip_DeleteBag,
+	}
+
+    recipe DELETE BAG => Empty it before !
+	{
+		Bag_SurvivorBag,
+		LeatherStrips=5,
+        Thread=10,
+        keep Scissors,
+        keep Needle,
+		
+	    OnCreate:PleaseKeepColor,
+		Result:Bag_SurvivorBag,
+		Time:200.0,
+        AnimNode:Disassemble,	   
+		Category:Tailoring,
+        Tooltip:Tooltip_DeleteBag,
+	}
+
+    recipe DELETE BAG => Empty it before !
+	{
+		Bag_ALICEpack,
+		LeatherStrips=5,
+        Thread=10,
+        keep Scissors,
+        keep Needle,
+		
+	    OnCreate:PleaseKeepColor,
+		Result:Bag_ALICEpack,
+		Time:200.0,
+        AnimNode:Disassemble,	   
+		Category:Tailoring,
+        Tooltip:Tooltip_DeleteBag,
+	}
+
+    recipe DELETE BAG => Empty it before !
+	{
+		Bag_ALICEpack_Army,
+		LeatherStrips=5,
+        Thread=10,
+        keep Scissors,
+        keep Needle,
+		
+	    OnCreate:PleaseKeepColor,
+		Result:Bag_ALICEpack_Army,
+		Time:200.0,
+        AnimNode:Disassemble,	   
+		Category:Tailoring,
+        Tooltip:Tooltip_DeleteBag,
+	}
+
+    recipe DELETE BAG => Empty it before !
+	{
+		Bag_FannyPackFront,
+		LeatherStrips=5,
+        Thread=10,
+        keep Scissors,
+        keep Needle,
+		
+	    OnCreate:PleaseKeepColor,
+		Result:Bag_FannyPackFront,
+		Time:200.0,
+        AnimNode:Disassemble,	   
+		Category:Tailoring,
+        Tooltip:Tooltip_DeleteBag,
+	}
+
+    recipe DELETE BAG => Empty it before !
+	{
+		Bag_FannyPackBack,
+		LeatherStrips=5,
+        Thread=10,
+        keep Scissors,
+        keep Needle,
+		
+	    OnCreate:PleaseKeepColor,
+		Result:Bag_FannyPackBack,
+		Time:200.0,
+        AnimNode:Disassemble,	   
+		Category:Tailoring,
+        Tooltip:Tooltip_DeleteBag,
+	}
+
+    recipe DELETE BAG => Empty it before !
+	{
+		Bag_Satchel,
+		LeatherStrips=5,
+        Thread=10,
+        keep Scissors,
+        keep Needle,
+		
+	    OnCreate:PleaseKeepColor,
+		Result:Bag_Satchel,
+		Time:200.0,
+        AnimNode:Disassemble,	   
+		Category:Tailoring,
+        Tooltip:Tooltip_DeleteBag,
+	}
+
+}

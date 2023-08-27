@@ -1,0 +1,13 @@
+ContextMenu_PTBR = {
+	ContextMenu_Easy_Literature = "Coleção de Literatura",
+	ContextMenu_Easy_Literature_Open_Menu = "Abrir Menu",
+	ContextMenu_Easy_Literature_Take_Not_Found_Items = "Pegar Itens Não Encontrados",
+	ContextMenu_Easy_Literature_Mark_As_Found = "Marcar como Encontrado",
+	ContextMenu_Easy_Literature_Mark_As_Found_Selected = "Selecionado",
+	ContextMenu_Easy_Literature_Mark_As_Found_All = "Todos no Contêiner",
+	ContextMenu_Easy_Literature_Mark_As_Not_Found = "Marcar como Não Encontrado",
+	ContextMenu_Easy_Literature_Mark_As_Not_Found_Selected = "Selecionado",
+	ContextMenu_Easy_Literature_Mark_As_Not_Found_All = "Todos no Contêiner",
+	ContextMenu_Easy_Literature_Drop_Duplicate_Items = "Descartar Itens Duplicados",
+	ContextMenu_Easy_Literature_Read_Available_Literature = "Ler Literatura Disponível",
+}

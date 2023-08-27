@@ -1,0 +1,49 @@
+IGUI_RU = {
+
+	IGUI_Easy_Literature_Menu_Header = "Коллекция Литературы",
+
+	IGUI_Easy_Literature_Menu_Settings = "Настройки",
+	IGUI_Easy_Literature_Menu_Back = "Назад",
+
+	IGUI_Easy_Literature_Menu_Close = "Закрыть",
+
+	IGUI_Easy_Literature_Menu_Category = "Категории",
+
+	IGUI_Easy_Literature_Menu_Category_Skill_Books = "Навыки",
+	IGUI_Easy_Literature_Menu_Category_Recipes_Magazines = "Рецепты",
+	IGUI_Easy_Literature_Menu_Category_VHS = "VHS",
+	IGUI_Easy_Literature_Menu_Category_Home_VHS = "Home-VHS",
+	IGUI_Easy_Literature_Menu_Category_CD = "CD",
+	IGUI_Easy_Literature_Menu_Category_TrueActionsDancing_Magazines = "Журналы с Танцами",
+	IGUI_Easy_Literature_Menu_Category_TrueActionsDancing_Cards = "Карточки Танцев",
+	IGUI_Easy_Literature_Menu_Category_SpiffoTradingCards = "Коллекционные карточки Спиффа",
+	IGUI_Easy_Literature_Menu_Category_WulfTradingCards = "Коллекционные карточки by Wulf",
+
+	IGUI_Easy_Literature_Menu_Literature_Name_Filter = "Фильтр Названия Литературы",
+
+	IGUI_Easy_Literature_Menu_Not_Found = "Не Найдено",
+	IGUI_Easy_Literature_Menu_Found = "Найдено",
+
+	IGUI_Easy_Literature_Menu_Settings_Base = "Основные",
+	IGUI_Easy_Literature_Menu_Settings_Base_Auto_Mark_Transfered_Literature_As_Found = "Автоматически помечать перемещённую литературу, как найденную",
+	IGUI_Easy_Literature_Menu_Settings_Base_Show_Not_Found_Mark = "Метки не найденных предметов",
+	IGUI_Easy_Literature_Menu_Settings_Base_Show_Found_Mark = "Метки найденных предметов",
+	IGUI_Easy_Literature_Menu_Settings_Base_Show_Known_Mark = "Метки Прочитано/Прослушано",
+	IGUI_Easy_Literature_Menu_Settings_Base_Lazy_Lists_Fill = "Ленивое заполнение списков"
+
+	IGUI_Easy_Literature_Menu_Settings_Found_Status = 'Метка "Найдено"',
+	IGUI_Easy_Literature_Menu_Settings_Known_Status = 'Метка "Прочитано/Прослушано"',
+	
+	IGUI_Easy_Literature_Menu_Settings_Skill_Books = "Книги Навыков",
+	IGUI_Easy_Literature_Menu_Settings_Recipes_Magazines = "Журналы с Рецептами",
+	IGUI_Easy_Literature_Menu_Settings_VHS = "VHS",
+	IGUI_Easy_Literature_Menu_Settings_Home_VHS = "Home VHS",
+	IGUI_Easy_Literature_Menu_Settings_CD = "CD",
+	IGUI_Easy_Literature_Menu_Settings_TrueActionsDancing_Magazines = "Журналы с Танцами",
+	IGUI_Easy_Literature_Menu_Settings_TrueActionsDancing_Cards = "Карточки Танцев",
+	IGUI_Easy_Literature_Menu_Settings_SpiffoTradingCards = "Коллекционные карточки Спиффа",
+	IGUI_Easy_Literature_Menu_Settings_WulfTradingCards = "Коллекционные карточки by Wulf",
+
+	IGUI_Easy_Literature_Menu_Clear_Found_Literature_Data = "Очистить информацию о найденных книгах",
+
+}

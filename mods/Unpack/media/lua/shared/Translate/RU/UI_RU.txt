@@ -1,0 +1,18 @@
+UI_RU = {
+    UI_optionscreen_binding_Unpack = "˜˜˜˜˜˜˜˜˜˜˜",
+    UI_optionscreen_binding_UnpackKey = "˜˜˜˜˜˜˜ ˜ ˜˜˜˜˜˜˜˜˜ ˜˜˜˜˜˜˜˜˜",
+
+    UI_ContextMenu_PutItemsInContainerSingular = "˜˜˜˜˜˜˜˜ %1 ˜˜˜˜˜˜˜ ˜ %2",
+    UI_ContextMenu_PutItemsInContainerPlural = "˜˜˜˜˜˜˜ %1 ˜˜˜˜˜˜˜˜ ˜ %2",
+    UI_WorldContextMenu_Stock = "˜˜˜˜˜˜˜",
+    UI_WorldContextMenu_StockContainerFrom = "˜˜˜˜˜˜˜˜˜˜ %1 ˜˜ %2",
+
+    UI_MenuOptions_ExcludeMannequinContainer = "Ignore Mannequins",
+    UI_MenuOptions_ExcludeMannequinContainerTooltip = "Check this to disable transferring items to Mannequins",
+    UI_MenuOptions_ExcludeTrashContainer = "Ignore Trash bins",
+    UI_MenuOptions_ExcludeTrashContainerTooltip = "Check this to disable transferring items to Trash",
+    UI_MenuOptions_DisableItemCategories = "˜˜˜˜˜˜˜˜˜ ˜˜˜˜˜˜˜˜˜ ˜˜˜˜˜˜˜˜˜",
+    UI_MenuOptions_DisableItemCategoriesTooltip = "˜˜˜˜˜˜˜˜˜ ˜˜˜˜˜˜˜˜˜ ˜˜˜˜˜˜˜˜˜ ˜˜˜˜. ˜˜˜˜˜˜˜ ˜˜˜˜˜˜˜˜˜˜˜˜ ˜˜˜˜˜˜˜˜ ˜˜˜˜.",
+    UI_MenuOptions_ContainerPercentageItemCount = "˜˜˜˜˜˜˜˜˜ ˜˜˜˜˜˜˜ ˜ ˜˜˜˜˜˜˜˜˜˜",
+    UI_MenuOptions_ContainerPercentageItemCountTooltip = "˜˜˜˜˜˜˜˜˜˜ ˜˜˜˜˜˜˜˜˜ ˜˜˜˜˜˜˜ ˜˜˜˜˜˜ ˜˜˜˜ ˜ ˜˜˜˜˜˜˜˜˜˜, ˜˜˜˜˜˜ ˜˜˜ ˜˜˜˜˜ ˜˜˜˜˜˜˜˜˜ ˜˜˜˜˜˜˜˜˜˜ ˜˜˜˜˜˜˜˜˜˜˜˜ ˜˜˜˜.",
+}

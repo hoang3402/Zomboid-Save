@@ -1,0 +1,5 @@
+name=AutoSewing
+poster=AutoSewingPoster.png
+id=AutoSewing
+description=Optimises the player time spent on tailoring training while keeping the genuine simulation time spent.
+icon=AutoSewing.png

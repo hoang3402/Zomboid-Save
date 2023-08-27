@@ -1,0 +1,31 @@
+module Base
+{
+	item BasedBackpack
+	{
+		DisplayName = Survivor pack,
+		
+		DisplayCategory = Bag,
+		Icon = BasedBackpack,
+		ClothingItem = BasedBackpack,
+		WorldStaticModel = BasedBackpack_World,
+		
+		Type = Container,
+		CanBeEquipped = Back,
+		AttachmentReplacement = Bag,
+		
+		ReplaceInSecondHand = BasedBackpack_LHand holdingbagleft,
+        ReplaceInPrimaryHand = BasedBackpack_RHand holdingbagright,
+		
+		WeightReduction	=	89,
+		Weight	=	2.1,
+		Capacity	=	30,
+		RunSpeedModifier = 0.94,
+		
+		OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+		
+		BloodLocation = Bag,
+		CanHaveHoles = false,
+	}
+}

@@ -1,0 +1,4 @@
+UI_RU = {
+ContextMenu_AutoMechanics = "Начать авторемонт",
+ContextMenu_AutoMechanics_UninstallAll = "Автоматическое удаление",
+}

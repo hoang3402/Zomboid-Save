@@ -1,0 +1,5 @@
+ContextMenu_NL{
+ ContextMenu_GrabAmount = "Selecteer bedrag om te pakken",
+ ContextMenu_PutAmount = "Selecteer bedrag om te plaatsen",
+ ContextMenu_TransferAmountInfo = "Breng items over (max.",
+}

@@ -1,0 +1,23 @@
+module Base
+{
+    imports
+        {
+            Base
+        }
+
+    recipe Make Survivor Pack
+    	{
+			keep Needle,
+			Thread = 6,
+			Bag_ALICEpack_Army =1,
+			FirstAidKit = 1,
+			Tarp = 1,
+			DuctTape = 2,
+			
+			Result:BasedBackpack,
+			Time:2000.0,
+			SkillRequired:Tailoring=2,
+			
+			Category:Tailoring,
+    	}
+}

@@ -1,0 +1,20 @@
+ContextMenu_UA = {
+
+	ContextMenu_Easy_Literature = "Літературна колекція",
+
+	ContextMenu_Easy_Literature_Open_Menu = "Відкрити меню",
+
+	ContextMenu_Easy_Literature_Take_Not_Found_Items = "Взяти не знайдені предмети",
+	ContextMenu_Easy_Literature_Drop_Duplicate_Items = "Викинути дублікати",
+
+	ContextMenu_Easy_Literature_Mark_As_Found = "Позначити як знайдене",
+	ContextMenu_Easy_Literature_Mark_As_Found_Selected = "Обране",
+	ContextMenu_Easy_Literature_Mark_As_Found_All = "Все в контейнері",
+
+	ContextMenu_Easy_Literature_Mark_As_Not_Found = "Позначити як не знайдене",
+	ContextMenu_Easy_Literature_Mark_As_Not_Found_Selected = "Обране",
+	ContextMenu_Easy_Literature_Mark_As_Not_Found_All = "Все в контейнері",
+	
+	ContextMenu_Easy_Literature_Read_Available_Literature = "Прочитати доступну літературу",
+
+}

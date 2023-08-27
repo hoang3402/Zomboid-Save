@@ -1,0 +1,10 @@
+West Point
+ <LINE> <LINE>
+ Cho dù bạn chỉ đang đi dạo qua quảng trường thành phố, ăn một trong những chiếc bánh của chúng tôi
+ hoặc chỉ trò chuyện với những người dân địa phương thân thiện - West Point là Thị trấn Nhỏ thực sự của Hoa Kỳ.
+ <LINE> <LINE>
+ Đừng để những con phố làm bạn buồn ngủ, những ngôi nhà giá cả phải chăng và những mẫu đất
+ đất nông nghiệp đẹp mắt đánh lừa bạn - đây là cơ quan hành chính chính phủ của Quốc gia Knox. Nếu thị trưởng của chúng tôi không bận rộn với các sắc lệnh công khai với người dân trong
+ Tòa thị chính, bạn có thể chỉ tìm thấy anh ấy trong Twiggy's Bar nổi tiếng!
+ Bất kể thời gian lưu trú của bạn là bao lâu: luôn được chào đón tại West Point!
+

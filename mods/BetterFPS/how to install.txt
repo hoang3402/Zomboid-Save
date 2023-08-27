@@ -1,0 +1,30 @@
+This mod is not a LUA mod and require a manual installation by replacing an existing Project Zomboid File
+This mod works on Steam or GOG version
+Should works on any OS
+This mod is Client side and is not required to be installed on server
+This mod works and have been tested in both SP and MP
+
+HOW TO INSTALL
+- locate your 'Project Zomboid' installation folder (by default should be something like: "C:\Program Files (x86)\Steam\steamapps\common\ProjectZomboid")
+- open the "\zombie\iso" folder
+- in another window open the mod folder (by default shoudl be: "C:\Program Files (x86)\Steam\steamapps\workshop\content\108600\xxxxx\mods\BetterFPS\media\")
+- select the most relevant folder for you config:
+ * \PotatoPC\ if you use a resolution lower than 1080p
+ * \1080p\ if your use a 1080p resolution
+ * \4k\ if you use a resolution bigger than 1080p
+
+Inside each folder there is another folder \zombie\iso\
+- copy this folder (or the content)
+- replace the existing folder (or file) from Project Zomboid
+
+ex: 
+replace "C:\Program Files (x86)\Steam\steamapps\common\ProjectZomboid\zombie"
+with "C:\Program Files (x86)\Steam\steamapps\workshop\content\108600\xxxxx\mods\BetterFPS\media\1080p\zombie"
+
+This will overwrite the original file with patched one
+
+- launch the game
+- Emjoy
+
+Like my mods ?
+https://ko-fi.com/alree

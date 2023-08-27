@@ -1,0 +1,5 @@
+ContextMenu_AR{
+ ContextMenu_GrabAmount = "حدد المبلغ للاستيلاء عليه",
+ ContextMenu_PutAmount = "حدد المبلغ لوضعه",
+ ContextMenu_TransferAmountInfo = "عناصر النقل (الحد الأقصى.",
+}

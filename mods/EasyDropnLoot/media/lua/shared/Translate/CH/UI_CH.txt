@@ -1,0 +1,10 @@
+UI_CH = {
+    UI_grab_category = "撿起全部 (按種類)",
+    UI_grab_category_tooltip = "Grab categories:",
+    UI_drop_category = "丢棄全部 (按種類)",
+    UI_drop_category_tooltip = "Drop categories:"    
+    UI_drop_items_button = "轉換種類",    
+    UI_drop_items_button_tooltip = "放入所有與容器中相同種類的物品",
+    UI_loot_items_button = "搜括種類",
+    UI_loot_items_button_tooltip = "搜括所有與目前物品庫中相同種類的物品"
+};

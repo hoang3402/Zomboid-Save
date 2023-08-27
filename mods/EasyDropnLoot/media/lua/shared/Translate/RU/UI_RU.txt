@@ -1,0 +1,10 @@
+UI_RU = {
+    UI_grab_category = "Взять все (категория)",
+    UI_grab_category_tooltip = "Взять категории:",
+    UI_drop_category = "Переложить все (категория)",
+    UI_drop_category_tooltip = "Переложить категории:",    
+    UI_drop_items_button = "Выложить категории",
+    UI_drop_items_button_tooltip = "Выложить все предметы из той же категории, что и в текущем контейнере.",
+    UI_loot_items_button = "Взять категории",
+    UI_loot_items_button_tooltip = "Взять все предметы из той же категории, что и в текущем инвентаре."
+};

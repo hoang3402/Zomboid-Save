@@ -1,0 +1,497 @@
+module Onifurniture
+{
+	imports
+	{
+		Base,
+	}
+
+	item MetalBox
+	{
+		Type = Moveable,
+		Weight = 25.0,
+		DisplayName = Metal Box,
+		WorldObjectSprite = MethylTiles_01_0,
+	}
+	recipe Make MetalBox
+	{
+		keep WeldingMask,
+		keep Saw,
+		keep Screwdriver,
+		SheetMetal=6,
+		BlowTorch=2,
+		WeldingRods=10,
+		Screws=24,
+		Result : MetalBox,
+		Time : 100.0,
+		Category: Furniture,
+	}
+	item LargeMetalBox
+	{
+		Type = Moveable,
+		Weight = 25.0,
+		DisplayName = Large Metal Box,
+		WorldObjectSprite = MethylTiles_01_7,
+	}
+	recipe Make LargeMetalBox
+	{
+		keep WeldingMask,
+		keep Saw,
+		keep Screwdriver,
+		SmallSheetMetal=4,
+		SheetMetal=10,
+		BlowTorch=5,
+		WeldingRods=20,
+		Screws=40,
+		Result : LargeMetalBox,
+		Time : 300.0,
+		Category: Furniture,
+	}
+	item BigFridge1/2
+	{
+		Type = Moveable,
+		Weight = 25.0,
+		DisplayName = BigFridge1/2,
+		WorldObjectSprite = MethylTiles_01_11,
+	}
+	item BigFridge2/2
+	{
+		Type = Moveable,
+		Weight = 25.0,
+		DisplayName = BigFridge2/2,
+		WorldObjectSprite = MethylTiles_01_10,
+	}
+	recipe Make BigFridge1/2
+	{
+		keep Hammer,
+		keep WeldingMask,
+		keep Saw,
+		keep Screwdriver,
+		SmallSheetMetal=2,
+		SheetMetal=4,
+		BlowTorch=2,
+		WeldingRods=10,
+		Screws=50,
+		Result : BigFridge1/2,
+		Time : 300.0,
+		Category: Furniture,
+	}
+	recipe Make BigFridge2/2
+	{
+		keep Hammer,
+		keep WeldingMask,
+		keep Saw,
+		keep Screwdriver,
+		SmallSheetMetal=2,
+		SheetMetal=4,
+		BlowTorch=2,
+		WeldingRods=10,
+		Screws=50,
+		Result : BigFridge2/2,
+		Time : 300.0,
+		Category: Furniture,
+	}
+	item Fr1dge
+	{
+		Type = Moveable,
+		Weight = 25.0,
+		DisplayName = Fridge,
+		WorldObjectSprite = MethylTiles_01_28,
+	}	
+	recipe Make Fr1dge
+	{
+		keep Hammer,
+		keep WeldingMask,
+		keep Saw,
+		keep Screwdriver,
+		SheetMetal=4,
+		BlowTorch=2,
+		WeldingRods=7,
+		Screws=30,
+		Result : Fr1dge,
+		Time : 300.0,
+		Category: Furniture,
+	}	
+	item TrashCan
+	{
+		Type = Moveable,
+		Weight = 5.0,
+		DisplayName = Trash Can,
+		WorldObjectSprite = MethylTiles_01_6,
+	}
+	recipe Make TrashCan
+	{
+		keep Saw,
+		keep Screwdriver,
+		SmallSheetMetal=3,
+		SheetMetal=1,
+		Hinge=2,
+		Screws=25,
+		Result : TrashCan,
+		Time : 100.0,
+		Category: Furniture,
+	}
+	item CapacityCornerCounter
+	{
+		Type = Moveable,
+		Weight = 25.0,
+		DisplayName = Capacity Corner Counter,
+		WorldObjectSprite = MethylTiles_01_9,
+	}
+	recipe Make CapacityCornerCounter
+	{
+		keep Hammer,
+		keep GardenSaw,
+		keep Screwdriver,
+		Plank=5,
+		Screws=10,
+		Nails=20,
+		Result : CapacityCornerCounter,
+		Time : 100.0,
+		Category: Furniture,
+	}
+	item CapacityCounter
+	{
+		Type = Moveable,
+		Weight = 25.0,
+		DisplayName = Capacity Counter,
+		WorldObjectSprite = MethylTiles_01_24,
+	}
+	recipe Make CapacityCounter
+	{
+		keep Hammer,
+		keep GardenSaw,
+		keep Screwdriver,
+		Plank=5,
+		Screws=10,
+		Nails=20,
+		Result : CapacityCounter,
+		Time : 100.0,
+		Category: Furniture,
+	}
+	item SmallContainer
+	{
+		Type = Moveable,
+		Weight = 25.0,
+		DisplayName = Small Container,
+		WorldObjectSprite = Onitiles_0,
+	}
+	recipe Make SmallContainer
+	{
+		keep WeldingMask,
+		keep Saw,
+		keep Screwdriver,
+		SheetMetal=6,
+		BlowTorch=2,
+		WeldingRods=10,
+		Screws=24,
+		Result : SmallContainer,
+		Time : 100.0,
+		Category: Furniture,
+	}
+	item BlackMetalBox
+	{
+		Type = Moveable,
+		Weight = 25.0,
+		DisplayName = Black Metal Box,
+		WorldObjectSprite = Onitiles_4,
+	}
+	recipe Make BlackMetalBox
+	{
+		keep WeldingMask,
+		keep Saw,
+		keep Screwdriver,
+		SheetMetal=6,
+		BlowTorch=2,
+		WeldingRods=10,
+		Screws=24,
+		Result : BlackMetalBox,
+		Time : 100.0,
+		Category: Furniture,
+	}
+	item BoardsBox
+	{
+		Type = Moveable,
+		Weight = 25.0,
+		DisplayName = Boards Box,
+		WorldObjectSprite = Onitiles_1,
+	}
+	recipe Make BoardsBox
+	{
+		keep Hammer,
+		keep GardenSaw,
+		keep Screwdriver,
+		Plank=10,
+		Screws=10,
+		Nails=20,
+		Result : BoardsBox,
+		Time : 100.0,
+		Category: Furniture,
+	}
+	item PalletBoxes
+	{
+		Type = Moveable,
+		Weight = 25.0,
+		DisplayName = Pallet with Boxes,
+		WorldObjectSprite = Onitiles_2,
+	}
+	recipe Make PalletBoxes
+	{
+		keep Hammer,
+		keep GardenSaw,
+		keep Screwdriver,
+		Plank=10,
+		Screws=10,
+		Nails=20,
+		Result : PalletBoxes,
+		Time : 100.0,
+		Category: Furniture,
+	}
+	item ShippingBox
+	{
+		Type = Moveable,
+		Weight = 25.0,
+		DisplayName = Shipping Box,
+		WorldObjectSprite = Onitiles_3,
+	}
+	recipe Make ShippingBox
+	{
+		keep Hammer,
+		keep GardenSaw,
+		keep Screwdriver,
+		Plank=10,
+		Screws=10,
+		Nails=20,
+		Result : ShippingBox,
+		Time : 100.0,
+		Category: Furniture,
+	}
+	item RedCounterCorner
+	{
+		Type = Moveable,
+		Weight = 25.0,
+		DisplayName = Red Counter Corner,
+		WorldObjectSprite = Onitiles_8,
+	}
+	recipe Make RedCounterCorner
+	{
+		keep Hammer,
+		keep GardenSaw,
+		keep Screwdriver,
+		Plank=5,
+		Screws=10,
+		Nails=20,
+		Result : RedCounterCorner,
+		Time : 100.0,
+		Category: Furniture,
+	}
+	item RedCounter
+	{
+		Type = Moveable,
+		Weight = 25.0,
+		DisplayName = Red Counter,
+		WorldObjectSprite = Onitiles_11,
+	}
+	recipe Make RedCounter
+	{
+		keep Hammer,
+		keep GardenSaw,
+		keep Screwdriver,
+		Plank=5,
+		Screws=10,
+		Nails=20,
+		Result : RedCounter,
+		Time : 100.0,
+		Category: Furniture,
+	}
+	item RedWallCounter
+	{
+		Type = Moveable,
+		Weight = 10.0,
+		DisplayName = Red Wall Counter,
+		WorldObjectSprite = Onitiles_18,
+	}
+	recipe Make RedWallCounter
+	{
+		keep Hammer,
+		keep GardenSaw,
+		keep Screwdriver,
+		Plank=3,
+		Screws=4,
+		Nails=10,
+		Result : RedWallCounter,
+		Time : 100.0,
+		Category: Furniture,
+	}
+	item WallCounter
+	{
+		Type = Moveable,
+		Weight = 10.0,
+		DisplayName = Red Wall Counter,
+		WorldObjectSprite = Onitiles_16,
+	}
+	recipe Make WallCounter
+	{
+		keep Hammer,
+		keep GardenSaw,
+		keep Screwdriver,
+		Plank=3,
+		Screws=4,
+		Nails=10,
+		Result : WallCounter,
+		Time : 100.0,
+		Category: Furniture,
+	}
+	item SmallBookcase
+	{
+		Type = Moveable,
+		Weight = 10.0,
+		DisplayName = Small Bookcase,
+		WorldObjectSprite = Onitiles_24,
+	}
+	recipe Make SmallBookcase
+	{
+		keep Hammer,
+		keep GardenSaw,
+		keep Screwdriver,
+		Plank=3,
+		Nails=10,
+		Result : SmallBookcase,
+		Time : 100.0,
+		Category: Furniture,
+	}
+	item ShoeCabinet
+	{
+		Type = Moveable,
+		Weight = 15.0,
+		DisplayName = Shoe Cabinet,
+		WorldObjectSprite = Onitiles_28,
+	}
+	recipe Make ShoeCabinet
+	{
+		keep Hammer,
+		keep GardenSaw,
+		keep Screwdriver,
+		Plank=5,
+		Screws=5,
+		Nails=15,
+		Result : ShoeCabinet,
+		Time : 100.0,
+		Category: Furniture,
+	}
+	item ModernDrawer
+	{
+		Type = Moveable,
+		Weight = 15.0,
+		DisplayName = Modern Drawer,
+		WorldObjectSprite = Onitiles_32,
+	}
+	recipe Make ModernDrawer
+	{
+		keep Hammer,
+		keep GardenSaw,
+		keep Screwdriver,
+		Plank=5,
+		Screws=5,
+		Nails=15,
+		Result : ModernDrawer,
+		Time : 100.0,
+		Category: Furniture,
+	}
+	item ModernDrawer2
+	{
+		Type = Moveable,
+		Weight = 15.0,
+		DisplayName = Modern Drawer 2,
+		WorldObjectSprite = Onitiles_40,
+	}
+	recipe Make ModernDrawer2
+	{
+		keep Hammer,
+		keep GardenSaw,
+		keep Screwdriver,
+		Plank=6,
+		Screws=6,
+		Nails=20,
+		Result : ModernDrawer2,
+		Time : 100.0,
+		Category: Furniture,
+	}
+	item ModernDrawer3
+	{
+		Type = Moveable,
+		Weight = 15.0,
+		DisplayName = Modern Drawer 3,
+		WorldObjectSprite = Onitiles_45,
+	}
+	recipe Make ModernDrawer3
+	{
+		keep Hammer,
+		keep GardenSaw,
+		keep Screwdriver,
+		Plank=6,
+		Screws=6,
+		Nails=20,
+		Result : ModernDrawer3,
+		Time : 100.0,
+		Category: Furniture,
+	}
+	item ModernStove
+	{
+		Type = Moveable,
+		Weight = 15.0,
+		DisplayName = Modern Stove,
+		WorldObjectSprite = Onitiles_36,
+	}
+	recipe Make ModernOven
+	{
+		keep Hammer,
+		keep WeldingMask,
+		keep Saw,
+		keep Screwdriver,
+		SheetMetal=6,
+		BlowTorch=2,
+		WeldingRods=8,
+		Screws=20,
+		Result : ModernStove,
+		Time : 100.0,
+		Category: Furniture,
+	}
+	item Wardrobe
+	{
+		Type = Moveable,
+		Weight = 5.0,
+		DisplayName = Wardrobe,
+		WorldObjectSprite = Onitiles_51,
+	}
+	recipe Make Wardrobe
+	{
+		keep Hammer,
+		keep GardenSaw,
+		keep Screwdriver,
+		Plank=2,
+		Nails=6,
+		Result : Wardrobe,
+		Time : 100.0,
+		Category: Furniture,
+	}
+	item ModernCloset
+	{
+		Type = Moveable,
+		Weight = 25.0,
+		DisplayName = Modern Closet,
+		WorldObjectSprite = Onitiles_57,
+	}
+	recipe Make ModernCloset
+	{
+		keep Hammer,
+		keep GardenSaw,
+		keep Screwdriver,
+		Plank=10,
+		Screws=8,
+		Nails=26,
+		Result : ModernCloset,
+		Time : 100.0,
+		Category: Furniture,
+	}
+}
+

@@ -1,0 +1,18 @@
+UI_PTBR = {
+    UI_optionscreen_binding_Unpack = "Descompactar",
+    UI_optionscreen_binding_UnpackKey = "Estoque recipientes próximos",
+
+    UI_ContextMenu_PutItemsInContainerSingular = "Coloque %1 item em %2",
+    UI_ContextMenu_PutItemsInContainerPlural = "Coloque %1 itens em %2",
+    UI_WorldContextMenu_Stock = "Estoque",
+    UI_WorldContextMenu_StockContainerFrom = "Estoque %1 de %2",
+
+    UI_MenuOptions_ExcludeMannequinContainer = "Ignorar manequins",
+    UI_MenuOptions_ExcludeMannequinContainerTooltip = "Marque isso para desabilitar a transferência de itens para manequins",
+    UI_MenuOptions_ExcludeTrashContainer = "Ignorar lixeiras",
+    UI_MenuOptions_ExcludeTrashContainerTooltip = "Marque isso para desabilitar a transferência de itens para a Lixeira",
+    UI_MenuOptions_DisableItemCategories = "Desativar categorias de itens personalizados",
+    UI_MenuOptions_DisableItemCategoriesTooltip = "Marque para desativar as categorias de itens personalizados incluídas neste mod. Requer que você recarregue seu mundo de jogo.",
+    UI_MenuOptions_ContainerPercentageItemCount = "Contagem para porcentagem de contêiner",
+    UI_MenuOptions_ContainerPercentageItemCountTooltip = "O número de itens que precisam estar em um contêiner antes que a configuração de porcentagem abaixo seja aplicada.",
+}

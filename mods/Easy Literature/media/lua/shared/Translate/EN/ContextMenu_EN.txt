@@ -1,0 +1,21 @@
+ContextMenu_EN = {
+
+	ContextMenu_Easy_Literature = "Literature Collection",
+
+	ContextMenu_Easy_Literature_Open_Menu = "Open Menu",
+
+	ContextMenu_Easy_Literature_Take_Not_Found_Items = "Take Not Found Items",
+	
+	ContextMenu_Easy_Literature_Mark_As_Found = "Mark as Found",
+	ContextMenu_Easy_Literature_Mark_As_Found_Selected = "Selected",
+	ContextMenu_Easy_Literature_Mark_As_Found_All = "All in containter",
+
+	ContextMenu_Easy_Literature_Mark_As_Not_Found = "Mark as Not Found",
+	ContextMenu_Easy_Literature_Mark_As_Not_Found_Selected = "Selected",
+	ContextMenu_Easy_Literature_Mark_As_Not_Found_All = "All in containter",
+
+	ContextMenu_Easy_Literature_Drop_Duplicate_Items = "Drop Duplicates",
+
+	ContextMenu_Easy_Literature_Read_Available_Literature = "Read Available Literature",
+
+}

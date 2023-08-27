@@ -1,0 +1,5 @@
+name=Unpack
+poster=preview.png
+id=TA_UNPACK
+description=Adds a number of QOL features surrounding moving items to inventory without dragging, and unpacking inventory items to nearby containers automatically.
+pack=TA_UNPACK

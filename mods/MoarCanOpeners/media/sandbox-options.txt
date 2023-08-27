@@ -1,0 +1,39 @@
+VERSION = 1,
+
+option MoarCanOpeners.InjurePlayer
+{
+	type = boolean,
+	default = true,
+	page = MoarCanOpeners,
+	translation = MoarCanOpeners_InjurePlayer,
+}
+
+option MoarCanOpeners.PoisonResult
+{
+	type = boolean, default = true,
+	page = MoarCanOpeners,
+	translation = MoarCanOpeners_PoisonResult,
+}
+
+option MoarCanOpeners.SpillResult
+{
+	type = boolean, default = true,
+	page = MoarCanOpeners,
+	translation = MoarCanOpeners_SpillResult,
+}
+
+option MoarCanOpeners.SmallBladeStrengthLevel
+{
+	type = enum, numValues = 10, default = 3,
+	page = MoarCanOpeners,
+	translation = MoarCanOpeners_SmallBladeStrengthLevel,
+	valueTranslation = MoarCanOpeners_Strength,
+}
+
+option MoarCanOpeners.LongBladeStrengthLevel
+{
+	type = enum, numValues = 10, default = 7,
+	page = MoarCanOpeners,
+	translation = MoarCanOpeners_LongBladeStrengthLevel,
+	valueTranslation = MoarCanOpeners_Strength,
+}

@@ -1,0 +1,18 @@
+UI_DA = {
+    UI_optionscreen_binding_Unpack = "Unpack",
+    UI_optionscreen_binding_UnpackKey = "Stock nearby containers",
+
+    UI_ContextMenu_PutItemsInContainerSingular = "Put %1 item in %2",
+    UI_ContextMenu_PutItemsInContainerPlural = "Put %1 items in %2",
+    UI_WorldContextMenu_Stock = "Stock",
+    UI_WorldContextMenu_StockContainerFrom = "Stock %1 from %2",
+
+    UI_MenuOptions_ExcludeMannequinContainer = "Ignore Mannequins",
+    UI_MenuOptions_ExcludeMannequinContainerTooltip = "Check this to disable transferring items to Mannequins",
+    UI_MenuOptions_ExcludeTrashContainer = "Ignore Trash bins",
+    UI_MenuOptions_ExcludeTrashContainerTooltip = "Check this to disable transferring items to Trash",
+    UI_MenuOptions_DisableItemCategories = "Disable Custom Item Categories",
+    UI_MenuOptions_DisableItemCategoriesTooltip = "Check to disable custom item categories included in this mod. Requires that you reload your game world.",
+    UI_MenuOptions_ContainerPercentageItemCount = "Count for Container Percentage",
+    UI_MenuOptions_ContainerPercentageItemCountTooltip = "The number of items that need to be within a container before the percentage configuration below will apply.",
+}

@@ -1,0 +1,12 @@
+Sandbox_RU = {
+    Sandbox_MoarCanOpeners_InjurePlayer = "Ўанс получить травму",
+    Sandbox_MoarCanOpeners_InjurePlayer_tooltip = "Ўанс получить травму (левой или правой руки) при использовании оружи€ или камн€ в качестве открывашки.",
+    Sandbox_MoarCanOpeners_PoisonResult = "Ўанс получить отравление",
+    Sandbox_MoarCanOpeners_PoisonResult_tooltip = "≈сли оружие или руки (при использовании камн€) окровавлены, то открыта€ банка будет содержать отравленную пищу (персонаж не умрет, если он здоров).",
+    Sandbox_MoarCanOpeners_SpillResult = "Ўанс пролить еду",
+    Sandbox_MoarCanOpeners_SpillResult_tooltip = "¬ открытой банке будет меньше еды. Ўанс зависит от используемой открывашки и параметров персонажа.",
+    Sandbox_MoarCanOpeners_LongBladeStrengthLevel = "“ребуема€ сила дл€ длинного режущего",
+    Sandbox_MoarCanOpeners_LongBladeStrengthLevel_tooltip = "ƒлинное режущее оружее (например, мачете) будет доступно в качестве открывашки после того,\n как персонаж достигнет выбранного уровн€ силы.\nƒл€ серверов: клиенты должны перезайти на сервер, чтобы изменение вступило в силу.",
+    Sandbox_MoarCanOpeners_SmallBladeStrengthLevel = "“ребуема€ сила дл€ короткого режущего",
+    Sandbox_MoarCanOpeners_SmallBladeStrengthLevel_tooltip = " ороткое режущее оружее (например, ножи) будет доступно в качестве открывашки после того,\n как персонаж достигнет выбранного уровн€ силы.\nƒл€ серверов: клиенты должны перезайти на сервер, чтобы изменение вступило в силу.",
+}

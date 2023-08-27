@@ -1,0 +1,4 @@
+name=Multi Hit Limiter
+id=MultiHitLimiter
+description=Allows selective multi hit configuration in sandbox settings.
+poster=preview.png

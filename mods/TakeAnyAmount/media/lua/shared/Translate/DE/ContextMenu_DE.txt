@@ -1,0 +1,5 @@
+ContextMenu_DE{
+ ContextMenu_GrabAmount = "Menge nehmen ",
+ ContextMenu_PutAmount = "Menge ablegen",
+ ContextMenu_TransferAmountInfo = "Elemente verschieben (max.",
+}

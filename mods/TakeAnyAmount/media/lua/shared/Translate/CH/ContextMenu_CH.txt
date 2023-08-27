@@ -1,0 +1,5 @@
+ContextMenu_CH{
+ ContextMenu_GrabAmount = "選擇拿取數量",
+ ContextMenu_PutAmount = "選擇放置數量",
+ ContextMenu_TransferAmountInfo = "傳輸物品（最大值.",
+}

@@ -1,0 +1,44 @@
+Moodles_RU {
+	note_to_translators = "Если в поле содержится %1, оно заменяется значением позже при запуске кода",
+    note_to_RU_translators = "Убедитесь, что файл сохранен в кодировке windows-1251, чтобы игра отображала правильные символы",
+
+	Moodles_BloodlustMoodle_Good_lvl4 = "Боже, я люблю убивать нежить",
+	Moodles_BloodlustMoodle_Good_lvl3 = "Это определенно хорошо проведенное время",
+	Moodles_BloodlustMoodle_Good_lvl2 = "Не худший способ провести время.",
+	Moodles_BloodlustMoodle_Good_lvl1 = "Это немного весело",
+	Moodles_BloodlustMoodle_Bad_lvl1 = "В этом почти нет радости",
+	Moodles_BloodlustMoodle_Bad_lvl2 = "Это скучная работа, но кто-то должен ее выполнять",
+	Moodles_BloodlustMoodle_Bad_lvl3 = "Убить несколько зомби - не самое худшее",
+	Moodles_BloodlustMoodle_Bad_lvl4 = "Мне действительно не хочется убивать никаких зомби",
+	Moodles_BloodlustMoodle_Custom = "Мой счетчик жажды крови заполнен до %1 %.<br> Если я буду выше 50%, то в конечном итоге получу черту жажды крови,<br>если я буду ниже 50%, мой прогресс замедлится<br> (Это индикатор того, зарабатываете ли вы или теряете черту кровожадности)",
+
+	Moodles_SleepHealthMoodle_Good_lvl4 = "Прямо в идеальном месте",
+	Moodles_SleepHealthMoodle_Good_lvl3 = "Отличное время для сна",
+	Moodles_SleepHealthMoodle_Good_lvl2 = "Приличное время для сна",
+	Moodles_SleepHealthMoodle_Good_lvl1 = "Время сна немного выше среднего".,
+	Moodles_SleepHealthMoodle_Bad_lvl1 = "Немного не в моем расписании",
+	Moodles_SleepHealthMoodle_Bad_lvl2 = "Не самое лучшее время для сна",
+	Moodles_SleepHealthMoodle_Bad_lvl3 = "Не соответствует моему графику сна",
+	Moodles_SleepHealthMoodle_Bad_lvl4 = "Мой график полностью нарушен",
+	Moodles_SleepHealthMoodle_Custom = "Время сна на %1 час меньше оптимального"
+
+	Moodles_SmokerGSMoodle_Good_lvl4 = "Меня не волнует курение",
+	Moodles_SmokerGSMoodle_Good_lvl3 = "Я курю редко, но это неважно",
+	Moodles_SmokerGSMoodle_Good_lvl2 = "Я иногда курю, но у меня нет желания",
+	Moodles_SmokerGSMoodle_Good_lvl1 = "Я иногда курю, и иногда мне это нужно",
+	Moodles_SmokerGSMoodle_Bad_lvl1 = "Я курю больше, чем следовало бы, но мне это нужно",
+	Moodles_SmokerGSMoodle_Bad_lvl2 = "Я часто курю",
+	Moodles_SmokerGSMoodle_Bad_lvl3 = "Я курю очень часто, но это нормально",
+	Moodles_SmokerGSMoodle_Bad_lvl4 = "Да, я много курю",
+	Moodles_SmokerGSMoodle_GainingSmoker = "Я на %1 % далек от зависимости".
+
+	Moodles_SmokerLSMoodle_Good_lvl4 = "Мне почти не хочется курить",
+	Moodles_SmokerLSMoodle_Good_lvl3 = "Я хочу курить только иногда",
+	Moodles_SmokerLSMoodle_Good_lvl2 = "Мой разум - крепость",
+	Moodles_SmokerLSMoodle_Good_lvl1 = "Становится лучше",
+	Moodles_SmokerLSMoodle_Bad_lvl1 = "Боже, как бы я хотел курить прямо сейчас",
+	Moodles_SmokerLSMoodle_Bad_lvl2 = "Курение - это отлично, но я должен бороться со своей зависимостью",
+	Moodles_SmokerLSMoodle_Bad_lvl3 = "Курение - часть моей жизни",
+	Moodles_SmokerLSMoodle_Bad_lvl4 = "Я скорее умру, чем брошу курить",
+	Moodles_SmokerLSMoodle_LosingSmoker = "Я на %1 % далек от избавления от пагубной привычки".
+}

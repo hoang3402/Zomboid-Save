@@ -1,0 +1,45 @@
+IGUI_PTBR = {
+	IGUI_Easy_Literature_Menu_Header = "Coleção de Literatura",
+	
+	IGUI_Easy_Literature_Menu_Settings = "Configurações",
+	IGUI_Easy_Literature_Menu_Back = "Voltar",
+	IGUI_Easy_Literature_Menu_Close = "Fechar",
+
+	IGUI_Easy_Literature_Menu_Category = "Categorias",
+	IGUI_Easy_Literature_Menu_Category_Skill_Books = "Livros de habilidades",
+	IGUI_Easy_Literature_Menu_Category_Recipes_Magazines = "Receitas",
+	IGUI_Easy_Literature_Menu_Category_VHS = "VHS",
+	IGUI_Easy_Literature_Menu_Category_Home_VHS = "VHS doméstico",
+	IGUI_Easy_Literature_Menu_Category_CD = "CD",
+	IGUI_Easy_Literature_Menu_Category_TrueActionsDancing_Magazines = "Revistas de dança",
+	IGUI_Easy_Literature_Menu_Category_TrueActionsDancing_Cards = "Cartões de dança",
+	IGUI_Easy_Literature_Menu_Category_SpiffoTradingCards = "Cartões de negociação do Spiffo",
+	IGUI_Easy_Literature_Menu_Category_WulfTradingCards = "Cartões de negociação do Wulf",
+	IGUI_Easy_Literature_Menu_Literature_Name_Filter = "Filtro de nome de literatura",
+
+	IGUI_Easy_Literature_Menu_Not_Found = "Não encontrado",
+	IGUI_Easy_Literature_Menu_Found = "Encontrado",
+
+	IGUI_Easy_Literature_Menu_Settings_Base = "Principal",
+	IGUI_Easy_Literature_Menu_Settings_Base_Auto_Mark_Transfered_Literature_As_Found = "Marcar automaticamente a literatura transferida como encontrada",
+	IGUI_Easy_Literature_Menu_Settings_Base_Show_Not_Found_Mark = "Mostrar marcas de não encontrados",
+	IGUI_Easy_Literature_Menu_Settings_Base_Show_Found_Mark = "Mostrar marcas de encontrados",
+	IGUI_Easy_Literature_Menu_Settings_Base_Show_Known_Mark = "Mostrar marcas de conhecidos",
+	IGUI_Easy_Literature_Menu_Settings_Base_Lazy_Lists_Fill = "Preenchimento de listas preguiçosas",
+
+	IGUI_Easy_Literature_Menu_Settings_Found_Status = "Status de encontrados",
+	IGUI_Easy_Literature_Menu_Settings_Known_Status = "Status de conhecidos",
+
+	IGUI_Easy_Literature_Menu_Settings_Skill_Books = "Livros de habilidades",
+	IGUI_Easy_Literature_Menu_Settings_Recipes_Magazines = "Receitas",
+	IGUI_Easy_Literature_Menu_Settings_VHS = "VHS",
+	IGUI_Easy_Literature_Menu_Settings_Home_VHS = "VHS doméstico",
+	IGUI_Easy_Literature_Menu_Settings_CD = "CD",
+
+	IGUI_Easy_Literature_Menu_Settings_TrueActionsDancing_Magazines = "Revistas de dança",
+	IGUI_Easy_Literature_Menu_Settings_TrueActionsDancing_Cards = "Cartões de dança",
+	IGUI_Easy_Literature_Menu_Settings_SpiffoTradingCards = "Cartões de negociação do Spiffo",
+	IGUI_Easy_Literature_Menu_Settings_WulfTradingCards = "Cartões de negociação do Wulf",
+
+	IGUI_Easy_Literature_Menu_Settings_Clear_Found_Literature_Data = "Limpar dados de literaturas encontradas",
+}

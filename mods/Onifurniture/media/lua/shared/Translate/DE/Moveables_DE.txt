@@ -1,0 +1,28 @@
+Moveables_EN = {
+
+	Box_MetalBox = "Metallbox",
+	Box_LMetalBox = "Große Metallbox",
+	Moroz_Claus = "Großer Kühlschrank",
+	M0roz_Cl4us = "Gefrierschrank",
+	Bin_DropOff = "Wandmülleimer",
+	Counter_Corner = "Graue Ecktheke",
+	Counter_Counter = "Graue Theke",
+	Box_SmallContainer = "Kleiner Container",
+	Box_BoardsBox = "Latten Box",
+	Box_PalletBoxes = "Palette mit Boxen",
+	Box_ShippingBox = "Versandkiste",
+	Box_BlackMetalBox = "Schwarze Metall Kiste",
+	Counter_RedCounterCorner = "Rote Ecktheke",
+	Counter_RedCounter = "Rote Theke",
+	Counter_RedWallCounter = "Roter Hängeschrank",
+	Counter_WallCounter = "Grauer Hängeschrank",
+	Counter_LowerBook = "Kleines Bücherregal",
+	Counter_ShoeCabinet = "Schuhschrank",
+	Counter_ModernDrawer = "Moderner Schrank",
+	Counter_ModernDrawer2 = "Moderner Schrank 2",
+	Counter_ModernDrawer3 = "Moderner Schrank 3",
+	Modern_ModernOven = "Moderner roter Herd",
+	Counter_Wardrobe = "Garderobe",
+	Counter_ModernCloset = "Moderner Kleiderschrank",
+}
+

@@ -1,0 +1,10 @@
+UI_IT = {
+    UI_grab_category = "Prendete tutto (category)",
+    UI_grab_category_tooltip = "Categorie da prendere:",
+    UI_drop_category = "Lascia tutto (category)",
+    UI_drop_category_tooltip = "Categorie da lasciare:",
+    UI_drop_items_button = "Lasciare una categoria di bottino",
+    UI_drop_items_button_tooltip = "Fa cadere dall'inventario tutti gli oggetti della stessa categoria presenti nel contenitore corrente.",
+    UI_loot_items_button = "Prendi una categoria di bottino",
+    UI_loot_items_button_tooltip = "Prendi tutti gli oggetti della stessa categoria del proprio inventario dal contenitore corrente."
+};

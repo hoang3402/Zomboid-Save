@@ -1,0 +1,5 @@
+ContextMenu_RO{
+ ContextMenu_GrabAmount = "Selectați suma de prins",
+ ContextMenu_PutAmount = "Selectați suma de pus",
+ ContextMenu_TransferAmountInfo = "Articole de transfer (max.",
+}

@@ -1,0 +1,5 @@
+name=Inventory Tetris Trailer Compatibility
+id=INVENTORY_TETRIS_TRAILER_COMPATIBILITY
+description=Adds compatibility with the trailers of other mods.
+require=INVENTORY_TETRIS
+poster=poster.png

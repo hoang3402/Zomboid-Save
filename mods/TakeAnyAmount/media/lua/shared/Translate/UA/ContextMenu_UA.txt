@@ -1,0 +1,5 @@
+ContextMenu_UA{
+ ContextMenu_SelectAmount = "Взяти декілька",
+ ContextMenu_PutAmount = "Покласти декілька",
+ ContextMenu_TransferAmountInfo = "Перенести предметів (макс.",
+}

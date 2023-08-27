@@ -1,0 +1,5 @@
+ContextMenu_TH{
+ ContextMenu_GrabAmount = "เลือกจำนวนเงินที่จะคว้า",
+ ContextMenu_PutAmount = "เลือกจำนวนเงินที่จะใส่",
+ ContextMenu_TransferAmountInfo = "ถ่ายโอนรายการ (สูงสุด",
+}

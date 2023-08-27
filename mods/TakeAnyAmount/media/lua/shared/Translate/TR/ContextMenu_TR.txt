@@ -1,0 +1,5 @@
+ContextMenu_TR{
+ ContextMenu_GrabAmount = "Yakalamak için miktarý seçin",
+ ContextMenu_PutAmount = "Koymak için miktarý seçin",
+ ContextMenu_TransferAmountInfo = "Transfer öðeleri (maks.",
+}

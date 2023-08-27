@@ -1,0 +1,74 @@
+﻿Challenge_EN = {
+    Challenge_YouHaveOneDay_name = "Khoảnh Khắc Cuối Cùng",
+	Challenge_YouHaveOneDay_desc = "Bạn đã trợ lại Quận Knox. Thành phố đầu tiên bùng phát dịch bệnh. <LINE> <LINE> Bạn chỉ có một ngày để chuẩn bị. Sau đó, Zombies sẽ ập đến và săn lùng bạn. Bạn sẽ chọn nơi nào để tử chiến đến cùng? Chọn chỗ thủ ở đâu? Tốt hơn là tìm nó nhanh chóng. <LINE> <LINE> [Cảm ơn người lập bản đồ cộng đồng BobHeckling đã tạo lại bản đồ 0.1.5 cũ với bộ công cụ PZ hiện tại.]",
+
+    Challenge_WinterIsComing_name = "Mùa Đông Khắc Nghiệt",
+	Challenge_WinterIsComing_desc = "Bây giờ là giữa tháng bảy, nhưng đột nhiên có một làn gió lạnh. Chỉ trong ba ngày nữa, mùa đông sẽ đến. <LINE> <LINE> Bạn thức ở một vị trí biệt lập. Nguồn cung cấp khan hiếm, và bầy zombie có thể bị chậm lại bởi thời tiết lạnh thấu xương - nhưng chúng cũng không kém phần chết chóc. <LINE> <LINE> Tìm một nơi ấm áp lên, kẻ sống sót...",
+
+	Challenge_OpeningHours_name = "Thời Điểm Mở Cửa",
+    Challenge_OpeningHours_desc = "Trung tâm thương mại bị bao vây. Ngày xưa, nơi đây đã từng là một nơi quan trọng đối với cuộc sống của "họ". Bản năng đã dẫn "họ" đến cửa. Ký ức về những gì "họ" đã từng làm ... <LINE> <LINE> Bạn chỉ có một mình , nhưng không lâu nữa. Vào lúc 9 giờ sáng, Trung tâm mua sắm sẽ sẵn sàng hoạt động: cửa sẽ mở và "họ" sẽ tràn vào. <LINE> <LINE> Hãy sẵn sàng đón "họ".",
+
+	Challenge_AReallyCDDAy_name = "Đại Hồng Thủy",
+	Challenge_AReallyCDDAy_desc = "Bạn bước ra khỏi phòng tắm liền bị té dập mặt. Bạn say sẩm mặt mày đồng thời bị cảm lạnh. <LINE> <LINE> Quan trọng nhất là ngôi nhà đang cháy! Hôm nay chắc hẳn là ngày đen nhất cuộc đời bạn <LINE> <LINE> [Một thử thách lấy cảm hứng từ bộ phim 'Một Ngày Tồi Tệ' và 'Đại Hồng Thủy', thứ thú vị như thế và PHẢI CHƠI THỬ CHỨ: Những ngày đen tối đang đợi bạn phía trước] ",
+
+	Challenge_Challenge1_name = "Ngôi Nhà Trong Rừng - Phòng Tuyến Cuối Cùng",
+	Challenge_Challenge1_desc = "Bạn có thể nghe thấy tiếng bọn chúng đến. Đám xác sống đang bao quanh ngôi nhà của bạn, cái chết đang cận kề với bạn, nhưng bạn đang có một khẩu Shotgun trên tay (Thực ra shotgun nào thì không nói). <LINE> <LINE> Càng ngày xác sống càng đến đông, hay sống sót lâu nhất có thể",
+
+	Challenge_Challenge2_name = "Ngôi Nhà Trong Rừng - Tử Chiến Đến Cùng, Tích Lũy Điểm Thưởng",
+	Challenge_Challenge2_desc = "Một ngày khác, một túp lều khác đã sẵn sàng tắm máu. Đám xác sống sẽ ập đến bạn tất nhiên cái chết của bạn sẽ rất đau đớn và khủng khiếp. Vì vậy, hãy ra khỏi đó và chiến đấu ... <LINE> <LINE> Last Stand - Accumulator có những đợt xác sống vô tận với số lượng ngày càng tăng. Sử dụng tiền kiếm được bằng cách giết xác sống để mua thiết bị, lên cấp và sửa chữa vũ khí ngập trong máu của bạn.",
+
+    Challenge_AStormIsComing_name = "Gió Bão Rít Gào",
+	Challenge_AStormIsComing_desc = "Mây nhiều trên Kentucky. Có thể nghe thấy tiếng nổ lách tách của sấm sét ở đằng xa. <LINE> <LINE> Khi bầu trời tối dần, những cái xác sẽ sống dậy. <LINE> <LINE> Đây là một cơn bão sẽ lớn và sẽ càng lớn, nhưng nó sẽ không bao giờ kết thúc.",
+
+    Challenge_TheDescendingFog_name = "Màn Sương Chết Chóc",
+    Challenge_TheDescendingFog_desc = "Người ta lần đầu tiên thấy nó nổi lềnh bềnh phủ trắng nước sông Ohio. <LINE> <LINE> Ban đầu nó chỉ là một màn sương mù nhưng dần dần nó đã bao phủ toàn bộ thị trấn. Sau đó tiếng gào thét chết chóc của người dân trong trấn diễn ra liên tục trong làn sương mịt mù. <LINE> <LINE> Giờ họ đã ra ngoài nhưng dường như họ không còn giao tiếp được và không ngừng đuổi theo sự sống.",
+
+    Challenge_Kingsmouth_name = " Kingsmouth",
+    Challenge_Kingsmouth_desc = "Tận hưởng kỳ nghỉ thư giãn trên Đảo Kingsmouth!",
+
+    Challenge_Studio_name = " Xưởng Làm Phim",
+    Challenge_Studio_desc = "Nơi quay tất cả những bộ phim hay nhất!",
+	-- On-screen UI
+	Challenge_Challenge2_PressKey = "Nhấn O để kiểm tra chi tiết số tiền.",
+	Challenge_Challenge2_WaveStart = "Đợt %1 Trong : %2 (Nhấn Enter để bỏ qua)",
+	Challenge_Challenge2_WaveDuration = "Ván %1 : %2",
+	Challenge_Challenge2_ZombiesLeft = "Zombie còn lại : %1",
+	Challenge_Challenge2_Money = "Tiền : %1",
+	Challenge_Challenge2_Money2 = "Người chơi %1 Tiền : %2",
+	Challenge_Challenge2_WaveFinished = "Đợt %1 Hoàn thành trong : %2",
+	Challenge_Challenge2_MoneyGained = "tiền thu được : %1",
+	Challenge_Challenge2_XPGained = "Kinh nghiệm kiếm được : %1",
+	-- Window
+	Challenge_Challenge2_WindowTitle = "Cuối cùng",
+	Challenge_Challenge2_TabPlayer = "Người chơi",
+	Challenge_Challenge2_Weapons = "Vũ khí",
+	Challenge_Challenge2_TabItems = "Vật phẩm",
+	Challenge_Challenge2_TabRepair = "Sửa",
+	Challenge_Challenge2_CurrentXp = "XP : %1",
+	Challenge_Challenge2_ButtonSkill = "%1 Lvl %2 - %3 XP"
+	Challenge_Challenge2_ButtonSkillMax = "%1 Lvl tối đa",
+	Challenge_Challenge2_GoldBonus = "Thêm vàng",
+	Challenge_Challenge2_XpBonus = "Thêm XP",
+	Challenge_Challenge2_ButtonBonus = "%1% %2 - %3 XP",
+	Challenge_Challenge2_ButtonBonusMax = "%1 tối đa",
+	Challenge_Challenge2_ButtonStartGold = "+%1 Vàng khởi đầu - %2 XP",
+	Challenge_Challenge2_ButtonStartGoldMax = "Vàng khởi đầu tối đa %1",
+	-- PlayerUpWindow
+	Challenge_Challenge2_Skills = "Kỹ năng",
+	Challenge_Challenge2_PermanentBonus = "Tiền thưởng vĩnh viễn",
+	-- VariousItemWindow
+	Challenge_Challenge2_Carpentry = "Thợ mộc",
+	Challenge_Challenge2_Health = "Sức khỏe",
+	Challenge_Challenge2_ItemButton = "%1 - %2",
+	Challenge_Challenge2_ItemButton2 = "%1 x%2 - %3",
+	-- WeaponRepairWindow
+	Challenge_Challenge2_RepairWeapon = "Sữa chữa vũ khí",
+	-- WeaponUpWindow
+	Challenge_Challenge2_Health = "Sức khỏe",
+
+	Challenge_OpeningHoursInfoBox = " <CENTRE> Trung tâm mua sắm sẽ mở của lúc 9 giờ. <LINE> <LINE> Hãy sẵn sàng...",
+	Challenge_WinterIsComingInfoBox = " <CENTRE> Trong ba ngày mùa đông bất tận sẽ bắt đầu.. <LINE> <LINE> Hãy mặc ấm và sống sót...",
+	Challenge_YouHaveOneDayInfoBox = " <CENTRE> Trong 24 giờ, chuyến đi trở lại thành phố Knox của bạn sẽ rất gian nan, hãy sống sót .",
+	Challenge_AStormIsComingInfoBox = " <CENTRE> Thời tiết xấu này sẽ kéo dài vô tận, chúc bạn may mắn sống sốt ...",
+	Challenge_TheDescendingFogInfoBox = " <CENTRE> Những thứ trong sương mù đã bắt đầu xuất hiện , chúc bạn sống sót khi không thấy gì ",
+}

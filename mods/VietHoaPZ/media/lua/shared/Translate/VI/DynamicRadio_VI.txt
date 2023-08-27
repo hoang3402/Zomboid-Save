@@ -1,0 +1,97 @@
+DynamicRadio_EN {
+    AEBS_Intro = "<rè...rè> Đội tìm kiếm số 5 2 1. <rè...rè> Hệ thống truyền tin tự động. <rè...rè>",
+    AEBS_Choppah = "Đã phát hiện trực thăng vào không phận!.",
+    AEBS_Power_1 = "Mạng Lưới Điện Knox: Đã phát hiện sự cố trong hệ thống điện.",
+    AEBS_Power_2 = "Mạng Lưới Điện Knox: Hệ thống điện bị lỗi. Nó đã bị xâm nhập.",
+    AEBS_Power_3 = "Mạng Lưới Điện Knox: Mất điện.",
+    AEBS_Pre_today = "Hôm nay,",
+    AEBS_Pre_tomorrow = "Ngày mai,",
+    AEBS_Pre_dayafter = "Ngày mốt,",
+    --note: double '%%' at end required:
+    AEBS_temperature = "Nhiệt độ trung bình %s. Thấp nhất: %s. Cao nhất: %s. Độ ẩm: %s%%...",
+    AEBS_wind_0 = "%s gió từ %s. Dự kiến đạt mức tối đa %s. %s",
+    AEBS_wind_1 = "Ấm áp",
+    AEBS_wind_2 = "Vừa phải",
+    AEBS_wind_3 = "Mạnh",
+    AEBS_wind_4 = "Cơn bão mạnh",
+    AEBS_clouds_0 = "Trời trong.",
+    AEBS_clouds_1 = "Ít mây.",
+    AEBS_clouds_2 = "Nhiều mây.",
+    AEBS_clouds_3 = "Mây mù.",
+    AEBS_clouds_4 = "Mây mù dày đặc.",
+    AEBS_fog_0 = "Sương mù có thể xuất hiện.",
+    AEBS_fog_1 = "Màn sương mù dày.",
+    AEBS_fog_2 = "Màn sương mù dày đặc.",
+    AEBS_weather_0_a = "CẢNH BÁO: Khoảng thời gian thời tiết được dự đoán sẽ bắt đầu trong %s ... ",
+	AEBS_weather_0_b = "Thời tiết tiếp tục suốt cả ngày ...",
+    AEBS_weather_0_c = "Dự báo thời tiết sẽ kết thúc trong %s ...",
+    AEBS_weather_predicted = "dự báo ",
+    AEBS_weather_and_a = " và ",
+    AEBS_weather_light_moderate = "dự kiến có mưa nhẹ đến vừa ...",
+    AEBS_weather_heavy_rain = "mưa rào và hoặc mưa to",
+    AEBS_weather_storm = "Giông bão",
+    AEBS_weather_tropical = "Bão nhiệt đới",
+    AEBS_weather_blizzard = "Bão tuyết",
+    AEBS_weather_snowfall = " Tuyết có thể rơi.",
+    AEBS_weather_storm_C = "Sấm chớp mưa bão",
+    AEBS_weather_tropical_C = "Bão nhiệt đới",
+    AEBS_weather_blizzard_C = "Bão tuyết",
+    AEBS_weather_warning = "Cảnh báo thời tiết khắc nghiệt. %s Sắp xảy ra. Dự kiến %s ngày...",
+
+    AEBS_rand_pre_0 = "dị thường",
+    AEBS_rand_pre_1 = "khả nghi"",
+    AEBS_rand_pre_2 = "Thù địch",
+    --AEBS_rand_pre_3 = "xác sống",
+    AEBS_rand_pre_4 = "cấp 5",
+    AEBS_rand_pre_5 = "cấp 4",
+    AEBS_rand_pre_6 = "cấp 3",
+    AEBS_rand_pre_7 = "người sống sót",
+    AEBS_rand_pre_8 = "phương tiện",
+    AEBS_rand_pre_9 = "không phận",
+    AEBS_rand_pre_10 = "thân thiện",
+    AEBS_rand_pre_11 = "không xác định",
+    AEBS_rand_pre_12 = "trung lập",
+
+    AEBS_zone_name_s = "Phía Nam",
+    AEBS_zone_name_sw = "Tây Nam",
+    AEBS_zone_name_nw = "Tây Bắc",
+    AEBS_zone_name_c = "Trung Tâm",
+    AEBS_zone_name_n = "Phía Bắc",
+    AEBS_zone_name_ne = "Đông bắc",
+    AEBS_zone_name_w = "Phía Tây",
+    AEBS_zone_name_e = "Phía Đông",
+    AEBS_zone_name_se = "Đông Nam",
+
+    AEBS_random_0 = "Tất cả nhân sự. Lỗi liên lạc tạm thời đối với %s khu vực cấm... khu vực %i, %i, %i và %i",
+    AEBS_random_1 = "charlie <fzzt> india - alpha, <bzzt> khu vực được chỉ định <bzzt> khu vực %i <wzzt>",
+    AEBS_random_2 = "Tất cả nhân sự <bzzt> lệnh <fzzt> %i đã nhận lệnh <wzzt>",
+    AEBS_random_3 = "...%s <fzzt> có hoạt động ở phân khu %i <wzzt>",
+    --AEBS_random_4 = "<fzzt>",
+    AEBS_random_5 = "<bzzt>..cứu tôi! <fzzt> lạy chúa <szzt> KHÔNG ĐỪNG!! <fzzt> cứu... <wzzt>",
+    AEBS_random_6 = "<bzzt>..chúng muốn đẩy ngã nó... <bzzt> khoản chừng... <wzzt>",
+    AEBS_random_7 = "<bzzt>..CHÚNG ĐÃ PHÁ ĐƯỢC CỬA!... <bzzt> KHỐN KHIẾP! GIỮ CHÂN CHÚNG! CHÚNG TA CẦN VIỆN TR...<wzzt>",
+    AEBS_random_8 = "<bzzt>... họ cần thêm dữ liệu...<wzzt>",
+    AEBS_random_9 = "<bzzt>... tẩu thoát... <fzzt> đi đến ...<wzzt>",
+    AEBS_random_10 = "<bzzt>... Chiến dịch Artemis <fzzt> đã thất bại ...<wzzt>",
+    AEBS_random_11 = "<bzzt>... Ai đã gửi những thứ này đi? <fzzt> Ý tôi là chúng tôi đã nhận được lệnh, nhưng...<wzzt>",
+    AEBS_random_12 = "<bzzt>... Tôi không tin họ <fzzt> tất cả chỉ là tin đồn ... chắc chắn không phải sự thật <wzzt> ",
+    AEBS_random_13 = "<bzzt>... chúng đến từ phía Đông <fzzt> Nhắc lại: Phía Đông...<wzzt>",
+
+    AEBS_segment_night = "Tối",
+    AEBS_segment_early_morning = "Sáng Sớm",
+    AEBS_segment_morning = "Sáng",
+    AEBS_segment_afternoon = "Trưa",
+    AEBS_segment_evening = "Chiều",
+	
+	------------------------------------------- MOD PLACE --------------------------------------------------------------------------------
+	AEBS_SupplyDrop = "Tiếp tế đang đến."
+	AEBS_Raiders = "Nếu nghe được điều này thì bạn chết chắc rồi"
+    AEBS_SurvivorHeli = "Những thợ săn chiến lợi phẩm đang khởi hành."
+    AEBS_SamaritanDrop = "Gửi đến những người còn sống, chúng tôi mang tiếp tế đến."
+    AEBS_UnauthorizedEntryPolice = "Xâm phạm vùng không vận, thực thi quyền hành."
+    AEBS_UnauthorizedEntryNews = "Hành động xâm phạm không vận trái phép, xâm phạm truyền thông."
+    AEBS_JetBombing = "Thùng tiếp tế đang đến."
+    AEBS_JetPass = "Phản lực đang đến."
+    AEBS_AirRaid = "HÃY Ở TRONG NHÀ VÀ TÌM HẦM TRÚ ẨN"
+	
+}

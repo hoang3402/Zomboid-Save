@@ -1,0 +1,27 @@
+VERSION = 1,
+
+option KillCount.doExport
+{
+    type = boolean,
+    default = false,
+    page = KillCount,
+    translation = KillCount_doExport,
+}
+
+option KillCount.includePostDeathUI
+{
+    type = boolean,
+    default = true,
+    page = KillCount,
+    translation = KillCount_includePostDeathUI,
+}
+
+option KillCount.MaxUpdateDelay
+{
+    type = integer,
+    min = 0,
+    max = 10000000,
+    default = 500,
+    page = KillCount,
+    translation = KillCount_MaxUpdateDelay,
+}

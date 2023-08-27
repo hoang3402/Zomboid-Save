@@ -1,0 +1,5 @@
+name=Maintenance improves repair
+id=MaintenanceImprovesRepair
+description=Makes repaired amount scale with maintenance skill. Adds 5% for every maintenance level, max 25%. Also grants small XP gain for each repair.
+poster=poster.png
+icon=icon.png

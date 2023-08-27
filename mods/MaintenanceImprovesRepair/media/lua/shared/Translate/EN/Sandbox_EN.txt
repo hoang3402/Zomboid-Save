@@ -1,0 +1,11 @@
+Sandbox_EN = {
+	Sandbox_MIR = "Maintenance Improves Repair"
+    Sandbox_MIR_SkipItems = "Exclude items"
+	Sandbox_MIR_SkipItems_tooltip = "Will not add maintenance as a skill to repair recipes for these items. Uses item IDs, not their names. Separate them with ';' for example Axe; HandAxe"
+
+    Sandbox_MIR_SkipSkills = "Exclude skills"
+	Sandbox_MIR_SkipSkills_tooltip = "Will not add maintenance as a skill to repair recipes that already have one of the specified skills. Uses skill names. Separate them with ';' for example Aiming: Mechanics"
+
+    Sandbox_MIR_SkipFixers = "Exclude repair materials"
+	Sandbox_MIR_SkipSkills_tooltip = "Will not add maintenance as a skill to repair recipes using one of these materials. Uses items IDs, not names. Separate them with ';' for example DuctTape; Woodglue"
+}

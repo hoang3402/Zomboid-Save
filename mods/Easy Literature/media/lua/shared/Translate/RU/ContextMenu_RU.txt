@@ -1,0 +1,21 @@
+ContextMenu_RU = {
+
+	ContextMenu_Easy_Literature = "Коллекция Литературы",
+
+	ContextMenu_Easy_Literature_Open_Menu = "Открыть меню",
+
+	ContextMenu_Easy_Literature_Take_Not_Found_Items = "Взять не найденные предметы",
+
+	ContextMenu_Easy_Literature_Mark_As_Found = "Отметить как найденное",
+	ContextMenu_Easy_Literature_Mark_As_Found_Selected = "Выбранный предмет",
+	ContextMenu_Easy_Literature_Mark_As_Found_All = "Все предметы в контейнере",
+
+	ContextMenu_Easy_Literature_Mark_As_Not_Found = "Отметить как не найденное",
+	ContextMenu_Easy_Literature_Mark_As_Not_Found_Selected = "Выбранный предмет",
+	ContextMenu_Easy_Literature_Mark_As_Not_Found_All = "Все предметы в контейнере",
+
+	ContextMenu_Easy_Literature_Drop_Duplicate_Items = "Выбросить дубликаты",
+
+	ContextMenu_Easy_Literature_Read_Available_Literature = "Прочитать доступную литературу",
+
+}

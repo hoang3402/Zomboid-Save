@@ -1,0 +1,5 @@
+ContextMenu_PL{
+ ContextMenu_GrabAmount = "Wybierz kwotę do zdobycia",
+ ContextMenu_PutAmount = "Wybierz kwotę do umieszczenia",
+ ContextMenu_TransferAmountInfo = "Przedstaw elementy (maks.",
+}

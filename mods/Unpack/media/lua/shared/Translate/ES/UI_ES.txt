@@ -1,0 +1,18 @@
+UI_ES = {
+    UI_optionscreen_binding_Unpack = "Extraer",
+    UI_optionscreen_binding_UnpackKey = "Extraer de contenedores cercanos",
+
+    UI_ContextMenu_PutItemsInContainerSingular = "Colocar %1 articulo en %2",
+    UI_ContextMenu_PutItemsInContainerPlural = "Colocar %1 artículos en %2",
+    UI_WorldContextMenu_Stock = "Agregar",
+    UI_WorldContextMenu_StockContainerFrom = "Agregar %1 desde %2",
+
+    UI_MenuOptions_ExcludeMannequinContainer = "Ignore Mannequins",
+    UI_MenuOptions_ExcludeMannequinContainerTooltip = "Check this to disable transferring items to Mannequins",
+    UI_MenuOptions_ExcludeTrashContainer = "Ignore Trash bins",
+    UI_MenuOptions_ExcludeTrashContainerTooltip = "Check this to disable transferring items to Trash",
+    UI_MenuOptions_DisableItemCategories = "Desactivar categorías personalizadas",
+    UI_MenuOptions_DisableItemCategoriesTooltip = "Marque para deshabilitar las categorías de artículos personalizados incluidos en este mod, Requiere reiniciar el mundo del juego.",
+    UI_MenuOptions_ContainerPercentageItemCount = "Considerar porcentaje del contenedor",
+    UI_MenuOptions_ContainerPercentageItemCountTooltip = "Cantidad de artículos que deben estar dentro de un contenedor antes de que se aplique la configuración de porcentaje.",
+}

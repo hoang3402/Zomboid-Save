@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+	
+	<files>
+		<path>media/clothing/clothingItems/BasedBackpack.xml</path>
+		<guid>cccbb588-4931-4126-aa1b-cbe2fbc017b7</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/BasedBackpack_LHand.xml</path>
+		<guid>85a23017-b7f9-4a18-addc-564ddc9caa7c</guid>
+	</files>	
+	
+	<files>
+		<path>media/clothing/clothingItems/BasedBackpack_RHand.xml</path>
+		<guid>5505a841-cd44-4bbc-a7a3-402201dda0b7</guid>
+	</files>
+</fileGuidTable>

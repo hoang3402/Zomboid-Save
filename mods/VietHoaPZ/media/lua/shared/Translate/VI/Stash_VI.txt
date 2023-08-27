@@ -1,0 +1,356 @@
+Stash_EN = {
+    Stash_AnnotedMap = "Bản đồ có chú thích",
+
+    Stash_LVMap1_Text1 = "tay súng điên",
+    Stash_LVMap1_Text2 = "quê hương của tên mất trí",
+
+    Stash_LVMap2_Text1 = "món quà từ mẹ x",
+    Stash_LVMap2_Text2 = "đừng quên ghé thăm",
+    Stash_LVMap2_Text3 = "hãy đến mộ bà mình nếu có thể",
+    Stash_LVMap2_Text4 = "cùng cầu nguyện cho chúng ta",
+
+    Stash_LVMap3_Text1 = "trường học",
+    Stash_LVMap3_Text2 = "xe tải của tên gác cổng quái đản có lẽ là ở đây",
+    Stash_LVMap3_Text3 = "tông hàng rào phóng ra ngoài!",
+
+    Stash_LVMap4_Text1 = "đừng làm phiền, đến đây chỉ là làm mất thời gian của nhau",
+    Stash_LVMap4_Text2 = "cần búa tạ",
+    Stash_LVMap4_Text4 = "trạm xăng",
+
+    Stash_LVMap5_Text1 = "Carlins đã chuyển đến đây, Debbie",
+    Stash_LVMap5_Text2 = "Hãy đến gặp họ nếu bạn cần giúp đỡ!",
+    Stash_LVMap5_Text3 = "chúng tôi đã thấy những thứ đó",
+    Stash_LVMap5_Text4 = "đây là phòng tập thể dục",
+    Stash_LVMap5_Text5 = "đừng đi đâu vào ban đêm!",
+
+    Stash_LVMap6_Text1 = "NHÀ LÀ TUYỆT NHẤT!",
+
+    Stash_LVMap7_Text1 = "cảm ơn vì đã làm tôi thất vọng",
+    Stash_LVMap7_Text2 = "đây là nhà của tôi",
+    Stash_LVMap7_Text3 = "tôi có mọi thứ tôi cần",
+    Stash_LVMap7_Text4 = "tôi nghĩ",
+
+    Stash_LVMap8_Text1 = "Chúng ta đang ở cánh cửa thứ 3",
+    Stash_LVMap8_Text2 = "Uống những viên thuốc đó nhanh lên, Diego",
+    Stash_LVMap8_Text3 = "Bọn họ đều ở chỗ này, đừng đi",
+
+    Stash_LVMap9_Text1 = "Nơi này có súng ống cùng đồ ăn!",
+    Stash_LVMap9_Text2 = "Đừng lạc trong hàng cây",
+    Stash_LVMap9_Text3 = "Những thứ đó cũng lẩn trốn trong đấy",
+
+    Stash_LVMap10_Text1 = "Phòng của lão già này toàn là đồ ăn",
+    Stash_LVMap10_Text2 = "Không có súng gì cả",
+    Stash_LVMap10_Text3 = "Đừng đem chúng vô",
+    Stash_LVMap10_Text4 = "Cùng tiến vào thôi!",
+
+    Stash_LVMap11_Text1 = "Cửa hàng chưa từng bị hôi của",
+    Stash_LVMap11_Text2 = "Nhưng bên trong tràn ngập zombie",
+    Stash_LVMap11_Text3 = "Kho hàng",
+    Stash_LVMap11_Text4 = "Tất cả đều là LV",
+
+    Stash_LVMap12_Text1 = "Cô gái giao pizza",
+    Stash_LVMap12_Text2 = "Hot boy bán bánh mì kẹp thịt",
+    Stash_LVMap12_Text3 = "Lều của chúng ta",
+    Stash_LVMap12_Text4 = "Shiraz mới sắp kết thúc",
+    Stash_LVMap12_Text5 = "Toẹt vời iiii!!!",
+
+    Stash_LVMap13_Text1 = "Phòng an toàn tốt",
+    Stash_LVMap13_Text2 = "Nhưng phải cẩn thận khi dọn dẹp sân sau",
+    Stash_LVMap13_Text3 = "Xe có thể dùng được",
+
+    Stash_LVMap14_Text1 = "Tôi đã tạo rào cản trên đường",
+    Stash_LVMap14_Text2 = "Vì nếu không những thứ kia sẽ tiến vào",
+    Stash_LVMap14_Text3 = "Đừng quên!",
+    Stash_LVMap14_Text4 = "Đừng để bất cứ ai vào trong lúc tôi đi vắng!",
+    Stash_LVMap14_Text5 = "Tôi sẽ rời đi khoảng nửa tiếng (Hiện tại là 2 giờ 30)",
+    Stash_LVMap14_Text6 = "nếu tôi về trễ hơn, dùng radio vô tuyến và gọi cho Edwards",
+    Stash_LVMap14_Text7 = "xxxxx",
+
+    Stash_LVMap15_Text1 = "Nếu ai đó phát hiện ra nơi này, tôi là Natalie Sigmundsen",
+    Stash_LVMap15_Text2 = "Giảng viên Lịch sử Nghệ thuật tại Đại học Bang Louisiana",
+    Stash_LVMap15_Text3 = "Tôi đã chết rồi nhưng tôi có một yêu cầu cuối cùng",
+    Stash_LVMap15_Text4 = "Chúng ta phải bảo vệ những kho báu trong bảo tàng.",
+    Stash_LVMap15_Text5 = "Tại thời điểm tận thế này",
+    Stash_LVMap15_Text6 = "Đừng bị lạc lối, Tôi cùng bạn bè đã thu thập được một số vũ khí",
+    Stash_LVMap15_Text7 = "bên trong chiếc xe gần thư viện, hãy sử dụng chúng.",
+    Stash_LVMap15_Text8 = "Đừng để di sản nhân loại biến mất.",
+    Stash_LVMap15_Text9 = "Ô tô",
+
+    Stash_LVMap16_Text1 = "Con phố này tràn ngập nguy hiểm",
+    Stash_LVMap16_Text2 = "Chúng bắt con trai của bạn đến đây",
+    Stash_LVMap16_Text3 = "Đến đây, hiện tại nơi này an toàn",
+    Stash_LVMap16_Text4 = "Chúng tôi đang tiến về phía Nam",
+    Stash_LVMap16_Text5 = "Hãy đồng hành với bọn tôi",
+
+    Stash_MulMap1_Text1 = "Có thứ gì đó ở dưới sàn nhà nơi đây.",
+    Stash_MulMap1_Text2 = "Rìu?",
+    Stash_MulMap1_Text3 = "Một bầy zombie",
+    Stash_MulMap2_Text1 = "Tránh xa khỏi đây",
+    Stash_MulMap2_Text2 = "Nơi chứa đồ",
+    Stash_MulMap2_Text3 = "Rất nhiều zombie",
+    Stash_MulMap3_Text1 = "Súng ngắn và đạn được giấu ở đây, nhưng bạn sẽ phải rất vất vả để tìm ra chúng",
+    Stash_MulMap3_Text2 = "Một ít đồ gia dụng, dụng cụ và những thứ linh tinh",
+    Stash_MulMap3_Text3 = "Có rất nhiều đồ ở đây",
+    Stash_MulMap4_Text1 = "Cửa thoát hiểm",
+    Stash_MulMap4_Text2 = "Dụng cụ y tế",
+    Stash_MulMap4_Text3 = "Tín hiệu nguy hiểm",
+    Stash_MulMap6_Text1 = "Tôi không muốn quay lại nơi quái quỷ này.",
+    Stash_MulMap6_Text2 = "Thuốc ở đây.",
+    Stash_MulMap6_Text21 = "Nơi này hẳn là có có một ít thuốc kháng sinh và băng gạc.",
+    Stash_MulMap6_Text3 = "Anh đã thấy một bầy zombie đi về hướng này. Chạy đi! Yêu em x ",
+    Stash_MulMap7_Text1 = "Kế hoạch B.",
+    Stash_MulMap7_Text2 = "Cửa hàng vẫn còn nhiều thứ",
+    Stash_MulMap7_Text3 = "Chết tiệt",
+    Stash_MulMap8_Text1 = "Hãy lấy đồ của tôi. Chôn cất tôi ở một nơi an toàn. Cầu Chúa Phù Hộ Cho Bạn.",
+    Stash_MulMap8_Text2 = "Hãy lấy đồ uống nếu bạn cần",
+    Stash_MulMap8_Text3 = "Zombie Rất đông, chúng nó chưa di chuyển trong nhiều ngày",
+    Stash_MulMap10_Text1 = "Nơi này rất nguy hiểm",
+    Stash_MulMap10_Text2 = "Spiffo's",
+    Stash_MulMap10_Text3 = "Nơi này dường như đã bị cướp phá",
+    Stash_MulMap11_Text1 = "Cửa hàng súng Spiffo.",
+    Stash_MulMap11_Text2 = "Nơi này có chút thuốc.",
+    Stash_MulMap11_Text3 = "Một chút phiền toái",
+    Stash_MulMap12_Text1 = "Nơi này có súng Shotgun, có lẽ còn có chút ăn ở trong phòng bếp?.",
+	Stash_MulMap12_Text2 = "Thuốc men lộn xộn",
+    Stash_MulMap12_Text3 = "Rất nhiều zombie",
+    Stash_MulMap13_Text1 = "Quá nặng, phải từ bỏ một ít đồ vật",
+    Stash_MulMap13_Text2 = "Rất nhiều thiết bị vẫn còn trong cửa hàng",
+    Stash_MulMap13_Text3 = "*Đoàng*",
+
+Stash_MulMap14_Text1 = "Ngôi nhà an toàn - nhanh dựng rào chắn!",
+Stash_MulMap14_Text2 = "Mọi nơi",
+Stash_MulMap14_Text3 = "Đừng bắn - tiếng ồn sẽ thu hút bọn chúng",
+
+
+Stash_MulMap15_Text1 = "Bác sĩ già sống ở đây",
+Stash_MulMap15_Text2 = "Chú ý nơi này",
+Stash_MulMap15_Text21 = "Đây là chỗ mà J bị cắn",
+
+Stash_MulMap16_Text1 = "bảo an tại Ngân hàng có súng",
+Stash_MulMap16_Text2 = "Tôi nhớ TV và bia lạnh, mẹ kiếp cái thế giới chết tiệt này",
+
+Stash_MulMap17_Text1 = "Nhét đầy đồ vật",
+Stash_MulMap17_Text2 = "Đồng thời kiểm tra tiệm bánh bên cạnh",
+Stash_MulMap17_Text3 = "Mẹ hãy cẩn thận, bố vẫn ở đây",
+
+Stash_MulMap18_Text1 = "Nhà của Crazy Willy",
+Stash_MulMap18_Text11 = "Nghe nói hắn đã biến đổi",
+Stash_MulMap18_Text12 = "Mong rằng súng ống của hắn vẫn còn",
+
+    Stash_WpMap1_Text1 = "Chắc chắn đây là nơi anh ấy sống",
+    Stash_WpMap1_Text2 = "Có quá nhiều zombie để xử lý, đừng bắn nó ở chỗ này LẠY CHÚA TÔI";
+    Stash_WpMap2_Text1 = "Tôi nghĩ cô ấy sống ở đây",
+    Stash_WpMap2_Text2 = "Trạm y tế",
+    Stash_WpMap2_Text3 = "Thấy cô ấy đi lang thang quanh tòa nhà này mà không có súng",
+    Stash_WpMap4_Text1 = "Dũng cảm lên. Tôi yêu các bạn.",
+    Stash_WpMap4_Text3 = "Đừng Tới Đây. Megan đã ở đây – cô ấy là một trong số chúng.",
+    Stash_WpMap4_Text31 = "Không biết cô ấy thậm chí còn ở trong thị trấn không nữa. Đừng đi",
+    Stash_WpMap5_Text1 = "Đồ gia dụng Tôi để trong phòng ngủ nó sẽ giúp bạn đấy-",
+    Stash_WpMap5_Text11 = "Hãy ngăn chúng vào đây Em yêu Anh",
+    Stash_WpMap5_Text2 = "Pizza",
+    Stash_WpMap5_Text3 = "Rắc rối",
+    Stash_WpMap6_Text1 = "Tôi không cần những thứ này. Chúc may mắn.",
+    Stash_WpMap6_Text2 = "Twiggy's",
+    Stash_WpMap6_Text3 = "Địa ngục đến rồi",
+    Stash_WpMap8_Text1 = "Jolene không bị nhiễm. Cô ấy có thể giúp.",
+    Stash_WpMap8_Text2 = "Cửa hàng súng",
+    Stash_WpMap8_Text3 = "Thấy có một thằng chết ở đây",
+    Stash_WpMap9_Text1 = "Hố zombie!",
+    Stash_WpMap9_Text2 = "Văn phòng của Ba",
+    Stash_WpMap9_Text3 = "Xác của Ba",
+    Stash_WpMap10_Text1 = "Toàn bộ chỗ này thật kinh tởm",
+    Stash_WpMap10_Text2 = "Cửa hàng phần cứng có thể vẫn còn thứ gì đó",
+    Stash_WpMap10_Text3 = "Nhiều rắc rối hơn nữa",
+    Stash_WpMap11_Text1 = "Quản lý của Spiffo từng giữ một khẩu súng Shotgun trong cửa hàng.",
+    Stash_WpMap11_Text11 = "MẸ NÓ , mấy thằng khốn đấy biết chuyện gì sẽ xảy ra.",
+    Stash_WpMap11_Text2 = "Cửa hàng phần cứng chưa ai từng ghé thăm.",
+    Stash_WpMap11_Text3 = "tránh xa khỏi nơi này - tránh xa tôi ra",
+    Stash_WpMap12_Text1 = "tất cả mọi người đều đến văn phòng vào ngày dịch bệnh xảy ra",
+    Stash_WpMap12_Text11 = "tôi đã khử họ trước khi họ biến đổi",
+    Stash_WpMap12_Text2 = "Cửa hàng súng",
+    Stash_WpMap12_Text3 = "Black Friday khá là đông đấy",
+	
+    Stash_WpMap13_Text1 = "Shotgun giết: 12",
+    Stash_WpMap13_Text2 = "Rìu giết: 20",
+    Stash_WpMap13_Text3 = "Tông chết: 11",
+
+    Stash_WpMap14_Text1 = "Gặp lại nhau ở đây Tonya! Có đủ đồ ăn."
+    Stash_WpMap14_Text11 = "Bây giờ chúng ta chỉ cần đợi Colin và con tàu của anh ấy",
+
+    Stash_WpMap15_Text1 = "chúng sẽ không bao giờ tìm thấy ta ở đây, tin tôi đi",
+    Stash_WpMap15_Text11 = "chúng còn tệ hơn cả đống cứt",
+    Stash_WpMap15_Text2 = "vùng này săn bắn có vẻ ổn",
+
+    Stash_WpMap16_Text1 = "Khả năng bị công kích",
+    Stash_WpMap16_Text2 = "lối thoát an toàn nhất"
+    Stash_WpMap16_Text21 = "Đi qua hàng rào, sau đó băng qua con đường phía nam đến khu rừng"
+    Stash_WpMap16_Text3 = "cơ hội sống sót:"
+    Stash_WpMap16_Text31 = "một tháng: 58%"
+    Stash_WpMap16_Text32 = "cả mùa đông: 22%"
+    Stash_WpMap16_Text4 = "Cần nhiều lương thực hơn và phương tiện di chuyển"
+    Stash_MarchRidgeMap1_Text1 = "Súng ở đây",
+    Stash_MarchRidgeMap1_Text2 = "Rìu và công cụ ở đây?",
+    Stash_MarchRidgeMap1_Text3 = "Đừng đi",
+    Stash_MarchRidgeMap2_Text1 = "Để lại cho bạn một khẩu súng lục",
+    Stash_MarchRidgeMap2_Text2 = "Cửa hàng này trông giống như còn một chút đồ",
+    Stash_MarchRidgeMap2_Text3 = "Họ đi chưa? Dường như họ đã đến đây",
+    Stash_MarchRidgeMap3_Text1 = "Anh chàng thợ săn ở đây",
+    Stash_MarchRidgeMap3_Text2 = "Cửa hàng bánh mì",
+    Stash_MarchRidgeMap3_Text3 = "Nơi cuối cùng tôi nhìn thấy cô ấy",
+    Stash_MarchRidgeMap4_Text1 = "Nếu bạn có thể ngăn nó trước khi bạn biến hóa. Sẽ có gì đó ở đây giúp ích được.",
+    Stash_MarchRidgeMap4_Text11 = "Chúng ta sẽ trở về cùng nhau. Bằng cách nào đó.",
+    Stash_MarchRidgeMap4_Text2 = "Trung tâm cộng đồng. Bạn sẽ tìm thấy xác của tôi ở đây. tôi cầu nguyện cho bạn sống sót.",
+    Stash_MarchRidgeMap4_Text3 = "Cầu Chúa, đùng nói là bạn sẽ không bao giờ đóng quân ở đây. Mặc dù đã có rất nhiều kỷ niệm tại đây.",
+    Stash_MarchRidgeMap5_Text1 = "không sử dụng súng - những thứ bạn có thể sử dụng làm vũ khí ở đây",
+    Stash_MarchRidgeMap5_Text2 = "Trung tâm Y tế",
+    Stash_MarchRidgeMap5_Text3 = "Nơi này quá an tĩnh",
+    Stash_MarchRidgeMap6_Text1 = "Những thứ chúng ta có thể sử dụng để bảo vệ tòa nhà",
+    Stash_MarchRidgeMap6_Text2 = "Phần cứng bổ sung",
+    Stash_MarchRidgeMap6_Text3 = "Mọi thứ ở đây đã bị xóa sổ",
+    Stash_MarchRidgeMap7_Text1 = "Tôi nghĩ anh ấy đã trốn ra ngoài.",
+    Stash_MarchRidgeMap7_Text2 = "Bạn có thể cần một số công cụ",
+    Stash_MarchRidgeMap7_Text3 = "Đã thấy anh ta ở đây. Không bị cắn, nhưng bị sốt.",
+	
+    Stash_MarchRidgeMap8_Text1 = "các công cụ cũ của tội bị bỏ lại ở đây"
+    Stash_MarchRidgeMap8_Text2 = "Tôi không cần chúng nữa"
+
+    Stash_MarchRidgeMap9_Text1 = "Những người sống sót được hoan nghênh tham gia cùng chúng tôi"
+    Stash_MarchRidgeMap9_Text2 = "Luôn cần thêm thức ăn, súng và những thứ khác"
+    Stash_MarchRidgeMap9_Text3 = "Giết một số Z để được nổi danh!"
+
+    Stash_MarchRidgeMap10_Text1 = "Cầu phúc cho một tâm hồn lương thiện",
+    Stash_MarchRidgeMap10_Text2 = "Nó có thể giữ bạn xa khỏi Địa ngục trong một khoảng thời gian",
+
+    Stash_RiversideStashMap1_Text1 = "Hiện chúng tôi ở đây",
+    Stash_RiversideStashMap1_Text11 = "Mong sớm gặp được bạn",
+    Stash_RiversideStashMap1_Text2 = "Hãy cẩn thận xung quanh!",
+
+    Stash_RiversideStashMap2_Text1 = "Phòng 208 đang đợi bạn",
+    Stash_RiversideStashMap2_Text11 = "Hãy nhớ khi chúng ta dành cả ngày để nhìn chằm chằm vào dòng sông?",
+    Stash_RiversideStashMap2_Text12 = "đừng bỏ tôi xxx",
+
+    Stash_RiversideStashMap3_Text1 = "cửa hàng phim",
+    Stash_RiversideStashMap3_Text2 = "rượu",
+
+    Stash_RiversideStashMap4_Text1 = "Daryl ốm rồi, bỏ anh ấy lại đây",
+    Stash_RiversideStashMap4_Text11 = "Hãy đến gặp Natalie, cô ấy sẽ biết phải làm gì",
+    Stash_RiversideStashMap4_Text2 = "Thật kinh khủng khi thấy họ kéo hai người vào đây",
+
+    Stash_RiversideStashMap5_Text1 = "ĐỪNG ĐI VÀO NƠI NÀY",
+    Stash_RiversideStashMap5_Text2 = "BỌN KHỐN NÀY ĐÃ GIẾT FRANK VÀ CẮN TÔI",
+
+    Stash_RiversideStashMap6_Text1 = "Eddie chắc đang giấu một vài khẩu súng",
+    Stash_RiversideStashMap6_Text11 = "Nếu anh ấy không bị ốm, anh ấy đã đưa chúng ta đi khỏi thị trấn",
+    Stash_RiversideStashMap6_Text12 = "Hy vọng tên biến thái Vico đó không tìm thấy họ",
+
+    Stash_RiversideStashMap7_Text1 = "Tìm thử đường đi - Họ đều biến đổi cả rồi",
+    Stash_RiversideStashMap7_Text2 = "Bây giờ hãy đến Siêu thị GIGAMART",
+    Stash_RiversideStashMap7_Text21 = "Đừng đánh nhau với Sandra khi tôi vắng mặt",
+
+    Stash_RiversideStashMap8_Text1 = "Để cho bạn một số đồ ăn", 
+    Stash_RiversideStashMap8_Text11 = "Hãy ăn trước khi rời đi",
+    Stash_RiversideStashMap8_Text2 = "Zombie lảng vảng quanh đây",
+    Stash_RiversideStashMap8_Text3 = "Đây là nơi tôi hấy nhóm người là (có lẽ giờ họ đã hẹo)",
+
+    Stash_RiversideStashMap9_Text1 = "Ton đợi chúng ta ở đây",
+    Stash_RiversideStashMap9_Text2 = "bể khí ga",
+    Stash_RiversideStashMap9_Text3 = "D bị cắn nhưng không nghiêm trọng - cần dùng kháng sinh đề phòng",
+
+    Stash_RiversideStashMap10_Text1 = "ngân hàng", 
+    Stash_RiversideStashMap10_Text2 = "đừng quên vũ khí dự phòng", 
+    Stash_RiversideStashMap10_Text21 = "Cái rìu của bạn trông hơi lỏng lẻo",
+    Stash_RiversideStashMap10_Text3 = "Đi về phía tây ra khỏi thị trấn ngay bây giờ, bạn biết nơi để tìm tôi rồi đấy",
+
+    Stash_RosewoodStashMap2_Text1 = "Cất giữ một số súng",
+    Stash_RosewoodStashMap2_Text2 = "Đi tiếp này",
+    Stash_RosewoodStashMap2_Text3 = "Kết thúc ngay tại đây",
+    Stash_RosewoodStashMap3_Text1 = "Đã đi và tìm thấy một số thiết bị để giúp chúng ta phòng vệ một số nơi trong khi chúng ta chờ đợi.",
+    Stash_RosewoodStashMap3_Text11 = "Chỗ cũ của mẹ. Tôi sẽ gặp bạn ở đó x",
+    Stash_RosewoodStashMap3_Text2 = "Có thể có vũ khí ở đây - nhớ đề phòng",
+    Stash_RosewoodStashMap3_Text3 = "Đừng đi hướng này",
+
+    Stash_RosewoodStashMap4_Text1 = "Một ít đồ vô dụng",
+    Stash_RosewoodStashMap4_Text2 = "Bọn họ tới thời điểm (sẽ đến!)",
+    Stash_RosewoodStashMap4_Text3 = "Lấy những gì bạn có thể lựm rồi biến mất vào rừng",
+
+    Stash_RosewoodStashMap5_Text1 = "Nơi này có đồ ăn",
+    Stash_RosewoodStashMap5_Text2 = "Không gấp!",
+    Stash_RosewoodStashMap5_Text3 = "Hãy nhớ những gì đã xảy ra với ông Duncan",
+
+/*
+Stash_WorldMap1_Text1 = "Đến đây! Kara sẽ giúp",
+Stash_WorldMap1_Text2 = "Từng thấy zombie ở đây (Có lẽ nên đi thì tốt hơn)",
+Stash_WorldMap1_Text4 = "Nếu lái xe hãy đi thật chậm, đừng thu hút bọn chúng",
+
+Stash_WorldMap2_Text1 = "Một nơi tốt để làm căn cứ, tuy có hơi xa",
+Stash_WorldMap2_Text11 = "Việc đầu tiên khi đến nơi là bố trí chướng ngại vật trên đường!",
+Stash_WorldMap2_Text12 = "Tôi đã giấu vài khẩu súng cho bạn",
+
+Stash_WorldMap3_Text1 = "Gas ở đây",
+Stash_WorldMap3_Text11 = "Bạn sẽ cần đến nó",
+
+Stash_WorldMap4_Text1 = "Yana nói đây là nơi người phụ nữ đó sống",
+Stash_WorldMap4_Text11 = "Có lẽ cô ấy sẽ giúp chúng ta?",
+
+Stash_WorldMap5_Text1 = "Paulie để mọi thứ lại đây",
+Stash_WorldMap5_Text11 = "Kiểm tra trước khi vào",
+Stash_WorldMap5_Text12 = "Và đừng quên phải ghi lại bản đồ đấy!!!",
+
+Stash_WorldMap6_Text1 = "Đồ tốt ở đây",
+Stash_WorldMap6_Text2 = "Thích hợp để tìm đồ - nhưng quá lớn để phòng thủ",
+Stash_WorldMap6_Text3 = "Andy",
+
+Stash_WorldMap7_Text1 = "Ở chỗ này",
+Stash_WorldMap7_Text2 = "Tất cả đều bị nhiễm",
+Stash_WorldMap7_Text21 = "Chúng đến từ đâu vậy",
+
+Stash_WorldMap8_Text1 = "Đồ của Ken, có lẽ sẽ có ích",
+Stash_WorldMap8_Text2 = "Hãy cẩn thận với những kẻ đi theo bạn",
+Stash_WorldMap8_Text21 = "không chỉ mỗi zombie",
+
+Stash_WorldMap9_Text1 = "Trạm vận chuyển hàng hóa",
+Stash_WorldMap9_Text2 = "Mọi nơi đều có rương chứa đầy đồ vật",
+Stash_WorldMap8_Text3 = "Văn phòng, trống không",
+Stash_WorldMap8_Text4 = "Kho hàng?",
+
+Stash_WorldMap10_Text1 = "TRẠM XĂNG",
+Stash_WorldMap10_Text2 = "SHOP QUẦN ÁO",
+Stash_WorldMap10_Text3 = "CỬA HÀNG SPIFFO",
+Stash_WorldMap10_Text4 = "XE CỘ",
+
+Stash_WorldMap11_Text1 = "Ăng-ten 3 trên Tháp 2 - Mất tín hiệu trên băng tần 6GHz - Sự cố về nguồn",
+Stash_WorldMap11_Text11 = "Sau đó, hãy để HQ kiểm tra với Lexington",
+
+Stash_WorldMap12_Text1 = "Khu cắm trại khổng lồ - Chúng tôi cần mọi thứ (Ngoại trừ Jane's Pill)",
+Stash_WorldMap12_Text11 = "Cần phải được làm sạch trước nhưng có rất nhiều thức ăn, giường và lò sưởi"
+Stash_WorldMap12_Text2 = "Mối nguy hiểm duy nhất: phía bắc trung tâm mua sắm, nơi có hàng trăm người bị nhiễm bệnh"
+
+Stash_WorldMap13_Text1 = "Hal, Chúng ta sẽ đến đây, nó hẳn sẽ an toàn"
+Stash_WorldMap13_Text11 = "Tôi biết rất là khó, nhưng đừng mang theo Paula"
+Stash_WorldMap13_Text12 = "bạn phải tự cứu chính mình"
+
+Stash_WorldMap14_Text1 = "bà nội"
+Stash_WorldMap14_Text2 = "Đây là nơi chúng bắt ông nội"
+Stash_WorldMap14_Text3 = "Chúa phù hộ cho họ"
+
+Stash_WorldMap17_Text1 = "Tuần tra khu vực khuất"
+Stash_WorldMap17_Text2 = "V Sẽ tắt hoàn toàn cảm biến chuyển động lúc 23:15"
+Stash_WorldMap17_Text21 = "Không cần phân tâm! Đi theo V, xách đồ lên rồi đi ra ngoài"
+
+Stash_WorldMap18_Text1 = "Sách"
+Stash_WorldMap18_Text2 = "Đường Dẫn"
+
+Stash_WorldMap19_Text1 = "Tên khốn ngoan cố! Ít nhất hãy cầm lấy khẩu súng tôi để lại ở nhà bà Cardi"
+Stash_WorldMap19_Text11 = "Nếu bạn chết, tôi sẽ không bao giờ tha thứ cho bạn!!!"
+
+Stash_WorldMap19_Text1 = "ĐỒ NGU"
+Stash_WorldMap19_Text2 = "TẠP CHỦNG"
+Stash_WorldMap19_Text3 = "ĐỒ KHỐN"
+*/	
+	
+	--------------------------------------------------------- MOD PLACE -------------------------------------------
+	Stash_AnnotedMap = " Bản đồ - Chú thích",
+    Stash_AnnotatedMap_Prefix = " Bản đồ ",
+    Stash_AnnotedMap_Suffix = "- Chú thích",
+	
+}

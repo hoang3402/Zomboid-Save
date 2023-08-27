@@ -1,0 +1,5 @@
+ContextMenu_CN{
+ ContextMenu_GrabAmount = "拿取(自定)",
+ ContextMenu_PutAmount = "放入(自定)",
+ ContextMenu_TransferAmountInfo = "转移物品 (最大.",
+}

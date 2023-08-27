@@ -1,0 +1,5 @@
+ContextMenu_ES{
+ ContextMenu_GrabAmount = "Seleccione la cantidad para obtener",
+ ContextMenu_PutAmount = "Seleccione la cantidad para poner",
+ ContextMenu_TransferAmountInfo = "Transferir elementos (máx.",
+}

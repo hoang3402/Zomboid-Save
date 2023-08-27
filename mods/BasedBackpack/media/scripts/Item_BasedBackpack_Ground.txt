@@ -1,0 +1,8 @@
+module Base
+{
+ model BasedBackpack_World
+ {
+ mesh = WorldItems/Clothing/BasedBackpack_World,
+ scale = 1
+ }
+}
