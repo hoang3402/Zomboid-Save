@@ -1,0 +1,12 @@
+module Base
+{
+    item TreeBranch
+	{
+	    DisplayCategory = Material,
+		Weight	=	.5,
+		Type	=	Normal,
+		DisplayName	=	Tree Branch,
+		Icon	=	Branch,
+		WorldStaticModel = TreeBranch,
+	}
+}

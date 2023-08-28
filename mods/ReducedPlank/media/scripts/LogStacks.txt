@@ -1,0 +1,27 @@
+module Base 
+{
+    item LogStacks2
+	{
+		Weight	=	3,
+		Type	=	Normal,
+		DisplayName	=	Two Logs Stack,
+		Icon	=	Logs2,
+		WorldStaticModel = TwoLogsStack,
+	}
+	item LogStacks3
+    {
+        Weight	=	4.5,
+        Type	=	Normal,
+        DisplayName	=	Three Logs Stack,
+        Icon	=	Logs3,
+        WorldStaticModel = ThreeLogsStack,
+    }
+    item LogStacks4
+    {
+        Weight	=	6,
+        Type	=	Normal,
+        DisplayName	=	Four Logs Stack,
+        Icon	=	Logs4,
+        WorldStaticModel = FourLogsStack,
+    }
+}
