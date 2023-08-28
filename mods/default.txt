@@ -48,6 +48,7 @@ mods
 	mod = blkt_invtrack,
 	mod = BetterSortCC,
 	mod = BetterFPS,
+	mod = ReducedPlank,
 }
 
 maps
