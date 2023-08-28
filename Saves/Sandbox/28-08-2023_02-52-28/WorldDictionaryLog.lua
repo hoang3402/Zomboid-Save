@@ -2503,3 +2503,37 @@ table.insert(log, {
 	{ type = "reg_obj", id = 44, obj = "WallCracks" }
 	{ type = "reg_obj", id = 45, obj = "Flowerbed" }
 };
+log = log or {};
+table.insert(log, {
+	-- -------------------------------------------------------
+	-- Time: 2023/08/29 00:58:41
+	{
+		type = "info",
+		timeStamp = "2023/08/29 00:58:41",
+		saveWorld = "28-08-2023_02-52-28",
+		worldVersion = 195,
+		hasErrored = false,
+		itemMods = {
+			"pz-vanilla",
+			"ToadTraits",
+			"tsarslib",
+			"isoContainers",
+			"Onifurniture",
+			"rSemiTruck",
+			"LazoloDynamicBackpackUpgrades",
+			"manageContainers",
+			"ReducedPlank",
+			"BCGTools",
+			"autotsartrailers",
+			"BCGRareWeapons",
+			"BasedBackpack",
+		},
+	},
+	{ type = "modchange_item", oldModID = "pz-vanilla", fulltype = "Base.Log", registeryID = 525, existsVanilla = true, isModded = true, modID = "ReducedPlank", obsolete = false, removed = false, isLoaded = false }
+	{ type = "modchange_item", oldModID = "pz-vanilla", fulltype = "Base.PlankNail", registeryID = 710, existsVanilla = true, isModded = true, modID = "ReducedPlank", obsolete = false, removed = false, isLoaded = false }
+	{ type = "modchange_item", oldModID = "pz-vanilla", fulltype = "Base.LogStacks2", registeryID = 866, existsVanilla = true, isModded = true, modID = "ReducedPlank", obsolete = false, removed = false, isLoaded = false }
+	{ type = "modchange_item", oldModID = "pz-vanilla", fulltype = "Base.LogStacks3", registeryID = 869, existsVanilla = true, isModded = true, modID = "ReducedPlank", obsolete = false, removed = false, isLoaded = false }
+	{ type = "modchange_item", oldModID = "pz-vanilla", fulltype = "Base.LogStacks4", registeryID = 870, existsVanilla = true, isModded = true, modID = "ReducedPlank", obsolete = false, removed = false, isLoaded = false }
+	{ type = "modchange_item", oldModID = "pz-vanilla", fulltype = "Base.TreeBranch", registeryID = 1336, existsVanilla = true, isModded = true, modID = "ReducedPlank", obsolete = false, removed = false, isLoaded = false }
+	{ type = "modchange_item", oldModID = "pz-vanilla", fulltype = "Base.Plank", registeryID = 2109, existsVanilla = true, isModded = true, modID = "ReducedPlank", obsolete = false, removed = false, isLoaded = false }
+};
