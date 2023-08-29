@@ -10,7 +10,6 @@ mods
 	mod = CombatText,
 	mod = DylansZombieLoot,
 	mod = LazoloDynamicBackpackUpgrades,
-	mod = LetMeThink,
 	mod = MaintenanceImprovesRepair,
 	mod = ToadTraits,
 	mod = MultiHitLimiter,

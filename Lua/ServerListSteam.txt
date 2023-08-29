@@ -1,0 +1,10 @@
+name=
+ip=113.188.72.127
+hoang3409
+localip=
+port=16261
+serverpassword=
+description=
+user=hoang3409
+password=tuilaproend
+usesteamrelay=false
