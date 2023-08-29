@@ -48,6 +48,7 @@ mods
 	mod = BetterSortCC,
 	mod = BetterFPS,
 	mod = ReducedPlank,
+	mod = LetMeThink,
 }
 
 maps
