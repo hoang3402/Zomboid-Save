@@ -1,6 +1,5 @@
 name=
-ip=113.188.72.127
-hoang3409
+ip=14.173.128.243
 localip=
 port=16261
 serverpassword=

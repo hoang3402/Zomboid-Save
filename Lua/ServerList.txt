@@ -1,0 +1,8 @@
+name=
+ip=14.173.128.243
+port=16261
+serverpassword=
+description=
+user=hoang3409
+password=tuilaproend
+usesteamrelay=false
