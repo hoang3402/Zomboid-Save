@@ -64,8 +64,6 @@ mods
 	mod = MapLegendUI,
 	mod = MinimalDisplayBars,
 	mod = MoreSkillBooks,
-	mod = PlayersOnMap,
-	mod = ProximityInventoryZombonly,
 	mod = RV_Interior_MP,
 	mod = RV_Interior_Vanilla,
 	mod = JSRetroBooks,
@@ -78,6 +76,16 @@ mods
 	mod = rSemiTruck,
 	mod = FC4WT,
 	mod = autotsartrailers,
+	mod = 67commando,
+	mod = 82oshkoshM911,
+	mod = 50%metalweight,
+	mod = AdditionalBooks2,
+	mod = BetterFlashlights,
+	mod = ModTemplate,
+	mod = RS_WaterCistern_KI5_Addon,
+	mod = RS_WaterCistern,
+	mod = Amputation,
+	mod = SpiffUI-Inv,
 }
 
 maps

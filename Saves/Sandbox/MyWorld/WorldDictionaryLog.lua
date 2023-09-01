@@ -2537,3 +2537,347 @@ table.insert(log, {
 	{ type = "modchange_item", oldModID = "pz-vanilla", fulltype = "Base.TreeBranch", registeryID = 1336, existsVanilla = true, isModded = true, modID = "ReducedPlank", obsolete = false, removed = false, isLoaded = false }
 	{ type = "modchange_item", oldModID = "pz-vanilla", fulltype = "Base.Plank", registeryID = 2109, existsVanilla = true, isModded = true, modID = "ReducedPlank", obsolete = false, removed = false, isLoaded = false }
 };
+log = log or {};
+table.insert(log, {
+	-- -------------------------------------------------------
+	-- Time: 2023/09/01 23:32:45
+	{
+		type = "info",
+		timeStamp = "2023/09/01 23:32:45",
+		saveWorld = "MyWorld",
+		worldVersion = 195,
+		hasErrored = false,
+		itemMods = {
+			"pz-vanilla",
+			"ToadTraits",
+			"tsarslib",
+			"isoContainers",
+			"BB_CommonSense",
+			"Onifurniture",
+			"rSemiTruck",
+			"LazoloDynamicBackpackUpgrades",
+			"manageContainers",
+			"ReducedPlank",
+			"BCGTools",
+			"autotsartrailers",
+			"BCGRareWeapons",
+			"BetterFlashlights",
+			"BasedBackpack",
+			"82oshkoshM911",
+			"MoreSkillBooks",
+			"Amputation",
+			"SpiffUI-Inv",
+			"AdditionalBooks2",
+			"RS_WaterCistern",
+			"BrutalHandwork",
+			"67commando",
+			"SchizophreniaTrait",
+			"DrivingSkill",
+		},
+	},
+	{ type = "reg_item", fulltype = "Base.M911Trunk2", registeryID = 2433, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "modchange_item", oldModID = "pz-vanilla", fulltype = "Base.PiePumpkin", registeryID = 27, existsVanilla = true, isModded = true, modID = "BB_CommonSense", obsolete = false, removed = false, isLoaded = false }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookLongBlade3", registeryID = 2434, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookLongBlade4", registeryID = 2435, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookLongBlade5", registeryID = 2436, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.M911TrunkDoor2", registeryID = 2437, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "TOC.Prost_Left_Hand_WoodenHook", registeryID = 2438, existsVanilla = false, isModded = true, modID = "Amputation", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookLongBlade1", registeryID = 2439, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookLongBlade2", registeryID = 2440, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.Torch4", registeryID = 2441, existsVanilla = false, isModded = true, modID = "BetterFlashlights", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.Torch3", registeryID = 2442, existsVanilla = false, isModded = true, modID = "BetterFlashlights", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.Torch6", registeryID = 2443, existsVanilla = false, isModded = true, modID = "BetterFlashlights", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.Torch5", registeryID = 2444, existsVanilla = false, isModded = true, modID = "BetterFlashlights", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.Torch2", registeryID = 2445, existsVanilla = false, isModded = true, modID = "BetterFlashlights", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.Torch1", registeryID = 2446, existsVanilla = false, isModded = true, modID = "BetterFlashlights", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "TOC.Prost_Right_Hand_WoodenHook", registeryID = 2447, existsVanilla = false, isModded = true, modID = "Amputation", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.Torch7", registeryID = 2448, existsVanilla = false, isModded = true, modID = "BetterFlashlights", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "SpiffUI.Bag", registeryID = 2449, existsVanilla = false, isModded = true, modID = "SpiffUI-Inv", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.M127TrunkDoor2", registeryID = 2450, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSneaking5", registeryID = 2451, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSneaking4", registeryID = 2452, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSneaking3", registeryID = 2453, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSneaking2", registeryID = 2454, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSneaking1", registeryID = 2455, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "TOC.Prost_Left_Hand_MetalHand", registeryID = 2456, existsVanilla = false, isModded = true, modID = "Amputation", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "TOC.Prost_Right_LowerArm_MetalHook", registeryID = 2457, existsVanilla = false, isModded = true, modID = "Amputation", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.M911WindshieldArmor", registeryID = 2458, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.10000_Water_Tank3", registeryID = 2459, existsVanilla = false, isModded = true, modID = "RS_WaterCistern", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.10000_Water_Tank2", registeryID = 2460, existsVanilla = false, isModded = true, modID = "RS_WaterCistern", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.10000_Water_Tank1", registeryID = 2461, existsVanilla = false, isModded = true, modID = "RS_WaterCistern", obsolete = false, removed = false, isLoaded = true }
+	{ type = "modchange_item", oldModID = "pz-vanilla", fulltype = "Base.Pie", registeryID = 243, existsVanilla = true, isModded = true, modID = "BB_CommonSense", obsolete = false, removed = false, isLoaded = false }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookLightfooted3", registeryID = 2462, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookLightfooted4", registeryID = 2463, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookLightfooted5", registeryID = 2464, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookLightfooted1", registeryID = 2465, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookLightfooted2", registeryID = 2466, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "TOC.Prost_Left_LowerArm_MetalHook", registeryID = 2467, existsVanilla = false, isModded = true, modID = "Amputation", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "TOC.MetalHand", registeryID = 2468, existsVanilla = false, isModded = true, modID = "Amputation", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.M911Mudflaps", registeryID = 2469, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "OshkoshShirts.TShirt_bknht", registeryID = 2470, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "modchange_item", oldModID = "pz-vanilla", fulltype = "Base.BathTowel", registeryID = 472, existsVanilla = true, isModded = true, modID = "BB_CommonSense", obsolete = false, removed = false, isLoaded = false }
+	{ type = "reg_item", fulltype = "Base.M911Toolbox2", registeryID = 2471, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.BF_EgenerexLite", registeryID = 2472, existsVanilla = false, isModded = true, modID = "BetterFlashlights", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.V100Axle2", registeryID = 2473, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.Fisticuffs", registeryID = 2474, existsVanilla = false, isModded = true, modID = "BrutalHandwork", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "TOC.Amputation_Right_LowerArm", registeryID = 2475, existsVanilla = false, isModded = true, modID = "Amputation", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookAxe3", registeryID = 2476, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookAxe4", registeryID = 2477, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookAxe1", registeryID = 2478, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookAxe2", registeryID = 2479, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.HandTorch_Army2", registeryID = 2480, existsVanilla = false, isModded = true, modID = "BetterFlashlights", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookAxe5", registeryID = 2481, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.HandTorch_Army1", registeryID = 2482, existsVanilla = false, isModded = true, modID = "BetterFlashlights", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "TOC.Amputation_Right_Hand", registeryID = 2483, existsVanilla = false, isModded = true, modID = "Amputation", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.Hat_HardHat_Miner_With_Light", registeryID = 2484, existsVanilla = false, isModded = true, modID = "BetterFlashlights", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "TOC.Surgeon_kit", registeryID = 2485, existsVanilla = false, isModded = true, modID = "Amputation", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "TOC.Prost_Right_Hand_MetalHand", registeryID = 2486, existsVanilla = false, isModded = true, modID = "Amputation", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookMaintenance1", registeryID = 2487, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSmallBlunt1", registeryID = 2488, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookMaintenance4", registeryID = 2489, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookMaintenance5", registeryID = 2490, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookMaintenance2", registeryID = 2491, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookMaintenance3", registeryID = 2492, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSpear1", registeryID = 2493, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSpear2", registeryID = 2494, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSpear3", registeryID = 2495, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSpear4", registeryID = 2496, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSmallBlunt3", registeryID = 2497, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSpear5", registeryID = 2498, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSmallBlunt2", registeryID = 2499, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSmallBlunt5", registeryID = 2500, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSmallBlunt4", registeryID = 2501, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "modchange_item", oldModID = "pz-vanilla", fulltype = "Base.PieBlueberry", registeryID = 751, existsVanilla = true, isModded = true, modID = "BB_CommonSense", obsolete = false, removed = false, isLoaded = false }
+	{ type = "reg_item", fulltype = "Base.FrontLeftV100Door2", registeryID = 2502, existsVanilla = false, isModded = true, modID = "67commando", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.EmptyConcreteBag", registeryID = 2503, existsVanilla = false, isModded = true, modID = "BB_CommonSense", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookNimble5", registeryID = 2504, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookNimble4", registeryID = 2505, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookNimble3", registeryID = 2506, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookNimble2", registeryID = 2507, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSprinting5", registeryID = 2508, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSprinting4", registeryID = 2509, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSprinting3", registeryID = 2510, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSprinting2", registeryID = 2511, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSprinting1", registeryID = 2512, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.V100AxleSmall2", registeryID = 2513, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookNimble1", registeryID = 2514, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "OshkoshShirts.Hoodie_OshkoshGray", registeryID = 2515, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.HandTorch_ManLite", registeryID = 2516, existsVanilla = false, isModded = true, modID = "BetterFlashlights", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "OshkoshShirts.HoodieDOWN_OshkoshBlack", registeryID = 2517, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "TOC.Prost_Left_Hand_MetalHook", registeryID = 2518, existsVanilla = false, isModded = true, modID = "Amputation", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.TorchArmy2", registeryID = 2519, existsVanilla = false, isModded = true, modID = "BetterFlashlights", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.TorchArmy1", registeryID = 2520, existsVanilla = false, isModded = true, modID = "BetterFlashlights", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "TOC.Amputation_Left_LowerArm", registeryID = 2521, existsVanilla = false, isModded = true, modID = "Amputation", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookReloading5", registeryID = 2522, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookReloading4", registeryID = 2523, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookReloading1", registeryID = 2524, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookReloading3", registeryID = 2525, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookReloading2", registeryID = 2526, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "OshkoshShirts.HoodieDOWN_OshkoshGray", registeryID = 2527, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookAiming3", registeryID = 2528, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookAiming4", registeryID = 2529, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookAiming1", registeryID = 2530, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookAiming2", registeryID = 2531, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "TOC.ProstheticKnife", registeryID = 2532, existsVanilla = false, isModded = true, modID = "Amputation", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookAiming5", registeryID = 2533, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.BF_SpiffoLite", registeryID = 2534, existsVanilla = false, isModded = true, modID = "BetterFlashlights", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "OshkoshShirts.TShirt_OshkoshGray", registeryID = 2535, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "TOC.Prost_Right_LowerArm_WoodenHook", registeryID = 2536, existsVanilla = false, isModded = true, modID = "Amputation", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "SchizophreniaTrait.Chlorpromazine", registeryID = 2537, existsVanilla = false, isModded = true, modID = "SchizophreniaTrait", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "TOC.MetalHook", registeryID = 2538, existsVanilla = false, isModded = true, modID = "Amputation", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.M129TrunkDoor2", registeryID = 2539, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "TOC.WoodenHook", registeryID = 2540, existsVanilla = false, isModded = true, modID = "Amputation", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.V100Tires2", registeryID = 2541, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "modchange_item", oldModID = "pz-vanilla", fulltype = "Base.Torch", registeryID = 1146, existsVanilla = true, isModded = true, modID = "BetterFlashlights", obsolete = false, removed = false, isLoaded = false }
+	{ type = "reg_item", fulltype = "Base.RearV100Door2", registeryID = 2542, existsVanilla = false, isModded = true, modID = "67commando", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.M911Muffler", registeryID = 2543, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookBlunt3", registeryID = 2544, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookBlunt2", registeryID = 2545, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookBlunt1", registeryID = 2546, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookBlunt5", registeryID = 2547, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookBlunt4", registeryID = 2548, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.M967TrunkDoor2", registeryID = 2549, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookBlunt5", registeryID = 2550, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookBlunt2", registeryID = 2551, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookBlunt1", registeryID = 2552, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookBlunt4", registeryID = 2553, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.RS_WaterFilter", registeryID = 2554, existsVanilla = false, isModded = true, modID = "RS_WaterCistern", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookBlunt3", registeryID = 2555, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookFitness1", registeryID = 2556, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookFitness2", registeryID = 2557, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookFitness3", registeryID = 2558, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookFitness4", registeryID = 2559, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookFitness5", registeryID = 2560, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "modchange_item", oldModID = "pz-vanilla", fulltype = "Base.HandTorch", registeryID = 1344, existsVanilla = true, isModded = true, modID = "BB_CommonSense", obsolete = false, removed = false, isLoaded = false }
+	{ type = "reg_item", fulltype = "Base.M911EngineDoor2", registeryID = 2561, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "TOC.Amputation_Left_UpperArm", registeryID = 2562, existsVanilla = false, isModded = true, modID = "Amputation", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.V100EngineDoor2", registeryID = 2563, existsVanilla = false, isModded = true, modID = "67commando", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "TOC.Amputation_Right_UpperArm", registeryID = 2564, existsVanilla = false, isModded = true, modID = "Amputation", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "TOC.SurgeonMag1", registeryID = 2565, existsVanilla = false, isModded = true, modID = "Amputation", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "TOC.SurgeonMag3", registeryID = 2566, existsVanilla = false, isModded = true, modID = "Amputation", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "TOC.SurgeonMag2", registeryID = 2567, existsVanilla = false, isModded = true, modID = "Amputation", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookReloading4", registeryID = 2568, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookReloading3", registeryID = 2569, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookReloading2", registeryID = 2570, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookReloading1", registeryID = 2571, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookReloading5", registeryID = 2572, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "TOC.Improvised_surgeon_kit", registeryID = 2573, existsVanilla = false, isModded = true, modID = "Amputation", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.3000_Water_Tank_Tainted3", registeryID = 2574, existsVanilla = false, isModded = true, modID = "RS_WaterCistern", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.3000_Water_Tank_Tainted2", registeryID = 2575, existsVanilla = false, isModded = true, modID = "RS_WaterCistern", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.3000_Water_Tank_Tainted1", registeryID = 2576, existsVanilla = false, isModded = true, modID = "RS_WaterCistern", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.M911SideWindow2", registeryID = 2577, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSmallBlade5", registeryID = 2578, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSmallBlade1", registeryID = 2579, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSmallBlade2", registeryID = 2580, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSmallBlade3", registeryID = 2581, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSmallBlade4", registeryID = 2582, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "OshkoshShirts.Hoodie_OshkoshBlack", registeryID = 2583, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookAiming3", registeryID = 2584, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookAiming2", registeryID = 2585, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookAiming5", registeryID = 2586, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookAiming4", registeryID = 2587, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookAiming1", registeryID = 2588, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookSprinting1", registeryID = 2589, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookSprinting2", registeryID = 2590, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookSprinting5", registeryID = 2591, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookSprinting3", registeryID = 2592, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookSprinting4", registeryID = 2593, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "OshkoshShirts.TShirt_OshkoshBlack", registeryID = 2594, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "TOC.Prost_Left_LowerArm_WoodenHook", registeryID = 2595, existsVanilla = false, isModded = true, modID = "Amputation", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.FRSideContainer_RS2", registeryID = 2596, existsVanilla = false, isModded = true, modID = "RS_WaterCistern", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.FRSideContainer_RS1", registeryID = 2597, existsVanilla = false, isModded = true, modID = "RS_WaterCistern", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.FRSideContainer_RS3", registeryID = 2598, existsVanilla = false, isModded = true, modID = "RS_WaterCistern", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.M911WindshieldRear2", registeryID = 2599, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.V100ToolboxLid2", registeryID = 2600, existsVanilla = false, isModded = true, modID = "67commando", obsolete = false, removed = false, isLoaded = true }
+	{ type = "modchange_item", oldModID = "pz-vanilla", fulltype = "Base.PieApple", registeryID = 1594, existsVanilla = true, isModded = true, modID = "BB_CommonSense", obsolete = false, removed = false, isLoaded = false }
+	{ type = "reg_item", fulltype = "Base.V100Toolbox2", registeryID = 2601, existsVanilla = false, isModded = true, modID = "67commando", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookAxe1", registeryID = 2602, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookAxe3", registeryID = 2603, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookAxe2", registeryID = 2604, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookAxe5", registeryID = 2605, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookAxe4", registeryID = 2606, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.3000_Water_Tank2", registeryID = 2607, existsVanilla = false, isModded = true, modID = "RS_WaterCistern", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.3000_Water_Tank1", registeryID = 2608, existsVanilla = false, isModded = true, modID = "RS_WaterCistern", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.3000_Water_Tank3", registeryID = 2609, existsVanilla = false, isModded = true, modID = "RS_WaterCistern", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.M911CarFrontDoorArmor", registeryID = 2610, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.HandTorch_CK_LED", registeryID = 2611, existsVanilla = false, isModded = true, modID = "BetterFlashlights", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.BF_HeadLight", registeryID = 2612, existsVanilla = false, isModded = true, modID = "BetterFlashlights", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.M911Windshield2", registeryID = 2613, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookMaintenance5", registeryID = 2614, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookSmallBlade1", registeryID = 2615, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookMaintenance3", registeryID = 2616, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookMaintenance4", registeryID = 2617, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookMaintenance1", registeryID = 2618, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookSmallBlade5", registeryID = 2619, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookMaintenance2", registeryID = 2620, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookSmallBlade4", registeryID = 2621, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookSmallBlade3", registeryID = 2622, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookSmallBlade2", registeryID = 2623, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.BF_OldFlashlight", registeryID = 2624, existsVanilla = false, isModded = true, modID = "BetterFlashlights", obsolete = false, removed = false, isLoaded = true }
+	{ type = "modchange_item", oldModID = "pz-vanilla", fulltype = "Base.DishCloth", registeryID = 1928, existsVanilla = true, isModded = true, modID = "BB_CommonSense", obsolete = false, removed = false, isLoaded = false }
+	{ type = "reg_item", fulltype = "TOC.Prost_Right_LowerArm_MetalHand", registeryID = 2625, existsVanilla = false, isModded = true, modID = "Amputation", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookSpear4", registeryID = 2626, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookSpear5", registeryID = 2627, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookSpear2", registeryID = 2628, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookSpear3", registeryID = 2629, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookSpear1", registeryID = 2630, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "DrivingSkill.DrivingSkill_BookDriving1", registeryID = 2631, existsVanilla = false, isModded = true, modID = "DrivingSkill", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "DrivingSkill.DrivingSkill_BookDriving2", registeryID = 2632, existsVanilla = false, isModded = true, modID = "DrivingSkill", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "DrivingSkill.DrivingSkill_BookDriving3", registeryID = 2633, existsVanilla = false, isModded = true, modID = "DrivingSkill", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "DrivingSkill.DrivingSkill_BookDriving4", registeryID = 2634, existsVanilla = false, isModded = true, modID = "DrivingSkill", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "DrivingSkill.DrivingSkill_BookDriving5", registeryID = 2635, existsVanilla = false, isModded = true, modID = "DrivingSkill", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookNimble5", registeryID = 2636, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.M911Bullbar0", registeryID = 2637, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.M911Bullbar1", registeryID = 2638, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookNimble1", registeryID = 2639, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookNimble2", registeryID = 2640, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookNimble3", registeryID = 2641, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookNimble4", registeryID = 2642, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookLongBlade2", registeryID = 2643, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookLongBlade3", registeryID = 2644, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookLongBlade1", registeryID = 2645, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookLongBlade4", registeryID = 2646, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookLongBlade5", registeryID = 2647, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookStrength2", registeryID = 2648, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookStrength3", registeryID = 2649, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookStrength4", registeryID = 2650, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookStrength5", registeryID = 2651, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookStrength1", registeryID = 2652, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookSneaking2", registeryID = 2653, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookSneaking1", registeryID = 2654, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookSneaking5", registeryID = 2655, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookSneaking4", registeryID = 2656, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookSneaking3", registeryID = 2657, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "TOC.Prost_Left_LowerArm_MetalHand", registeryID = 2658, existsVanilla = false, isModded = true, modID = "Amputation", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "TOC.Real_surgeon_kit", registeryID = 2659, existsVanilla = false, isModded = true, modID = "Amputation", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.FrontRightV100Door2", registeryID = 2660, existsVanilla = false, isModded = true, modID = "67commando", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.1500_Water_Tank1", registeryID = 2661, existsVanilla = false, isModded = true, modID = "RS_WaterCistern", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.1500_Water_Tank3", registeryID = 2662, existsVanilla = false, isModded = true, modID = "RS_WaterCistern", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.1500_Water_Tank2", registeryID = 2663, existsVanilla = false, isModded = true, modID = "RS_WaterCistern", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "SchizophreniaTrait.ChlorpromazinePill", registeryID = 2664, existsVanilla = false, isModded = true, modID = "SchizophreniaTrait", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.M911WindshieldRearArmor", registeryID = 2665, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "modchange_item", oldModID = "pz-vanilla", fulltype = "Base.PieLemonMeringue", registeryID = 2216, existsVanilla = true, isModded = true, modID = "BB_CommonSense", obsolete = false, removed = false, isLoaded = false }
+	{ type = "reg_item", fulltype = "TOC.Amputation_Left_Hand", registeryID = 2666, existsVanilla = false, isModded = true, modID = "Amputation", obsolete = false, removed = false, isLoaded = true }
+	{ type = "modchange_item", oldModID = "pz-vanilla", fulltype = "Base.PieKeyLime", registeryID = 2277, existsVanilla = true, isModded = true, modID = "BB_CommonSense", obsolete = false, removed = false, isLoaded = false }
+	{ type = "reg_item", fulltype = "Base.M128TrunkDoor2", registeryID = 2667, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookSmallBlunt3", registeryID = 2668, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookSmallBlunt4", registeryID = 2669, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "TOC.ProthesisMag1", registeryID = 2670, existsVanilla = false, isModded = true, modID = "Amputation", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookSmallBlunt5", registeryID = 2671, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "TOC.ProthesisMag2", registeryID = 2672, existsVanilla = false, isModded = true, modID = "Amputation", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "TOC.ProthesisMag3", registeryID = 2673, existsVanilla = false, isModded = true, modID = "Amputation", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookLightfooted5", registeryID = 2674, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookLightfooted4", registeryID = 2675, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookLightfooted3", registeryID = 2676, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookLightfooted2", registeryID = 2677, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookLightfooted1", registeryID = 2678, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookSmallBlunt1", registeryID = 2679, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "MoreSkillBooks.BookSmallBlunt2", registeryID = 2680, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.M911CarFrontDoor2", registeryID = 2681, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "TOC.Prost_Right_Hand_MetalHook", registeryID = 2682, existsVanilla = false, isModded = true, modID = "Amputation", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "USMIL.Seat0", registeryID = 2683, existsVanilla = false, isModded = true, modID = "67commando", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.M967SmallTrunk2", registeryID = 2684, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.V100Tire2", registeryID = 2685, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.V100Window2", registeryID = 2686, existsVanilla = false, isModded = true, modID = "67commando", obsolete = false, removed = false, isLoaded = true }
+};
+log = log or {};
+table.insert(log, {
+	-- -------------------------------------------------------
+	-- Time: 2023/09/01 23:53:36
+	{
+		type = "info",
+		timeStamp = "2023/09/01 23:53:36",
+		saveWorld = "MyWorld",
+		worldVersion = 195,
+		hasErrored = false,
+		itemMods = {
+			"pz-vanilla",
+			"ToadTraits",
+			"tsarslib",
+			"isoContainers",
+			"BB_CommonSense",
+			"Onifurniture",
+			"rSemiTruck",
+			"LazoloDynamicBackpackUpgrades",
+			"manageContainers",
+			"ReducedPlank",
+			"BCGTools",
+			"autotsartrailers",
+			"BCGRareWeapons",
+			"BetterFlashlights",
+			"BasedBackpack",
+			"82oshkoshM911",
+			"MoreSkillBooks",
+			"Amputation",
+			"SpiffUI-Inv",
+			"AdditionalBooks2",
+			"RS_WaterCistern",
+			"BrutalHandwork",
+			"67commando",
+			"SchizophreniaTrait",
+			"DrivingSkill",
+		},
+	},
+	{ type = "removed_item", scriptMissing = false, fulltype = "SpiffUI.Bag", registeryID = 2449, existsVanilla = false, isModded = true, modID = "SpiffUI-Inv", obsolete = false, removed = true, isLoaded = false }
+	{ type = "removed_item", scriptMissing = true, fulltype = "SpiffUI.Bag", registeryID = 2449, existsVanilla = false, isModded = true, modID = "SpiffUI-Inv", obsolete = false, removed = true, isLoaded = false }
+};
