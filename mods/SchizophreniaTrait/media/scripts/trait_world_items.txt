@@ -1,0 +1,15 @@
+module Base
+{
+	model Chlorpromazine_Ground
+    	{
+   		mesh = WorldItems/SleepingTablets,
+		texture = WorldItem/Chlorpromazine,
+    		scale = 0.4,
+    	}
+	model Chlorpromazinepill_Ground
+	{
+		mesh = WorldItems/Chlorpromazinepill,
+		texture = WorldItem/Chlorpromazinepill,
+		scale = 0.7,
+	}
+}

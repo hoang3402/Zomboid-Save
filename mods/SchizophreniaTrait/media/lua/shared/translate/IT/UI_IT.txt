@@ -1,0 +1,8 @@
+UI_IT = {
+    UI_trait_Schizophrenia = "Schizofrenia",
+    UI_trait_Schizophreniaheader = "Stravolge la tua percezione della realtà.",
+    UI_trait_Schizophreniapoint1 = "- Senti suoni che potrebbero non essere veri,",
+    UI_trait_Schizophreniapoint2 = "- Dormire potrebbe essere difficile,",
+    UI_trait_Schizophreniapoint3 = "- Legato al tuo livello di stress,",
+    UI_trait_Schizophreniapoint4 = "- Mentally unstable.",
+}

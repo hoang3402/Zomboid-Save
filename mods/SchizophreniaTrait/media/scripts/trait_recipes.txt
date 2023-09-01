@@ -1,0 +1,17 @@
+module SchizophreniaTrait {
+
+	imports
+	{
+		Base
+	}
+	
+	recipe Pop pill
+	{
+		Chlorpromazine=1,
+		
+		Result:ChlorpromazinePill,
+		RemoveResultItem:false,
+        	Sound:PopSchPill,
+		Time:120.0,
+	}
+}

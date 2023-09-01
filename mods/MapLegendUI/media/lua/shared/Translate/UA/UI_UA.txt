@@ -1,0 +1,10 @@
+UI_UA = {
+	UI_legendCommunity = "Громадські заклади",
+	UI_legendRetail = "Торгівля та комерція",
+	UI_legendIndustrial = "Промисловість",
+	UI_legendResidential = "Житлові будинки",
+	UI_legendRestaurants = "Ресторани та розваги",
+	UI_legendHospitality = "Готелі",
+	UI_legendMedical = "Медзаклади",
+	UI_legendParks = "Парки",
+}

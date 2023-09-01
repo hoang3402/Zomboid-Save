@@ -1,0 +1,26 @@
+IGUI_DE = {
+
+
+	IGUI_VehiclePart1500WaterTruckTank = "Wassertank",
+	IGUI_VehiclePart3000WaterTruckTank = "Wassertank",
+	IGUI_VehiclePart10000WaterTruckTank = "Wassertank",
+	IGUI_VehiclePart3000WaterTruckTankTainted = "Klärtank",
+	IGUI_VehiclePartRS_WaterFilter = "Wasserfilter",
+	IGUI_VehicleNamef700water = "Franklin EF70 Wasser",
+	IGUI_VehicleNamef700vacuum = "Franklin EF70 Vacuum",
+	IGUI_VehicleNameTrailerKbacRSWater = "Autotsar KBAC Wasser",
+	IGUI_VehicleNameTrailerM967Water = "HBA201 Auflieger Wasser",
+	IGUI_VehicleNamem50water = "M50 Wasser",
+	IGUI_Vehicle_ContainerCapacity_Water = "Wasser: %1",
+	IGUI_Vehicle_ContainerCapacity_WaterTainted = "Verschmutztes Wasser: %1",
+	IGUI_PlayerText_NoWayToWaterTankInlet = "Ich finde keinen Weg zu dem Wassertank Einlass dieses Fahrzeuges.",
+	IGUI_RS_Source = "Quelle: ",
+	IGUI_RS_TankWaterFromSource = "Pumpe Wasser von",
+	IGUI_RS_TankWaterFromVehicle= "Pumpe Wasser vom Fahrzeug"
+	IGUI_RS_PumpWaterTo = "Pumpe Wasser nach",
+	IGUI_RS_AddWaterFrom = "Füge Wasser hinzu von",
+	IGUI_RS_EmptyWaterTank = "Leere den Wassertank",
+	IGUI_RS_FilterGood = "Wasserfilter: Betriebsbereit",
+	IGUI_RS_FilterOK = "Wasserfilter: Wartung erforderlich",
+	IGUI_RS_FilterBad = "Wasserfilter: Verunreinigt",
+}

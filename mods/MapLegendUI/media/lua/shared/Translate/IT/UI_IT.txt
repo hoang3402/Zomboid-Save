@@ -1,0 +1,10 @@
+UI_IT = {
+    UI_legendCommunity = "Servizi Sociali",
+    UI_legendHospitality = "Alberghi",
+    UI_legendIndustrial = "Industriali",
+    UI_legendMedical = "Sanità",
+    UI_legendParks = "Parchi",
+    UI_legendResidential = "Residenziali",
+    UI_legendRestaurants = "Ristoranti & Intrattenimento",
+    UI_legendRetail = "Vendita & Commercio",
+}

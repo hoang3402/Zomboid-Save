@@ -19,6 +19,7 @@ local function getDelay()
 end
 
 function KCClient.OnPlayerUpdate(isoPlayer)
+    if not SandboxVars.KillCount.shareOnServer then return end
     if not isoPlayer or not lcl.player_isLocalPlayer(isoPlayer) then return end
     
     local mdKC = lcl.player_getModData(isoPlayer).KillCount

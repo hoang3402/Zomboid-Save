@@ -1,0 +1,8 @@
+name=Tread's Water Tank Trucks [41.65+]
+id=RS_WaterCistern
+description=<RGB:1,0.6,0.2>Made for Build 41.65 (works in 41.66 BETA) <RGB:0.3,1,0.6><LINE><LINE>This mod allows adding working water tanks to trucks and trailers and adds 3 vehicles able to store water. <LINE>Available vehicles are: Water Truck, Water storage trailer and Vacuum Truck (liquid waste disposal truck) <LINE><LINE>Furthermore, this mod can be used by other modders as framework for adding their own vehicles with such capability. Any vehicle assigned one of "Water tank" parts will be able to store water and make use of my functions. <LINE><LINE>I want to thank following people for making this mod possible: <LINE>- TIS - For making this great game and plenty of code I could chop into shape of my mod, <LINE>- Filibuster Rhymes' - for creating wonderful mod and allowing me to reuse his assets as base for my vehicles, <LINE>- TMC (Tsar's Modding Company) - for allowing me to reuse their KBAC Trailer as base for my water trailer, <LINE>- KONIJIMA - For creating great Water and Fuel related mods that inspired me to create this mod and for allowing me to reuse parts of his code, <LINE>- PlanetAlgol - For creating fuel truck code for Filibuster Rhymes mod, code that I studied, when I tried to get grasp on how Zomboid fueling functions work, <LINE>- KI5 - For allowing me (and providing new textures) to make a sub-mod using his '82 Oshkosh M911 mod assets and create Water Tank version of his Fuel Trailer.<LINE>
+author=Tread (Steam: Trealak)
+icon=icon.png
+poster=poster.png
+modversion=1.09
+

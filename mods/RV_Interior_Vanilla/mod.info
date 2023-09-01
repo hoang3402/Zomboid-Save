@@ -1,0 +1,6 @@
+name=RV Interior - Vanilla Addon
+id=RV_Interior_Vanilla
+description=Adds an interior to the vanilla vans. RV Interior is required.
+poster=poster.png
+icon=icon.png
+require=RV_Interior_MP

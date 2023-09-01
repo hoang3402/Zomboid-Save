@@ -1,0 +1,3 @@
+Recipes_TR = {
+	Recipe_Pop_pill = "Hapı ambalajdan çıkarmak",
+}

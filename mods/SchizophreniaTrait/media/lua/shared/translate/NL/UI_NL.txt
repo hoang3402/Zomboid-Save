@@ -1,0 +1,8 @@
+UI_NL = {
+    UI_trait_Schizophrenia = "Schizofrenie",
+    UI_trait_Schizophreniaheader = "Rommelt met je perceptie van de realiteit.",
+    UI_trait_Schizophreniapoint1 = "- Geluiden horen die misschien niet echt zijn,",
+    UI_trait_Schizophreniapoint2 = "- Kan het moeilijk vinden om te slapen,",
+    UI_trait_Schizophreniapoint3 = "- Afhankelijk van het stressniveau,",
+    UI_trait_Schizophreniapoint4 = "- Mentaal onstabiel.",
+}

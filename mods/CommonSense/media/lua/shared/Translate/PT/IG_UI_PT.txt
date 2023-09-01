@@ -1,0 +1,9 @@
+IGUI_PT = {
+    IGUI_Pry_fail = "Não vai ceder. Posso tentar de novo...",
+	IGUI_Settings_Prying_Mechanic = "Mecânica do Pé-de-cabra",
+    IGUI_Settings_Tooltip_Prying_Mechanic = "Alterna se os jogadores podem abrir portas, janelas, etc. usando um pé de cabra. ",
+	IGUI_Settings_Part_Condition_Highlighter = "Marcador de condição de peças",
+    IGUI_Settings_Tooltip_Part_Condition_Highlighter = "Exibe o ícone da bateria e do motor nos painéis dos veículos em várias cores, dependendo de suas condições. "
+    IGUI_Settings_Color_Filter = "Filtro de cor",
+    IGUI_Settings_Tooltip_Colorblind_Mode = "Alterna cores amigáveis para aqueles afetados pelo daltonismo. ",
+}

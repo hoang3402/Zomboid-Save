@@ -1,0 +1,80 @@
+UI_EN = {
+    -- SpiffUI
+    UI_Hello_SpiffUI = "Hello SpiffUI!",
+    UI_Name_SpiffUI = "SpiffUI",
+    UI_optionscreen_binding_SpiffUI = "SpiffUI"
+
+    UI_ModOptions_SpiffUI_applyNewKeybinds = "Set SpiffUI Recommended Keybinds",
+    UI_ModOptions_SpiffUI_Modal_applyNewKeybinds = "<CENTRE><SIZE:medium> Set SpiffUI Keybinds <LINE><LINE><LEFT><SIZE:small> Sets the following Keybinds: <LINE>",
+    UI_ModOptions_SpiffUI_Modal_aNKChild = " <LINE> %1  to:  [%2] ",
+
+    UI_ModOptions_SpiffUI_runAllResets = "Run All SpiffUI Resets",
+    UI_ModOptions_SpiffUI_tooltip_runResets = "Only works In-Game!",
+    UI_ModOptions_SpiffUI_Modal_runResets = "<CENTRE><SIZE:medium> SpiffUI Reset <LINE><LINE><LEFT><SIZE:small> The following will be reset: <LINE>",
+
+    -- SpiffUI -- Inventory
+    UI_Hello_SpiffUI_Inv = "Hello SpiffUI - Inventory!",
+
+    UI_Name_SpiffUI_Inv = "SpiffUI - Inventory",
+
+    UI_ModOptions_SpiffUI_Inv_enable = "Enable SpiffUI Inventory Rules",
+    UI_ModOptions_SpiffUI_Inv_tooltip_enable = "Locks the inventory in a fixed location and width at the top of the screen, can be resized vertically. <LINE> Enables better automatic hiding for the Loot Panel when using a mouse.  Press the "Inventory" Button to lock open the inventory, and press again to close.",
+
+    UI_ModOptions_SpiffUI_Inv_hideInv = "Hide Inventory Button",
+
+    UI_ModOptions_SpiffUI_Inv_mouseHide = "Only Hide Inventory Panel on External Mouse Click",
+
+    UI_optionscreen_binding_SpiffUI_Inv = "Toggle Inventory",
+
+    UI_ModOptions_SpiffUI_Inv_invVisible = "Always Display Panel Headers",
+    UI_ModOptions_SpiffUI_Inv_invVisibleTT = "On collapse of the windows the Headers will continue to be present",
+
+    UI_ModOptions_SpiffUI_Inv_lootinv = "Enable Loot Container",
+    UI_ModOptions_SpiffUI_Inv_lootinv_tt = "Adds a container in the Loot Panel which contains all items from available containers.  Does not include corpses. <LINE> Only visible if one or more containers available.",
+    UI_ModOptions_SpiffUI_Inv_sepzeds = "Enable Corpse Container",
+    UI_ModOptions_SpiffUI_Inv_sepzeds_tt = "Available Corpses will be merged into a single container that has all items.  Hides other corpse buttons. Corpses that have no items are not included. <LINE> Only visible if one or more corpses available.",
+
+    UI_ModOptions_SpiffUI_Inv_selfinv = "Enable Player Inventory Container",
+    UI_ModOptions_SpiffUI_Inv_selfinv_tt = "Adds a container in the Player's Inventory Panel that contains all items in all Equipped packs.",
+
+    UI_ModOptions_SpiffUI_Inv_buttonShow = "Always Show SpiffUI Container Buttons",
+    UI_ModOptions_SpiffUI_Inv_buttonShow_tt = "Prevents the Loot and Corpse buttons from hiding if enabled.",
+
+    UI_ModOptions_SpiffUI_EquipButton = "Enable Player Equipment Button",
+    UI_ModOptions_SpiffUI_EquipButton_tt = "Adds a button to manage the player's equipment to the Inventory.",
+    UI_ModOptions_SpiffUI_HideEquip = "Hide Equipment and Hotbar Items in General Inventory",
+    UI_ModOptions_SpiffUI_HideEquip_tt = "Hides equipment from the inventory. <LINE> NOTE: You must have the Equipment Button enabled, or another Equipment Manager to manage equipment.",
+    
+    UI_ModOptions_SpiffUI_KeyRing = "Auto add Keys to available KeyRing",
+    UI_ModOptions_SpiffUI_KeyRing_tt = "Merges keys to the first available keyring in the player's inventory.",
+
+    UI_SpiffUI_Inv_bodies = "All Zombie Corpses",
+    UI_SpiffUI_Inv_containers = "All Containers",
+    UI_SpffUI_Inv_selfpack = "%1 %2's Megapack",
+    UI_SpffUI_Inv_equippack = "%1 %2's Equipment",
+
+    UI_ModOptions_SpiffUI_autohidepopups = "Tetris: Autohide Container Popups",
+    UI_ModOptions_SpiffUI_autohidepopups_tt = "Automatically hide container popups when collapsing parent inventory or loot window",
+
+    UI_ModOptions_SpiffUI_KeyRing_Tetris_tt = "Merges keys to the first available keyring in the player's inventory. <LINE> Tetris: Only triggers when you use the Quick Loot shortcuts.",
+
+    UI_ModOptions_SpiffUI_EquipUIManager = "Manage EquipmentUI Window",
+    UI_ModOptions_SpiffUI_EquipUIManager_tt = "Hides all Window buttons on the EquipmentUI, and docks it to the Inventory. <LINE> Recommend to Restart if changed in-game.",
+
+    UI_ModOptions_SpiffUI_Inv_lootinv_Tetris = "Tetris: Enable SpiffUI Loot Container",
+    UI_ModOptions_SpiffUI_Inv_lootinv_Tetris_tt = "Adds a button that displays all available containers.  Does not include Zombie Corpses.",
+
+    UI_ModOptions_SpiffUI_showfloormerged = "Include Floor in Loot Container",
+    UI_ModOptions_SpiffUI_showfloormerged_tt = "Includes the current floor container in the SpiffUI Loot Container",
+
+    UI_ModOptions_SpiffUI_Inv_sepzeds_Tetris = "Tetris: Show Merged Zombie Corpse Button",
+    UI_ModOptions_SpiffUI_Inv_sepzeds_Tetris_tt = "Adds a button that displays all available Zombie Corpes.  Zombie Corpses are no longer included in the Merged Loot panel.",
+
+    UI_ModOptions_SpiffUI_Inv_stickyButtons = "Sticky Container Buttons",
+    UI_ModOptions_SpiffUI_Inv_stickyButtons_tt = "SpiffUI Container Buttons will remain selected until manually changed",
+
+    UI_ModOptions_SpiffUI_importModOptions = "Import Mod Options",
+    UI_ModOptions_SpiffUI_importModOptions_tt = "Import configuration from Mod Options",
+
+    UI_ModOptions_SpiffUI_Modal_importModOptions = "Import all SpiffUI configuration from ModOptions <LINE> This will overwrite all current configuration!",
+}

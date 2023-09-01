@@ -1,0 +1,15 @@
+ItemName_PTBR = {
+	ItemName_Base.1500_Water_Tank1 = "Tanque de Água",
+	ItemName_Base.1500_Water_Tank2 = "Tanque de Água",
+	ItemName_Base.1500_Water_Tank3 = "Tanque de Água",
+	ItemName_Base.3000_Water_Tank1 = "Tanque de Água",
+	ItemName_Base.3000_Water_Tank2 = "Tanque de Água",
+	ItemName_Base.3000_Water_Tank3 = "Tanque de Água",
+	ItemName_Base.10000_Water_Tank1 = "Tanque de Água",
+	ItemName_Base.10000_Water_Tank2 = "Tanque de Água",
+	ItemName_Base.10000_Water_Tank3 = "Tanque de Água",
+	ItemName_Base.3000_Water_Tank_Tainted1 = "Tanque Séptico",
+	ItemName_Base.3000_Water_Tank_Tainted2 = "Tanque Séptico",
+	ItemName_Base.3000_Water_Tank_Tainted3 = "Tanque Séptico", 
+	ItemName_Base.RS_WaterFilter  = "Filtro de Água",
+)

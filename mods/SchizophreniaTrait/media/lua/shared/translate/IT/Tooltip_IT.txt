@@ -1,0 +1,3 @@
+Tooltip_IT = {
+    Tooltip_Chlorpromazine = "Una medicazione antipsicotica usata principalmente per il trattamento di disturbi psicotici come la schizofrenia. Prendine una ogni 24 ore. Non superare la dose raccomandata.",
+}

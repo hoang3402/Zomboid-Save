@@ -1,0 +1,29 @@
+VERSION = 1,
+
+option JSRetroBooks.Return
+{
+	type = double, min = 0, max = 1, default = 0.9,
+	page = JSRetroBooks,
+	translation = JSRetroBooks_Return,
+}
+
+option JSRetroBooks.Capped
+{
+	type = boolean, default = true,
+	page = JSRetroBooks,
+	translation = JSRetroBooks_Capped,
+}
+
+option JSRetroBooks.ObsoleteStyle
+{
+	type = enum, numValues = 3, default = 1,
+	page = JSRetroBooks, translation = JSRetroBooks_ObsoleteStyle,
+	valueTranslation = JSRetroBooks_ObsoleteStyleEnum,
+}
+
+option JSRetroBooks.MuteWhileReading
+{
+	type = boolean, default = false,
+	page = JSRetroBooks,
+	translation = JSRetroBooks_MuteWhileReading,
+}

@@ -1,0 +1,253 @@
+module Base
+{
+	model TrailerM967trunkLid1
+	{
+		mesh = vehicles/Trailers_M967tanker_Body|m967_trunkLid1,
+		shader = vehicle_noreflect,
+		static = FALSE,
+		scale = 0.1,
+	}
+	model TrailerM967trunkLid2
+	{
+		mesh = vehicles/Trailers_M967tanker_Body|m967_trunkLid2,
+		shader = vehicle_noreflect,
+		static = FALSE,
+		scale = 0.1,
+	}
+	model TrailerM967trunkLid3
+	{
+		mesh = vehicles/Trailers_M967tanker_Body|m967_trunkLid3,
+		shader = vehicle_noreflect,
+		static = FALSE,
+		scale = 0.1,
+	}
+
+	template vehicle M967TrunkDoors
+	{
+		part TrunkDoor
+		{
+			model trunkLid670
+			{
+				file = TrailerM967trunkLid1,
+			}
+
+			anim Close
+			{
+				anim = trunkLid1_closing,
+				rate = 1.5,
+			}
+
+			anim Open
+			{
+				anim = trunkLid1_closing,
+				reverse = TRUE,
+				rate = 2.0,
+			}
+
+			anim Closed
+			{
+				anim = trunkLid1_closing,
+				reverse = TRUE,
+				animate = FALSE,
+			}
+
+			anim Opened
+			{
+				anim = trunkLid1_closing,
+				animate = FALSE,
+			}
+
+			category = bodywork,
+			area = TruckBed,
+			
+			anim ActorOpen
+			{
+				anim = WindowOpenSuccess,
+				rate = 0.15,
+				angle = 0.0 90.0 0.0,
+			}
+			anim ActorClose
+			{
+				anim = Attack_Shove,
+				rate = 0.3,
+				angle = 0.0 90.0 0.0,
+			}
+		}
+
+		part TrunkDoor2
+		{
+			model trunkLid672
+			{
+				file = TrailerM967trunkLid2,
+			}
+
+			anim Close
+			{
+				anim = trunkLid2_closing,
+				rate = 1.5,
+			}
+
+			anim Open
+			{
+				anim = trunkLid2_closing,
+				reverse = TRUE,
+				rate = 2.0,
+			}
+
+			anim Closed
+			{
+				anim = trunkLid2_closing,
+				reverse = TRUE,
+				animate = FALSE,
+			}
+
+			anim Opened
+			{
+				anim = trunkLid2_closing,
+				animate = FALSE,
+			}
+
+			category = bodywork,
+			area = TruckBed2,
+			
+			anim ActorOpen
+			{
+				anim = WindowOpenSuccess,
+				rate = 0.15,
+				angle = 0.0 270.0 0.0,
+			}
+			anim ActorClose
+			{
+				anim = Attack_Shove,
+				rate = 0.3,
+				angle = 0.0 270.0 0.0,
+			}
+		}
+
+		part TrunkDoor3
+		{
+			model trunkLid673
+			{
+				file = TrailerM967trunkLid3,
+			}
+
+			anim Close
+			{
+				anim = trunkLid3_closing,
+				rate = 1.5,
+			}
+
+			anim Open
+			{
+				anim = trunkLid3_closing,
+				reverse = TRUE,
+				rate = 2.0,
+			}
+
+			anim Closed
+			{
+				anim = trunkLid3_closing,
+				reverse = TRUE,
+				animate = FALSE,
+			}
+
+			anim Opened
+			{
+				anim = trunkLid3_closing,
+				animate = FALSE,
+			}
+
+			category = bodywork,
+			area = TruckBed3,
+			
+			anim ActorOpen
+			{
+				anim = WindowOpenSuccess,
+				rate = 0.15,
+				angle = 0.0 270.0 0.0,
+			}
+			anim ActorClose
+			{
+				anim = Attack_Shove,
+				rate = 0.3,
+				angle = 0.0 270.0 0.0,
+			}
+		}
+
+		part TrunkDoor*
+		{
+			door
+			{
+			}
+			anim Open
+			{
+				sound = VehicleTrunkOpenStandard,
+			}
+			anim Close
+			{
+				sound = VehicleTrunkCloseStandard,
+			}
+			anim Lock
+			{
+				sound = LockVehicleDoorStandard,
+			}
+			anim Unlock
+			{
+				sound = UnlockVehicleDoorStandard,
+			}
+			anim IsLocked
+			{
+				sound = VehicleDoorIsLockedStandard,
+			}
+
+			specificItem = false,
+			itemType = Base.TrunkDoor2;Base.M967TrunkDoor2,
+			mechanicRequireKey = false,
+			repairMechanic = true,
+			table install
+			{
+				items
+				{
+					item
+					{
+						type = Base.Wrench,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 1000,
+				skills = Mechanics:2,
+				recipes = Intermediate Mechanics,
+				test = Vehicles.InstallTest.Default,
+				complete = Vehicles.InstallComplete.Door,
+			}
+			table uninstall
+			{
+				items
+				{
+					item
+					{
+						type = Base.Wrench,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 1000,
+				skills = Mechanics:2,
+				recipes = Intermediate Mechanics,
+				test = Vehicles.UninstallTest.Default,
+				complete = Vehicles.UninstallComplete.Door,
+
+			}
+			lua
+			{
+				create = Vehicles.Create.TrunkDoor,
+				init = Vehicles.Init.Door,
+				use = Vehicles.Use.TrunkDoor,
+			}
+		}
+	}
+}
+

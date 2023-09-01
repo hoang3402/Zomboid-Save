@@ -1,0 +1,4 @@
+ItemName_CN = {
+	ItemName_SchizophreniaTrait.Chlorpromazine = "氯丙嗪",
+	ItemName_SchizophreniaTrait.ChlorpromazinePill = "氯丙嗪药片",
+}

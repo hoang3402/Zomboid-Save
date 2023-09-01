@@ -1,0 +1,4 @@
+IG_UI_EN = {
+    IGUI_PlayerText_JSRSMoreToLearn = "There's still more I can learn from this.",
+    IGUI_PlayerText_JSRSBrushUp = "Never hurts to brush up on the basics.",
+}

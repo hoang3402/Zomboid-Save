@@ -1,0 +1,179 @@
+module base {
+
+    sound f_laugh_1 {
+        category = SchizTrait,
+        loop = false,
+        is3D = true,
+        clip {
+          file = media/sound/f_laugh_1.ogg,
+          distanceMax = 4,
+          volume = 0.25,
+        }
+    }
+
+    sound m_laugh_1 {
+        category = SchizTrait,
+        loop = false,
+        is3D = true,
+        clip {
+          file = media/sound/m_laugh_1.ogg,
+          distanceMax = 4,
+          volume = 0.25,
+        }
+    }
+
+    sound f_laugh_2 {
+        category = SchizTrait,
+        loop = false,
+        is3D = true,
+        clip {
+          file = media/sound/f_laugh_2.ogg,
+          distanceMax = 4,
+          volume = 0.25,
+        }
+    }
+
+    sound m_laugh_2 {
+        category = SchizTrait,
+        loop = false,
+        is3D = true,
+        clip {
+          file = media/sound/m_laugh_2.ogg,
+          distanceMax = 4,
+          volume = 0.25,
+        }
+    }
+
+    sound f_laugh_3 {
+        category = SchizTrait,
+        loop = false,
+        is3D = true,
+        clip {
+          file = media/sound/f_laugh_3.ogg,
+          distanceMax = 4,
+          volume = 0.25,
+        }
+    }
+
+    sound m_laugh_3 {
+        category = SchizTrait,
+        loop = false,
+        is3D = true,
+        clip {
+          file = media/sound/m_laugh_3.ogg,
+          distanceMax = 4,
+          volume = 0.25,
+        }
+    }
+
+    sound f_laugh_4 {
+        category = SchizTrait,
+        loop = false,
+        is3D = true,
+        clip {
+          file = media/sound/f_laugh_4.ogg,
+          distanceMax = 4,
+          volume = 0.25,
+        }
+    }
+
+    sound m_laugh_4 {
+        category = SchizTrait,
+        loop = false,
+        is3D = true,
+        clip {
+          file = media/sound/m_laugh_4.ogg,
+          distanceMax = 4,
+          volume = 0.25,
+        }
+    }
+
+    sound f_laugh_5 {
+        category = SchizTrait,
+        loop = false,
+        is3D = true,
+        clip {
+          file = media/sound/f_laugh_5.ogg,
+          distanceMax = 4,
+          volume = 0.25,
+        }
+    }
+
+    sound m_laugh_5 {
+        category = SchizTrait,
+        loop = false,
+        is3D = true,
+        clip {
+          file = media/sound/m_laugh_5.ogg,
+          distanceMax = 4,
+          volume = 0.25,
+        }
+    }
+
+    sound fscream1 {
+        category = SchizTrait,
+        loop = false,
+        is3D = true,
+        clip {
+          file = media/sound/fscream1.ogg,
+          distanceMax = 14,
+          volume = 0.15,
+        }
+    }
+
+    sound scream1 {
+        category = SchizTrait,
+        loop = false,
+        is3D = true,
+        clip {
+          file = media/sound/scream1.ogg,
+          distanceMax = 14,
+          volume = 0.15,
+        }
+    }
+
+    sound fscream2 {
+        category = SchizTrait,
+        loop = false,
+        is3D = true,
+        clip {
+          file = media/sound/fscream2.ogg,
+          distanceMax = 14,
+          volume = 0.15,
+        }
+    }
+
+    sound scream2 {
+        category = SchizTrait,
+        loop = false,
+        is3D = true,
+        clip {
+          file = media/sound/scream2.ogg,
+          distanceMax = 14,
+          volume = 0.15,
+        }
+    }
+
+
+    sound fscream3 {
+        category = SchizTrait,
+        loop = false,
+        is3D = true,
+        clip {
+          file = media/sound/fscream3.ogg,
+          distanceMax = 14,
+          volume = 0.15,
+        }
+    }
+
+    sound scream3 {
+        category = SchizTrait,
+        loop = false,
+        is3D = true,
+        clip {
+          file = media/sound/scream3.ogg,
+          distanceMax = 14,
+          volume = 0.15,
+        }
+    }
+}

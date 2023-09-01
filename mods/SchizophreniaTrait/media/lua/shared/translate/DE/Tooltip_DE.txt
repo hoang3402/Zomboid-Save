@@ -1,0 +1,3 @@
+Tooltip_DE = {
+    Tooltip_Chlorpromazine = "Ein antipsychotisches Arzneimittel, das primär eingesetzt wird um psychotische Erkrankungen wie Schizophrenie zu behandeln. Einnahme: Eine Tablette alle 24 Stunden. Empfohlene Dosierung nicht überschreiten.",
+}

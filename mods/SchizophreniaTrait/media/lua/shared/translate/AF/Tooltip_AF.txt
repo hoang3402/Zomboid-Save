@@ -1,0 +1,3 @@
+Tooltip_AF = {
+    Tooltip_Chlorpromazine = "gebruik is om psigotiese versteurings soos skisofrenie te behandel, Vat een elke vier en twientig ure. Moet nie meer dan die andbeveelde bedrag vat nie.",
+}

@@ -1,0 +1,15 @@
+ItemName_NL = {
+	ItemName_Base.1500_Water_Tank1 = "Watertank",
+	ItemName_Base.1500_Water_Tank2 = "Watertank",
+	ItemName_Base.1500_Water_Tank3 = "Watertank",
+	ItemName_Base.3000_Water_Tank1 = "Watertank",
+	ItemName_Base.3000_Water_Tank2 = "Watertank",
+	ItemName_Base.3000_Water_Tank3 = "Watertank",
+	ItemName_Base.10000_Water_Tank1 = "Watertank",
+	ItemName_Base.10000_Water_Tank2 = "Watertank",
+	ItemName_Base.10000_Water_Tank3 = "Watertank",
+	ItemName_Base.3000_Water_Tank_Tainted1 = "Septic Tank",
+	ItemName_Base.3000_Water_Tank_Tainted2 = "Septic Tank",
+	ItemName_Base.3000_Water_Tank_Tainted3 = "Septic Tank",
+	ItemName_Base.RS_WaterFilter  = "Waterfilter",
+)

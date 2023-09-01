@@ -1,0 +1,3 @@
+Tooltip_FR = {
+    Tooltip_Chlorpromazine = "Un antipsychotique utilisé principalement dans le traitement des désordres psychotiques tels que la schizophrénie. Un comprimé par jour. Ne pas dépasser la dose prescrite.",
+}

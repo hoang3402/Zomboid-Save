@@ -1,0 +1,26 @@
+IGUI_EN = {
+
+
+    IGUI_VehiclePart1500WaterTruckTank = "Water Tank",
+	IGUI_VehiclePart3000WaterTruckTank = "Water Tank",
+	IGUI_VehiclePart10000WaterTruckTank = "Water Tank",
+	IGUI_VehiclePart3000WaterTruckTankTainted = "Septic Tank",
+	IGUI_VehiclePartRS_WaterFilter = "Water Filter",
+	IGUI_VehicleNamef700water = "Franklin EF70 Water",
+	IGUI_VehicleNamef700vacuum = "Franklin EF70 Vacuum",
+	IGUI_VehicleNameTrailerKbacRSWater = "Autotsar KBAC Water",
+	IGUI_VehicleNamem50water = "M50 Water Truck",
+	IGUI_VehicleNameTrailerM967Water = "HBA201 Water Semi-Trailer",
+	IGUI_Vehicle_ContainerCapacity_Water = "Water: %1",
+	IGUI_Vehicle_ContainerCapacity_WaterTainted = "Tainted water: %1",
+	IGUI_PlayerText_NoWayToWaterTankInlet = "I can't find a way to the water tank inlet of this car.",
+	IGUI_RS_Source = "Source: ",
+	IGUI_RS_TankWaterFromSource = "Pump Water from",
+	IGUI_RS_TankWaterFromVehicle= "Pump Water from Vehicle"
+	IGUI_RS_PumpWaterTo = "Pump Water to",
+	IGUI_RS_AddWaterFrom = "Add Water from",
+	IGUI_RS_EmptyWaterTank = "Empty the Water Tank",
+	IGUI_RS_FilterGood = "Water filter: Operational",
+	IGUI_RS_FilterOK = "Water filter: Requires maintenance",
+	IGUI_RS_FilterBad = "Water filter: Contaminated",
+}

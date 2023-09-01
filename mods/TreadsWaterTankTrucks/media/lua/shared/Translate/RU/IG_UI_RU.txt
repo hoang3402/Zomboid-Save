@@ -1,0 +1,26 @@
+IGUI_RU = {
+
+
+	IGUI_VehiclePart1500WaterTruckTank = "Бак для воды",
+	IGUI_VehiclePart3000WaterTruckTank = "Бак для воды",
+	IGUI_VehiclePart10000WaterTruckTank = "Бак для воды",
+	IGUI_VehiclePart3000WaterTruckTankTainted = "Грязный бак для воды",
+	IGUI_VehiclePartRS_WaterFilter = "Водяной фильтр",
+	IGUI_VehicleNamef700water = "Франклин EF70 Вода",
+	IGUI_VehicleNamef700vacuum = "Франклин EF70 Вода - Насос",
+	IGUI_VehicleNameTrailerKbacRSWater = "Прицеп KBAC Вода",
+	IGUI_VehicleNameTrailerM967Water = "Прицеп ХБА201 Вода",
+	IGUI_VehicleNamem50water = "Водовоз M50",
+	IGUI_Vehicle_ContainerCapacity_Water = "Вода: %1",
+	IGUI_Vehicle_ContainerCapacity_WaterTainted = "Грязная вода: %1",
+	IGUI_PlayerText_NoWayToWaterTankInlet = "Нет доступа к водяному баку данного авто",
+	IGUI_RS_Source = "Источник: ",
+	IGUI_RS_TankWaterFromSource = "Откачать воду из",
+	IGUI_RS_TankWaterFromVehicle= "Откачивать воду из автомобиля"
+	IGUI_RS_PumpWaterTo = "Накачать воду в",
+	IGUI_RS_AddWaterFrom = "Добавить воду из",
+	IGUI_RS_EmptyWaterTank = "Слить воду с бака",
+	IGUI_RS_FilterGood = "Фильтр для воды: работает",
+	IGUI_RS_FilterOK = "Фильтр для воды: требует обслуживания",
+	IGUI_RS_FilterBad = "Фильтр для воды: загрязнен",
+}

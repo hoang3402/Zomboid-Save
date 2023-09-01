@@ -1,0 +1,9 @@
+Sandbox_IT = {
+    Sandbox_CommonSense = "Buon Senso",
+    Sandbox_CommonSense_PryingMechanic = "Meccanica Piede di porco",
+    Sandbox_CommonSense_PryingMechanic_tooltip = "Consente ai giocatori di aprire porte, finestre, ecc. con un piede di porco. ",
+    Sandbox_CommonSense_PartsHighlighter = "Evidenziatore delle condizioni delle parti",
+    Sandbox_CommonSense_PartsHighlighter_tooltip = "Visualizza l'icona per Batteria e Motore nei cruscotti dei veicoli in vari colori a seconda delle loro condizioni. "
+    Sandbox_CommonSense_ColorFilter = "Filtro colore",
+    Sandbox_CommonSense_ColorFilter_tooltip = "Attiva/disattiva i colori amichevoli per le persone affette dal daltonismo. ",
+}

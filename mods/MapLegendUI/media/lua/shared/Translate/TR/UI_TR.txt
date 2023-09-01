@@ -1,0 +1,10 @@
+UI_TR = {
+    UI_legendCommunity = "Toplum servisleri",
+    UI_legendHospitality = "Oteller ve Konaklama",
+    UI_legendIndustrial = "Endüstriyel tesisler",
+    UI_legendMedical = "Saðlýk hizmeti",
+    UI_legendParks = "Park",
+    UI_legendResidential = "Konut inþaatlarý",
+    UI_legendRestaurants = "Gastronomi ve Eðlence",
+    UI_legendRetail = "Ticaret ve hizmetleri",
+}

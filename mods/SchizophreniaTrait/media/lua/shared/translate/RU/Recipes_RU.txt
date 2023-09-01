@@ -1,0 +1,3 @@
+Recipes_RU = {
+    Recipe_Pop_pill = "Извлечь таблетку",
+}

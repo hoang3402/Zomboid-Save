@@ -1,0 +1,443 @@
+module TOC
+{
+imports
+	{
+		Base
+	}
+/****************** Clothing that look like a cut limb ******************/
+    item Amputation_Right_Hand
+        {
+            Type = Clothing,
+            DisplayName	= Amputated right hand,
+
+            ClothingItem = Amputation_Right_Hand,
+            BodyLocation = TOC_ArmRight,
+
+            Weight = 0,
+            CombatSpeedModifier = 0.9,
+            BloodLocation = Hands;LowerArms,
+
+            Insulation = 1.0,
+            WindResistance = 1.0,
+            WaterResistance = 1.0,
+            Icon = genericAmputation,
+            CanHaveHoles = false,
+        }
+
+    item Amputation_Right_LowerArm
+        {
+            Type = Clothing,
+            DisplayName	= Amputated right forearm,
+
+            ClothingItem = Amputation_Right_LowerArm,
+            BodyLocation = TOC_ArmRight,
+
+            Weight = 0,
+            CombatSpeedModifier = 0.8,
+            BloodLocation = UpperArms;LowerArms,
+            Insulation = 1.0,
+            WindResistance = 1.0,
+            WaterResistance = 1.0,
+            Icon = genericAmputation,
+            CanHaveHoles = false,
+        }
+
+    item Amputation_Right_UpperArm
+        {
+            Type = Clothing,
+            DisplayName	= Amputated entire right arm,
+
+            ClothingItem = Amputation_Right_UpperArm,
+            BodyLocation = TOC_ArmRight,
+            BloodLocation = UpperArms;UpperBody,
+            Weight = 0,
+            CombatSpeedModifier = 0.7,
+            Insulation = 1.0,
+            WindResistance = 1.0,
+            WaterResistance = 1.0,
+            Icon = genericAmputation,
+            CanHaveHoles = false,
+        }
+
+    item Amputation_Left_Hand
+        {
+            Type = Clothing,
+            DisplayName	= Amputated left hand,
+
+            ClothingItem = Amputation_Left_Hand,
+            BodyLocation = TOC_ArmLeft,
+
+            Weight = 0,
+            CombatSpeedModifier = 0.9,
+            BloodLocation = Hands;LowerArms,
+            Insulation = 1.0,
+            
+            WindResistance = 1.0,
+            WaterResistance = 1.0,
+            Icon = genericAmputation,
+            CanHaveHoles = false,
+        }
+
+    item Amputation_Left_LowerArm
+        {
+            Type = Clothing,
+            DisplayCategory = Amputation,
+            DisplayName	= Amputated left forearm,
+            ClothingItem = Amputation_Left_LowerArm,
+            BodyLocation = TOC_ArmLeft,
+
+            Weight = 0,
+            CombatSpeedModifier = 0.8,
+            BloodLocation = UpperArms;LowerArms,
+            Insulation = 1.0,
+            WindResistance = 1.0,
+            WaterResistance = 1.0,
+            Icon = genericAmputation,
+            CanHaveHoles = false,
+
+        }
+
+    item Amputation_Left_UpperArm
+        {
+            Type = Clothing,
+            DisplayName	= Amputated entire left arm,
+            ClothingItem = Amputation_Left_UpperArm,
+            BodyLocation = TOC_ArmLeft,
+
+            Weight = 0,
+            CombatSpeedModifier = 0.7,
+            BloodLocation = UpperArms;UpperBody,
+            Insulation = 1.0,
+            WindResistance = 1.0,
+            WaterResistance = 1.0,
+            Icon = genericAmputation,
+            CanHaveHoles = false,
+        }
+
+/************************ Operation items ************************/
+	item Improvised_surgeon_kit
+        {
+            Type = Normal,
+            Weight = 0.1,
+
+            DisplayCategory = Surgeon_kit,
+            DisplayName = Improvised surgeon kit,
+            Tooltip = Tooltip_Improvised_surgeon_kit,
+            Icon = surgeonKit,
+        }
+
+    item Surgeon_kit
+        {
+            Type = Normal,
+            Weight = 0.2,
+
+            DisplayCategory = Surgeon_kit,
+            DisplayName = Surgeon kit,
+            Tooltip = Tooltip_Surgeon_kit,
+            Icon = surgeonKit,
+        }
+
+    item Real_surgeon_kit
+        {
+            Type = Normal,
+            Weight = 0.3,
+
+            DisplayCategory = Surgeon_kit,
+            DisplayName = Real surgeon kit,
+            Tooltip = Tooltip_Real_surgeon_kit,
+            Icon = surgeonKit,
+        }
+
+/************************ Prosthesis clothing item ************************/
+
+
+
+/* Right Hand, Right Forearm, Right UpperArm,*/
+/* Left Hand, Left Forearm, Left Upperarm */
+
+    item Prost_Right_Hand_WoodenHook
+        {
+            Weight = 1,
+            Type = Clothing,
+            DisplayCategory = Prosthesis,
+            DisplayName	= Right Hand - Wooden Hook,
+            ClothingItem = Prost_Right_Hand_WoodenHook,
+            BodyLocation = TOC_ArmRightProsthesis,
+            BloodLocation = Hands,
+            Icon = woodenHook,
+            Tooltip = Tooltip_equip_prothesis_hand,
+            CanHaveHoles = false,
+
+        }
+
+    item Prost_Left_Hand_WoodenHook
+        {
+            Weight = 1,
+            Type = Clothing,
+            DisplayCategory = Prosthesis,
+            DisplayName	= Left Hand - Wooden Hook,
+            ClothingItem = Prost_Left_Hand_WoodenHook,
+            BodyLocation = TOC_ArmLeftProsthesis,
+            BloodLocation = Hands,
+            Icon = woodenHook,
+            Tooltip = Tooltip_equip_prothesis_hand,
+            WaterResistance = 15,
+            CanHaveHoles = false,
+
+        }
+
+    item Prost_Right_Hand_MetalHook
+        {
+            Weight = 0.5,
+            Type = Clothing,
+            DisplayCategory = Prosthesis,
+            DisplayName	= Right Hand - Metal Hook,
+            ClothingItem = Prost_Right_Hand_MetalHook,
+            BodyLocation = TOC_ArmRightProsthesis,
+            BloodLocation = Hands,
+            Icon = metalHook,
+            Tooltip = Tooltip_equip_prothesis_hand,
+            WaterResistance = 13,
+            CanHaveHoles = false,
+        }
+
+    item Prost_Left_Hand_MetalHook
+        {
+            Weight = 0.5,
+            Type = Clothing,
+            DisplayCategory = Prosthesis,
+            DisplayName	= Left Hand - Metal Hook,
+            ClothingItem = Prost_Left_Hand_MetalHook,
+            BodyLocation = TOC_ArmLeftProsthesis,
+            BloodLocation = Hands,
+            Icon = metalHook,
+            Tooltip = Tooltip_equip_prothesis_hand,
+            CanHaveHoles = false,
+        }
+
+    item Prost_Right_Hand_MetalHand
+        {
+            Weight = 0.3,
+            Type = Clothing,
+            DisplayCategory = Prosthesis,
+            DisplayName	= Right Hand - Metal Hand,
+            ClothingItem = Prost_Right_Hand_MetalHand,
+            BodyLocation = TOC_ArmRightProsthesis,
+            BloodLocation = Hands,
+            Icon = metalHand,
+            Tooltip = Tooltip_equip_prothesis_hand,
+            CanHaveHoles = false,
+        }
+
+    item Prost_Left_Hand_MetalHand
+        {
+            Weight = 0.3,
+            Type = Clothing,
+            DisplayCategory = Prosthesis,
+            DisplayName	= Left Hand - Metal Hand,
+            ClothingItem = Prost_Left_Hand_MetalHand,
+            BodyLocation = TOC_ArmLeftProsthesis,
+            BloodLocation = Hands,
+            Icon = metalHand,
+            Tooltip = Tooltip_equip_prothesis_hand",
+            CanHaveHoles = false,
+        }
+
+    item Prost_Right_LowerArm_WoodenHook
+        {
+            Weight = 2,
+            Type = Clothing,
+            DisplayCategory = Prosthesis,
+            DisplayName	= Right Forearm - Wooden Hook,
+            ClothingItem = Prost_Right_LowerArm_WoodenHook,
+            BodyLocation = TOC_ArmRightProsthesis,
+            BloodLocation = LowerArms;Hands,
+            Icon = woodenHook,
+            Tooltip = Tooltip_equip_prothesis_fore,
+            CanHaveHoles = false,
+        }
+
+    item Prost_Left_LowerArm_WoodenHook
+        {
+            Weight = 2,
+            Type = Clothing,
+            DisplayCategory = Prosthesis,
+            DisplayName	= Left Forearm - Wooden Hook,
+            ClothingItem = Prost_Left_LowerArm_WoodenHook,
+            BodyLocation = TOC_ArmLeftProsthesis,
+            BloodLocation = LowerArms;Hands,
+            Icon = woodenHook,
+            Tooltip = Tooltip_equip_prothesis_fore,
+            CanHaveHoles = false,
+        }
+
+    item Prost_Right_LowerArm_MetalHook
+        {
+            Weight = 1.5,
+            Type = Clothing,
+            DisplayCategory = Prosthesis,
+            DisplayName	= Right Forearm - Metal Hook,
+            ClothingItem = Prost_Right_LowerArm_MetalHook,
+            BodyLocation = TOC_ArmRightProsthesis,
+            BloodLocation = LowerArms;Hands,
+            Icon = metalHook,
+            Tooltip = Tooltip_equip_prothesis_fore,
+            CanHaveHoles = false,
+        }
+
+    item Prost_Left_LowerArm_MetalHook
+        {
+            Weight = 1.5,
+            Type = Clothing,
+            DisplayCategory = Prosthesis,
+            DisplayName	= Left Forearm - Metal Hook,
+            ClothingItem = Prost_Left_LowerArm_MetalHook,
+            BodyLocation = TOC_ArmLeftProsthesis,
+            BloodLocation = LowerArms;Hands,
+
+            Icon = metalHook,
+            Tooltip = Tooltip_equip_prothesis_fore,
+            CanHaveHoles = false,
+        }
+
+    item Prost_Right_LowerArm_MetalHand 
+        {
+            Weight = 1.2,
+            Type = Clothing,
+            DisplayCategory = Prosthesis,
+            DisplayName	= Right Forearm - Metal Hand,
+            ClothingItem = Prost_Right_LowerArm_MetalHand,
+            BodyLocation = TOC_ArmRightProsthesis,
+            BloodLocation = LowerArms;Hands,
+            Icon = metalHand,
+            Tooltip = Tooltip_equip_prothesis_fore,
+            CanHaveHoles = false,
+        }
+
+    item Prost_Left_LowerArm_MetalHand
+        {
+            Weight = 1.2,
+            Type = Clothing,
+            DisplayCategory = Prosthesis,
+            DisplayName	= Left Forearm - Metal Hand,
+            ClothingItem = Prost_Left_LowerArm_MetalHand,
+            BodyLocation = TOC_ArmLeftProsthesis,
+            BloodLocation = LowerArms;Hands,
+            Icon = metalHand,
+            Tooltip = Tooltip_equip_prothesis_fore,
+            CanHaveHoles = false,
+        }
+
+/************************ Prosthesis base items ************************/
+
+item WoodenHook
+    {
+        Weight = 1,
+        Type = Normal,
+        DisplayCategory = Prosthesis,
+        DisplayName	= DisplayName_WoodenHook,
+        Icon = woodenHook,
+        Tooltip = Tooltip_prosthesic_limb,
+        WorldStaticModel = TOC.WoodenHook,
+    }
+
+item MetalHook
+    {
+        Weight = 0.5,
+        Type = Normal,
+        DisplayCategory = Prosthesis,
+        DisplayName	= DisplayName_MetalHook,
+        Icon = metalHook,
+        Tooltip = Tooltip_prosthesic_limb,
+        WorldStaticModel = TOC.MetalHook,
+
+    }
+
+item MetalHand
+    {
+        Weight = 0.3,
+        Type = Normal,
+        DisplayCategory = Prosthesis,
+        DisplayName	= DisplayName_MetalHand,
+        Icon = metalHand,
+        Tooltip = Tooltip_prosthesic_limb,
+    }
+item ProstheticKnife
+{
+    Weight = 0.5,
+    Type = Normal,
+    DisplayCategory = Prosthesis,
+    DisplayName = DisplayName_ProstheticKnife,
+    Icon = metalHand,
+    Tooltip = Tooltip_ProstheticKnife,
+}
+
+
+
+/**************************** Mags ****************************/
+item SurgeonMag1
+    {
+        Weight = 0.1,
+        Type = Literature,
+        DisplayName = ,
+        Icon = surgeonMag1,
+        TeachedRecipes = Combine improvised surgeon kit,
+        ReplaceOnUse = SurgeonMag1,
+        Tooltip = Tooltip_SurgeonMag1,
+    }
+
+item SurgeonMag2
+    {
+        Weight = 0.1,
+        Type = Literature,
+        DisplayName = ,
+        Icon = surgeonMag2,
+        TeachedRecipes = Combine surgeon kit,
+        ReplaceOnUse = SurgeonMag2,
+        Tooltip = Tooltip_SurgeonMag2,
+    }
+
+item SurgeonMag3
+    {
+        Weight = 0.1,
+        Type = Literature,
+        DisplayName = ,
+        Icon = surgeonMag3,
+        TeachedRecipes = Combine real surgeon kit,
+        ReplaceOnUse = SurgeonMag3,
+        Tooltip = Tooltip_SurgeonMag3,
+    }
+
+item ProthesisMag1
+    {
+        Weight = 0.1,
+        Type = Literature,
+        DisplayName = ,
+        Icon = ProthesisMag1,
+        TeachedRecipes = Make wooden hook,
+        ReplaceOnUse = ProthesisMag1,
+        Tooltip = Tooltip_ProthesisMag1,
+    }
+
+item ProthesisMag2
+    {
+        Weight = 0.1,
+        Type = Literature,
+        DisplayName = ,
+        Icon = ProthesisMag2,
+        TeachedRecipes = Make metal hook,
+        ReplaceOnUse = ProthesisMag2,
+        Tooltip = Tooltip_ProthesisMag2,
+    }
+
+item ProthesisMag3
+    {
+        Weight = 0.1,
+        Type = Literature,
+        DisplayName = ,
+        Icon = ProthesisMag3,
+        TeachedRecipes = Make metal hand,
+        ReplaceOnUse = ProthesisMag3,
+        Tooltip = Tooltip_ProthesisMag2,
+    }
+}

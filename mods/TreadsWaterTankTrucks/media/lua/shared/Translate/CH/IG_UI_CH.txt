@@ -1,0 +1,26 @@
+IGUI_CH = {
+
+
+    IGUI_VehiclePart1500WaterTruckTank = "水箱",
+	IGUI_VehiclePart3000WaterTruckTank = "水箱",
+	IGUI_VehiclePart10000WaterTruckTank = "水箱",
+	IGUI_VehiclePart3000WaterTruckTankTainted = "污水箱",
+	IGUI_VehiclePartRS_WaterFilter = "濾水器",
+	IGUI_VehicleNamef700water = "富蘭克林 EF70 運水卡車",
+	IGUI_VehicleNamef700vacuum = "富蘭克林 EF70 吸污車",
+	IGUI_VehicleNameTrailerKbacRSWater = "Autotsar KBAC 流動儲水箱",
+	IGUI_VehicleNamem50water = "M50 運水車",
+	IGUI_VehicleNameTrailerM967Water = "HBA201 流動儲水箱",
+	IGUI_Vehicle_ContainerCapacity_Water = "飲用水容量: %1",
+	IGUI_Vehicle_ContainerCapacity_WaterTainted = "髒水容量: %1",
+	IGUI_PlayerText_NoWayToWaterTankInlet = "我不知道怎樣前往此車輛水箱的進水口",
+	IGUI_RS_Source = "水源: ",
+	IGUI_RS_TankWaterFromSource = "抽出水從",
+	IGUI_RS_TankWaterFromVehicle= "從車裡抽水"
+	IGUI_RS_PumpWaterTo = "將水抽至",
+	IGUI_RS_AddWaterFrom = "添加水從",
+	IGUI_RS_EmptyWaterTank = "清空水箱",
+	IGUI_RS_FilterGood = "濾水器：運行中",
+	IGUI_RS_FilterOK = "濾水器：需要維護",
+	IGUI_RS_FilterBad = "濾水器：被污染",	
+}

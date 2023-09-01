@@ -1,0 +1,125 @@
+module Base
+{
+
+	model TrailerM129trunkLid
+	{
+		mesh = vehicles/Trailers_M129van_Body|m129_trunkLid,
+		shader = vehicle_noreflect,
+		static = FALSE,
+		scale = 0.1,
+	}
+
+	template vehicle M129TrunkDoors
+	{
+
+		part TrunkDoor
+		{
+			model trunkLid660
+			{
+				file = TrailerM129trunkLid,
+			}
+			specificItem = false,
+			itemType = Base.TrunkDoor2;Base.M129TrunkDoor2,
+
+		
+			door
+			{
+			}
+			anim Close
+			{
+				anim = trunkLid_closing,
+				rate = 1.0,
+			}
+
+			anim Open
+			{
+				anim = trunkLid_closing,
+				reverse = TRUE,
+				rate = 1.0,
+			}
+
+			anim Closed
+			{
+				anim = trunkLid_closing,
+				reverse = TRUE,
+				animate = FALSE,
+			}
+
+			anim Opened
+			{
+				anim = trunkLid_closing,
+				animate = FALSE,
+			}
+
+			anim Open
+			{
+				sound = VehicleTrunkOpenStandard,
+			}
+			anim Close
+			{
+				sound = VehicleTrunkCloseStandard,
+			}
+			anim Lock
+			{
+				sound = LockVehicleDoorStandard,
+			}
+			anim Unlock
+			{
+				sound = UnlockVehicleDoorStandard,
+			}
+			anim IsLocked
+			{
+				sound = VehicleDoorIsLockedStandard,
+			}
+
+			mechanicRequireKey = false,
+			repairMechanic = true,
+			category = bodywork,
+			area = TruckBed,
+			table install
+			{
+				items
+				{
+					item
+					{
+						type = Base.Wrench,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 1000,
+				skills = Mechanics:2,
+				recipes = Intermediate Mechanics,
+				test = Vehicles.InstallTest.Default,
+				complete = Vehicles.InstallComplete.Door,
+			}
+			table uninstall
+			{
+				items
+				{
+					item
+					{
+						type = Base.Wrench,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 1000,
+				skills = Mechanics:2,
+				recipes = Intermediate Mechanics,
+				test = Vehicles.UninstallTest.Default,
+				complete = Vehicles.UninstallComplete.Door,
+
+			}
+			lua
+			{
+				create = Vehicles.Create.TrunkDoor,
+				init = Vehicles.Init.Door,
+				use = Vehicles.Use.TrunkDoor,
+			}
+		}
+	}
+}
+

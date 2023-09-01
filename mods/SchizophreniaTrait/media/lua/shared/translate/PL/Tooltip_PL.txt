@@ -1,0 +1,3 @@
+Tooltip_PL = {
+    Tooltip_Chlorpromazine = " przeciwpsychotyczny, który jest stosowany g³ównie w leczeniu zaburzeñ psychicznych, takich jak schizofrenia. Nale¿y przyjmowaæ jedn¹ tabletkê co 24 godziny. Nie nale¿y przekraczaæ zalecanej dawki.",
+}

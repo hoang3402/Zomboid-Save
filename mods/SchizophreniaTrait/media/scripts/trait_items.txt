@@ -1,0 +1,40 @@
+module SchizophreniaTrait
+{
+imports
+	{
+		Base
+	}
+
+	item Chlorpromazine
+	{
+	    DisplayCategory = FirstAid,
+		Weight	=	0.2,
+		Type	=	Drainable,
+        UseDelta	=	0.125,
+		UseWhileEquipped	=	FALSE,
+		DisplayName	=	Chlorpromazine,
+		Icon	=	Chlorpromazine,
+		Tooltip = Tooltip_Chlorpromazine,
+		StaticModel = Chlorpromazine,
+		WorldStaticModel = Chlorpromazine_Ground,
+		Medical = TRUE,
+	}
+
+	item ChlorpromazinePill
+    {
+        DisplayCategory 	= FirstAid,
+		Weight				= 0.01,
+        Type				= Food,
+		ThirstChange 		= +2,
+        DisplayName			= Chlorpromazine Pill,
+        Icon				= Chlorpromazinepill,
+		Medical 			= TRUE,
+		CantBeFrozen = TRUE,
+		CustomContextMenu   = Take_Pill,
+		EatType				= popcan,
+		CustomEatSound 		= SwallowSchPill,
+		OnEat 				= ChlorpromazineTakePills,
+		Tooltip = Tooltip_Chlorpromazine,
+        WorldStaticModel	= Chlorpromazinepill_Ground,
+    }
+}

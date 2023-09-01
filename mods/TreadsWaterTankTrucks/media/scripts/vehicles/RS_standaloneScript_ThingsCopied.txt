@@ -1,0 +1,101 @@
+module Base
+{
+
+	/**************Scripts copied (and renamed for compatibility) from Filibuster Rhymes mod *****************/
+	item FRSideContainer_RS1
+    {
+        Weight	=	5.0,
+        Type	=	Normal,
+        DisplayName	=	Tiny Trunk,
+        Icon	=	CarTrunk,
+        VehicleType =   1,
+        MaxCapacity = 15,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 30,
+    }
+    item FRSideContainer_RS2
+    {
+        Weight	=	5.0,
+        Type	=	Normal,
+        DisplayName	=	Tiny Trunk,
+        Icon	=	CarTrunk,
+        VehicleType =   2,
+        MaxCapacity = 15,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 30,
+    }
+    item FRSideContainer_RS3
+    {
+        Weight	=	5.0,
+        Type	=	Normal,
+        DisplayName	=	Tiny Trunk,
+        Icon	=	CarTrunk,
+        VehicleType =   3,
+        MaxCapacity = 15,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 30,
+	}
+	
+	fixing Fix TruckBed Welding
+	{
+	   Require : FRSideContainer_RS1;FRSideContainer_RS2;FRSideContainer_RS3,
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SmallSheetMetal; MetalWelding=3;Mechanics=2,
+	}
+
+	fixing Fix TruckBed
+	{
+	   Require : FRSideContainer_RS1;FRSideContainer_RS2;FRSideContainer_RS3,
+	   ConditionModifier : 0.7,
+
+       Fixer : DuctTape=2;Mechanics=1,
+       Fixer : Glue=2;Mechanics=1,
+	}
+	
+	model Vehicles_f700water_RS
+	{
+		mesh = vehicles/FR_Copies/Vehicles_f700water_RS,
+		shader = vehicle_multiuv,
+		invertX = FALSE,
+		scale = 0.004519,
+	}
+	
+	model Vehicles_m35a2fuel_RS
+	{
+		mesh = vehicles/FR_Copies/Vehicles_m35a2fuel_RS,
+		shader = vehicle_norandom_multiuv,
+		invertX = FALSE,
+		scale = 0.004519,
+	}
+	
+	model Vehicles_WheelFRXL1_RS
+	{
+		mesh = vehicles/FR_Copies/WheelFRXL1_RS,
+        shader = vehiclewheel,
+		scale = 0.004519,
+	}
+
+	model Vehicles_WheelFRXL1DBL_RS
+	{
+		mesh = vehicles/FR_Copies/WheelFRXL1DBL_RS,
+        shader = vehiclewheel,
+		scale = 0.004519,
+	}
+	
+	model Vehicles_WheelMIL3_RS
+	{
+		mesh = vehicles/FR_Copies/WheelMIL3_RS,
+        shader = vehiclewheel,
+		scale = 0.004519,
+	}
+	
+	model Vehicles_WheelMIL3DBLFAKE_RS
+	{
+		mesh = vehicles/FR_Copies/WheelMIL3DBLFAKE_RS,
+        shader = vehiclewheel,
+		scale = 0.004519,
+	}
+	
+}

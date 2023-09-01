@@ -1,0 +1,8 @@
+UI_UA = {
+    UI_trait_Schizophrenia = "Шизофренія",
+    UI_trait_Schizophreniaheader = "Збивається з вашим сприйняттям реальності",
+    UI_trait_Schizophreniapoint1 = "- Почуйте звуки, які можуть не бути реальними",
+    UI_trait_Schizophreniapoint2 = "- Може бути важко спати",
+    UI_trait_Schizophreniapoint3 = "- Пов'язано з вашим рівнем стресу",
+    UI_trait_Schizophreniapoint4 = "- Психічно нестійкий",
+}

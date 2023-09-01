@@ -1,0 +1,8 @@
+UI_CN = {
+	UI_trait_Schizophrenia = "精神分裂症",
+	UI_trait_Schizophreniaheader = "- 疾病扰乱了你对现实的认知",
+	UI_trait_Schizophreniapoint1 = "- 你会听到可能不是真的声音",
+	UI_trait_Schizophreniapoint2 = "- 分裂症可能会让你难以入睡",
+	UI_trait_Schizophreniapoint3 = "- 发作率与精神压力水平有关",
+	UI_trait_Schizophreniapoint4 = "- 你的精神会非常不稳定",
+}

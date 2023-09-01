@@ -1,0 +1,4 @@
+ItemName_EN = {
+   	ItemName_SchizophreniaTrait.Chlorpromazine = "Chlorpromazine",
+	ItemName_SchizophreniaTrait.ChlorpromazinePill = "Chlorpromazine Pill",
+}

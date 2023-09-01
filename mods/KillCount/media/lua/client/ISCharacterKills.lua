@@ -29,7 +29,6 @@ function ISCharacterKills:initialise()
 end
 
 function ISCharacterKills:createChildren()
-
     local tickBox = ISTickBox:new(0, 0, 10, 10, "", self, ISCharacterKills.onShowDeadChange)
     tickBox:initialise()
     self:addChild(tickBox)
@@ -52,6 +51,12 @@ function ISCharacterKills:prerender()
 end
 
 function ISCharacterKills:render()
+    local ktd = SandboxVars.KillCount.keepTrackOfDead and SandboxVars.KillCount.shareOnServer
+    self.showDeadTickBox:setVisible(ktd)
+    if not ktd then
+        self.showDead = false
+    end
+
     local killCountModData = nil
     local md = lcl.player_getModData(self.char)
     if md and self.javaObject then
@@ -59,9 +64,12 @@ function ISCharacterKills:render()
             self:onPlayersKillsUpdate()
         end
         
-        local selectedPlayer = self.selectedPlayer
-        local playerArray = self.playerArray
-        if not self.showDead then
+        local selectedPlayer = nil
+        local playerArray = nil
+        if self.showDead then
+            selectedPlayer = self.selectedPlayer
+            playerArray = self.playerArray
+        else
             selectedPlayer = self.selectedPlayerNoDead
             playerArray = self.playerArrayNoDead
         end
@@ -176,7 +184,7 @@ function ISCharacterKills:render()
     lcl.drawText(self.javaObject, smallFont, totalText, textX, textY, 1, 1, 1, 1)
     textY = textY + fontHeight
     
-    if self.playerArray and #self.playerArray > 1 then
+    if self.playerArray and #self.playerArray > 1 and SandboxVars.KillCount.shareOnServer then
         totalText = lcl.getText('UI_chat_server_chat_title_id')..' '..lcl.getText('IGUI_char_Zombies_Killed') .. " " .. (self.serverTotalKills or 0)
         lcl.drawText(self.javaObject, smallFont, totalText, textX, textY, 1, 1, 1, 1)
         textY = textY + fontHeight
@@ -353,6 +361,7 @@ function ISCharacterKills:computeServerKills()
 end
 
 function ISCharacterKills:createComboButton()
+    if not SandboxVars.KillCount.shareOnServer then return end
     local gmd = KCShared.getModData()
     if not gmd then return end--not ready yet
     

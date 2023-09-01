@@ -1,0 +1,26 @@
+IGUI_FR = {
+
+
+	IGUI_VehiclePart1500WaterTruckTank = "Citerne à eau",
+	IGUI_VehiclePart3000WaterTruckTank = "Citerne à eau",
+	IGUI_VehiclePart10000WaterTruckTank = "Citerne à eau",
+	IGUI_VehiclePart3000WaterTruckTankTainted = "Citerne à eaux usées",
+	IGUI_VehiclePartRS_WaterFilter = "Filtre à eau",
+	IGUI_VehicleNamef700water = "Camion-Citerne à eau Franklin EF70",
+	IGUI_VehicleNamef700vacuum = "Camion-citerne d'aspiration des eaux usées Franklin EF70",
+	IGUI_VehicleNameTrailerKbacRSWater = "Remorque Citerne à eau Autotsar KBAC",
+	IGUI_VehicleNamem50water = "Camion-Citerne à eau M50",
+	IGUI_VehicleNameTrailerM967Water = "Semi-Remorque Citerne à eau HBA201",
+	IGUI_Vehicle_ContainerCapacity_Water = "Eau : %1",
+	IGUI_Vehicle_ContainerCapacity_WaterTainted = "Eau contaminée : %1",
+	IGUI_PlayerText_NoWayToWaterTankInlet = "Je ne trouve pas l'arrivée de la Citerne à eau de ce véhicule.",
+	IGUI_RS_Source = "Source : ",
+	IGUI_RS_TankWaterFromSource = "Pomper l'eau depuis",
+	IGUI_RS_TankWaterFromVehicle= "Pomper l'eau du véhicule"
+	IGUI_RS_PumpWaterTo = "Pomper l'eau vers",
+	IGUI_RS_AddWaterFrom = "Ajouter de l'eau depuis",
+	IGUI_RS_EmptyWaterTank = "Vider la citerne d'eau",
+	IGUI_RS_FilterGood = "Filtre a eau : Opérationnel",
+	IGUI_RS_FilterOK = "Filtre a eau : Nécessite un entretien",
+	IGUI_RS_FilterBad = "Filtre a eau : Contaminé",
+}

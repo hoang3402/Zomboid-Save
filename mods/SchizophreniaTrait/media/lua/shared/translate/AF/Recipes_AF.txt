@@ -1,0 +1,3 @@
+Recipes_AF = {
+    Recipe_Pop_pill = "Vat pil",
+}

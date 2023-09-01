@@ -1,0 +1,1061 @@
+module MoreSkillBooks
+{
+
+imports
+    {
+        Base
+    }
+
+/************************SKILLBOOKS************************/
+
+item BookFitness1
+    {
+	DisplayCategory     = SkillBook,
+    NumberOfPages	    = 220,
+    Weight		        = 0.8,
+    Type		        = Literature,
+    DisplayName	        = Fitness for Beginners, 
+    Icon		        = book_chocolate_Fitness1,
+    SkillTrained 	    = Fitness,
+    LvlSkillTrained     = 1,
+    NumLevelsTrained    = 2,
+    StaticModel         = Book
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookFitness2
+    {
+	DisplayCategory     = SkillBook,
+    NumberOfPages	    = 260,
+    Weight		        = 0.8,
+    Type		        = Literature,
+    DisplayName	        = Fitness for Intermediates, 
+    Icon		        = book_chocolate_Fitness2,
+    SkillTrained 	    = Fitness,
+    LvlSkillTrained     = 3,
+    NumLevelsTrained    = 2,
+    StaticModel         = Book
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookFitness3
+    {
+	DisplayCategory     = SkillBook,
+    NumberOfPages	    = 300,
+    Weight		        = 0.8,
+    Type		        = Literature,
+    DisplayName	        = Advanced Fitness, 
+    Icon		        = book_chocolate_Fitness3,
+    SkillTrained 	    = Fitness,
+    LvlSkillTrained     = 5,
+    NumLevelsTrained    = 2,
+    StaticModel         = Book
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookFitness4
+    {
+	DisplayCategory     = SkillBook,
+    NumberOfPages	    = 340,
+    Weight		        = 0.8,
+    Type		        = Literature,
+    DisplayName	        = Expert Fitness, 
+    Icon		        = book_chocolate_Fitness4,
+    SkillTrained 	    = Fitness,
+    LvlSkillTrained     = 7,
+    NumLevelsTrained    = 2,
+    StaticModel         = Book
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookFitness5
+    {
+	DisplayCategory     = SkillBook,
+    NumberOfPages	    = 380,
+    Weight		        = 0.8,
+    Type		        = Literature,
+    DisplayName	        = Master Fitness, 
+    Icon		        = book_chocolate_Fitness5,
+    SkillTrained 	    = Fitness,
+    LvlSkillTrained     = 9,
+    NumLevelsTrained    = 2,
+    StaticModel         = Book
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookStrength1
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 220,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Strength for Beginners,
+	Icon                = book_chocolate_Strength1,
+	SkillTrained        = Strength,
+	LvlSkillTrained     = 1,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookStrength2
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 260,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Strength for Intermediates,
+	Icon                = book_chocolate_Strength2,
+	SkillTrained        = Strength,
+	LvlSkillTrained     = 3,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookStrength3
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 300,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Advanced Strength,
+	Icon                = book_chocolate_Strength3,
+	SkillTrained        = Strength,
+	LvlSkillTrained     = 5,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookStrength4
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 340,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Expert Strength,
+	Icon                = book_chocolate_Strength4,
+	SkillTrained        = Strength,
+	LvlSkillTrained     = 7,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookStrength5
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 380,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Master Strength,
+	Icon                = book_chocolate_Strength5,
+	SkillTrained        = Strength,
+	LvlSkillTrained     = 9,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookAxe1
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 220,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Axe for Beginners,
+	Icon                = book_chocolate_Axe1,
+	SkillTrained        = Axe,
+	LvlSkillTrained     = 1,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookAxe2
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 260,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Axe for Intermediates,
+	Icon                = book_chocolate_Axe2,
+	SkillTrained        = Axe,
+	LvlSkillTrained     = 3,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookAxe3
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 300,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Advanced Axe,
+	Icon                = book_chocolate_Axe3,
+	SkillTrained        = Axe,
+	LvlSkillTrained     = 5,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookAxe4
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 340,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Expert Axe,
+	Icon                = book_chocolate_Axe4,
+	SkillTrained        = Axe,
+	LvlSkillTrained     = 7,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookAxe5
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 380,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Master Axe,
+	Icon                = book_chocolate_Axe5,
+	SkillTrained        = Axe,
+	LvlSkillTrained     = 9,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookBlunt1
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 220,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Blunt for Beginners,
+	Icon                = book_chocolate_Blunt1,
+	SkillTrained        = Blunt,
+	LvlSkillTrained     = 1,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookBlunt2
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 260,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Blunt for Intermediates,
+	Icon                = book_chocolate_Blunt2,
+	SkillTrained        = Blunt,
+	LvlSkillTrained     = 3,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookBlunt3
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 300,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Advanced Blunt,
+	Icon                = book_chocolate_Blunt3,
+	SkillTrained        = Blunt,
+	LvlSkillTrained     = 5,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookBlunt4
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 340,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Expert Blunt,
+	Icon                = book_chocolate_Blunt4,
+	SkillTrained        = Blunt,
+	LvlSkillTrained     = 7,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookBlunt5
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 380,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Master Blunt,
+	Icon                = book_chocolate_Blunt5,
+	SkillTrained        = Blunt,
+	LvlSkillTrained     = 9,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookSmallBlunt1
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 220,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = SmallBlunt for Beginners,
+	Icon                = book_chocolate_SmallBlunt1,
+	SkillTrained        = SmallBlunt,
+	LvlSkillTrained     = 1,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookSmallBlunt2
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 260,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = SmallBlunt for Intermediates,
+	Icon                = book_chocolate_SmallBlunt2,
+	SkillTrained        = SmallBlunt,
+	LvlSkillTrained     = 3,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookSmallBlunt3
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 300,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Advanced SmallBlunt,
+	Icon                = book_chocolate_SmallBlunt3,
+	SkillTrained        = SmallBlunt,
+	LvlSkillTrained     = 5,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookSmallBlunt4
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 340,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Expert SmallBlunt,
+	Icon                = book_chocolate_SmallBlunt4,
+	SkillTrained        = SmallBlunt,
+	LvlSkillTrained     = 7,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookSmallBlunt5
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 380,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Master SmallBlunt,
+	Icon                = book_chocolate_SmallBlunt5,
+	SkillTrained        = SmallBlunt,
+	LvlSkillTrained     = 9,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookLongBlade1
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 220,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = LongBlade for Beginners,
+	Icon                = book_chocolate_LongBlade1,
+	SkillTrained        = LongBlade,
+	LvlSkillTrained     = 1,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookLongBlade2
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 260,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = LongBlade for Intermediates,
+	Icon                = book_chocolate_LongBlade2,
+	SkillTrained        = LongBlade,
+	LvlSkillTrained     = 3,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookLongBlade3
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 300,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Advanced LongBlade,
+	Icon                = book_chocolate_LongBlade3,
+	SkillTrained        = LongBlade,
+	LvlSkillTrained     = 5,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookLongBlade4
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 340,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Expert LongBlade,
+	Icon                = book_chocolate_LongBlade4,
+	SkillTrained        = LongBlade,
+	LvlSkillTrained     = 7,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookLongBlade5
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 380,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Master LongBlade,
+	Icon                = book_chocolate_LongBlade5,
+	SkillTrained        = LongBlade,
+	LvlSkillTrained     = 9,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookSmallBlade1
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 220,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = SmallBlade for Beginners,
+	Icon                = book_chocolate_SmallBlade1,
+	SkillTrained        = SmallBlade,
+	LvlSkillTrained     = 1,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookSmallBlade2
+    {       
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 260,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = SmallBlade for Intermediates,
+	Icon                = book_chocolate_SmallBlade2,
+	SkillTrained        = SmallBlade,
+	LvlSkillTrained     = 3,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookSmallBlade3
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 300,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Advanced SmallBlade,
+	Icon                = book_chocolate_SmallBlade3,
+	SkillTrained        = SmallBlade,
+	LvlSkillTrained     = 5,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookSmallBlade4
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 340,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Expert SmallBlade,
+	Icon                = book_chocolate_SmallBlade4,
+	SkillTrained        = SmallBlade,
+	LvlSkillTrained     = 7,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookSmallBlade5
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 380,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Master SmallBlade,
+	Icon                = book_chocolate_SmallBlade5,
+	SkillTrained        = SmallBlade,
+	LvlSkillTrained     = 9,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookSpear1
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 220,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Spear for Beginners,
+	Icon                = book_chocolate_Spear1,
+	SkillTrained        = Spear,
+	LvlSkillTrained     = 1,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookSpear2
+    {       
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 260,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Spear for Intermediates,
+	Icon                = book_chocolate_Spear2,
+	SkillTrained        = Spear,
+	LvlSkillTrained     = 3,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookSpear3
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 300,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Advanced Spear,
+	Icon                = book_chocolate_Spear3,
+	SkillTrained        = Spear,
+	LvlSkillTrained     = 5,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookSpear4
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 340,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Expert Spear,
+	Icon                = book_chocolate_Spear4,
+	SkillTrained        = Spear,
+	LvlSkillTrained     = 7,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookSpear5
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 380,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Master Spear,
+	Icon                = book_chocolate_Spear5,
+	SkillTrained        = Spear,
+	LvlSkillTrained     = 9,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookMaintenance1
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 220,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Maintenance for Beginners,
+	Icon                = book_chocolate_Maintenance1,
+	SkillTrained        = Maintenance,
+	LvlSkillTrained     = 1,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookMaintenance2
+    {       
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 260,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Maintenance for Intermediates,
+	Icon                = book_chocolate_Maintenance2,
+	SkillTrained        = Maintenance,
+	LvlSkillTrained     = 3,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookMaintenance3
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 300,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Advanced Maintenance,
+	Icon                = book_chocolate_Maintenance3,
+	SkillTrained        = Maintenance,
+	LvlSkillTrained     = 5,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookMaintenance4
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 340,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Expert Maintenance,
+	Icon                = book_chocolate_Maintenance4,
+	SkillTrained        = Maintenance,
+	LvlSkillTrained     = 7,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookMaintenance5
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 380,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Master Maintenance,
+	Icon                = book_chocolate_Maintenance5,
+	SkillTrained        = Maintenance,
+	LvlSkillTrained     = 9,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookSprinting1
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 220,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Sprinting for Beginners,
+	Icon                = book_chocolate_Sprinting1,
+	SkillTrained        = Sprinting,
+	LvlSkillTrained     = 1,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookSprinting2
+    {       
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 260,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Sprinting for Intermediates,
+	Icon                = book_chocolate_Sprinting2,
+	SkillTrained        = Sprinting,
+	LvlSkillTrained     = 3,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookSprinting3
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 300,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Advanced Sprinting,
+	Icon                = book_chocolate_Sprinting3,
+	SkillTrained        = Sprinting,
+	LvlSkillTrained     = 5,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookSprinting4
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 340,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Expert Sprinting,
+	Icon                = book_chocolate_Sprinting4,
+	SkillTrained        = Sprinting,
+	LvlSkillTrained     = 7,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookSprinting5
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 380,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Master Sprinting,
+	Icon                = book_chocolate_Sprinting5,
+	SkillTrained        = Sprinting,
+	LvlSkillTrained     = 9,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookLightfooted1
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 220,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Lightfooted for Beginners,
+	Icon                = book_chocolate_Lightfooted1,
+	SkillTrained        = Lightfooted,
+	LvlSkillTrained     = 1,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookLightfooted2
+    {       
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 260,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Lightfooted for Intermediates,
+	Icon                = book_chocolate_Lightfooted2,
+	SkillTrained        = Lightfooted,
+	LvlSkillTrained     = 3,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookLightfooted3
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 300,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Advanced Lightfooted,
+	Icon                = book_chocolate_Lightfooted3,
+	SkillTrained        = Lightfooted,
+	LvlSkillTrained     = 5,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookLightfooted4
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 340,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Expert Lightfooted,
+	Icon                = book_chocolate_Lightfooted4,
+	SkillTrained        = Lightfooted,
+	LvlSkillTrained     = 7,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookLightfooted5
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 380,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Master Lightfooted,
+	Icon                = book_chocolate_Lightfooted5,
+	SkillTrained        = Lightfooted,
+	LvlSkillTrained     = 9,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookNimble1
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 220,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Nimble for Beginners,
+	Icon                = book_chocolate_Nimble1,
+	SkillTrained        = Nimble,
+	LvlSkillTrained     = 1,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookNimble2
+    {       
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 260,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Nimble for Intermediates,
+	Icon                = book_chocolate_Nimble2,
+	SkillTrained        = Nimble,
+	LvlSkillTrained     = 3,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookNimble3
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 300,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Advanced Nimble,
+	Icon                = book_chocolate_Nimble3,
+	SkillTrained        = Nimble,
+	LvlSkillTrained     = 5,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookNimble4
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 340,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Expert Nimble,
+	Icon                = book_chocolate_Nimble4,
+	SkillTrained        = Nimble,
+	LvlSkillTrained     = 7,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookNimble5
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 380,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Master Nimble,
+	Icon                = book_chocolate_Nimble5,
+	SkillTrained        = Nimble,
+	LvlSkillTrained     = 9,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookSneaking1
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 220,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Sneaking for Beginners,
+	Icon                = book_chocolate_Sneaking1,
+	SkillTrained        = Sneaking,
+	LvlSkillTrained     = 1,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookSneaking2
+    {       
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 260,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Sneaking for Intermediates,
+	Icon                = book_chocolate_Sneaking2,
+	SkillTrained        = Sneaking,
+	LvlSkillTrained     = 3,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookSneaking3
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 300,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Advanced Sneaking,
+	Icon                = book_chocolate_Sneaking3,
+	SkillTrained        = Sneaking,
+	LvlSkillTrained     = 5,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookSneaking4
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 340,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Expert Sneaking,
+	Icon                = book_chocolate_Sneaking4,
+	SkillTrained        = Sneaking,
+	LvlSkillTrained     = 7,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookSneaking5
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 380,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Master Sneaking,
+	Icon                = book_chocolate_Sneaking5,
+	SkillTrained        = Sneaking,
+	LvlSkillTrained     = 9,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookAiming1
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 220,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Aiming for Beginners,
+	Icon                = book_chocolate_Aiming1,
+	SkillTrained        = Aiming,
+	LvlSkillTrained     = 1,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookAiming2
+    {       
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 260,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Aiming for Intermediates,
+	Icon                = book_chocolate_Aiming2,
+	SkillTrained        = Aiming,
+	LvlSkillTrained     = 3,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookAiming3
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 300,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Advanced Aiming,
+	Icon                = book_chocolate_Aiming3,
+	SkillTrained        = Aiming,
+	LvlSkillTrained     = 5,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookAiming4
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 340,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Expert Aiming,
+	Icon                = book_chocolate_Aiming4,
+	SkillTrained        = Aiming,
+	LvlSkillTrained     = 7,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookAiming5
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 380,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Master Aiming,
+	Icon                = book_chocolate_Aiming5,
+	SkillTrained        = Aiming,
+	LvlSkillTrained     = 9,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookReloading1
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 220,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Reloading for Beginners,
+	Icon                = book_chocolate_Reloading1,
+	SkillTrained        = Reloading,
+	LvlSkillTrained     = 1,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookReloading2
+    {       
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 260,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Reloading for Intermediates,
+	Icon                = book_chocolate_Reloading2,
+	SkillTrained        = Reloading,
+	LvlSkillTrained     = 3,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookReloading3
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 300,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Advanced Reloading,
+	Icon                = book_chocolate_Reloading3,
+	SkillTrained        = Reloading,
+	LvlSkillTrained     = 5,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookReloading4
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 340,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Expert Reloading,
+	Icon                = book_chocolate_Reloading4,
+	SkillTrained        = Reloading,
+	LvlSkillTrained     = 7,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+item BookReloading5
+    {
+	DisplayCategory     = SkillBook,
+	NumberOfPages       = 380,
+	Weight              = 0.8,
+	Type                = Literature,
+	DisplayName         = Master Reloading,
+	Icon                = book_chocolate_Reloading5,
+	SkillTrained        = Reloading,
+	LvlSkillTrained     = 9,
+	NumLevelsTrained    = 2,
+	StaticModel         = Book,
+	WorldStaticModel    = BookClosedGround,
+    }
+}

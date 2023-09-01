@@ -1,0 +1,186 @@
+module Base
+{
+
+	/************************ MISC ************************/
+
+    item EmptyConcreteBag
+    {
+        DisplayCategory = Container,
+        Weight	=	0.1,
+        Type	=	Container,
+        WeightReduction	=	8,
+        Capacity	=	10,
+        DisplayName	=	Sack,
+        Icon	=	Concrete_Powder,
+        RunSpeedModifier = 0.99,
+        ReplaceInSecondHand = Bag_Sandbag_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_Sandbag_RHand holdingbagright,
+        WorldStaticModel = BagofConcretePowder,
+        Tooltip = Tooltip_item_empty_sack_container,
+        Tags    =   HoldDirt,
+    }
+
+    item BathTowel
+	{
+	    DisplayCategory = Household,
+		Weight	=	0.3,
+		Type	=	Drainable,
+		DisplayName	=	Bath Towel,
+        UseWhileEquipped	=	FALSE,
+		Icon	=	Bathtowel,
+        UseDelta	=	0.01,
+		ReplaceOnDeplete	=	BathTowelWet,
+		Tooltip = Tooltip_Bathtowel,
+		WorldStaticModel = BathTowel,
+		cantBeConsolided = TRUE,
+	}
+
+    item DishCloth
+	{
+	    DisplayCategory = Household,
+		Weight	=	0.3,
+		Type	=	Drainable,
+		DisplayName	=	Dish Towel,
+        UseWhileEquipped	=	FALSE,
+		Icon	=	Dishtowel,
+        UseDelta	=	0.03,
+		ReplaceOnDeplete	=	DishClothWet,
+		Tooltip = Tooltip_Bathtowel,
+		WorldStaticModel = DishTowel,
+		cantBeConsolided = TRUE,
+	}
+
+/************************ OVERRIDES ************************/
+
+	item HandTorch
+	{
+		DisplayCategory = LightSource,
+        LightDistance	=	15,
+        Weight	=	0.5,
+        DisappearOnUse	=	FALSE,
+        Type	=	Drainable,
+        TorchCone	=	TRUE,
+        UseDelta	=	0.0004,
+        LightStrength	=	0.9,
+        DisplayName	=	Hand Torch,
+        ActivatedItem	=	TRUE,
+        Icon	=	Flashlight2,
+        MetalValue = 10,
+        cantBeConsolided = TRUE,
+        StaticModel = HandTorch,
+        primaryAnimMask = HoldingTorchRight,
+        secondaryAnimMask = HoldingTorchLeft,
+        WorldStaticModel = HandTorchGround,
+		AttachmentType = Screwdriver,
+	}
+
+	item Pie
+	{
+		DisplayName = Pie Slice,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.5,
+		Icon = Pie,
+		DaysFresh = 5,
+		DaysTotallyRotten = 8,
+		HungerChange = -30,
+        UnhappyChange = -5,
+		Calories = 404,
+		Carbohydrates = 20.45,
+		Lipids = 20.61,
+		Proteins = 54.53,
+		StaticModel = PieSlice,
+		WorldStaticModel = Pie,
+	}
+
+	item PiePumpkin
+	{
+		DisplayName = Pumpkin Pie Slice,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.5,
+		Icon = PiePumpkin,
+		DaysFresh = 5,
+		DaysTotallyRotten = 8,
+		HungerChange = -30,
+        UnhappyChange = -5,
+		Calories = 404,
+		Carbohydrates = 20.45,
+		Lipids = 20.61,
+		Proteins = 54.53,
+		WorldStaticModel = PiePumpkin,
+	}
+
+	item PieApple
+	{
+		DisplayName = Apple Pie Slice,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.5,
+		Icon = Pie_Apple,
+		DaysFresh = 5,
+		DaysTotallyRotten = 8,
+		HungerChange = -30,
+        UnhappyChange = -5,
+		Calories = 404,
+		Carbohydrates = 20.45,
+		Lipids = 20.61,
+		Proteins = 54.53,
+		WorldStaticModel = PieApple_Ground,
+	}
+
+	item PieBlueberry
+	{
+		DisplayName = Blueberry Pie Slice,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.5,
+		Icon = Pie_Blueberry,
+		DaysFresh = 5,
+		DaysTotallyRotten = 8,
+		HungerChange = -30,
+        UnhappyChange = -5,
+		Calories = 404,
+		Carbohydrates = 20.45,
+		Lipids = 20.61,
+		Proteins = 54.53,
+		WorldStaticModel = PieBlueberry_Ground,
+	}
+	
+	item PieKeyLime
+	{
+		DisplayName = Key Lime Pie Slice,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.5,
+		Icon = Pie_Keylime,
+		DaysFresh = 5,
+		DaysTotallyRotten = 8,
+		HungerChange = -30,
+        UnhappyChange = -5,
+		Calories = 404,
+		Carbohydrates = 20.45,
+		Lipids = 20.61,
+		Proteins = 54.53,
+		WorldStaticModel = Pie_Keylime_Ground,
+	}
+	
+	item PieLemonMeringue
+	{
+		DisplayName = Lemon Meringue Pie Slice,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.5,
+		Icon = Pie_Lemonmeringue,
+		DaysFresh = 5,
+		DaysTotallyRotten = 8,
+		HungerChange = -30,
+        UnhappyChange = -5,
+		Calories = 404,
+		Carbohydrates = 20.45,
+		Lipids = 20.61,
+		Proteins = 54.53,
+		WorldStaticModel = PieLemonmeringue_Ground,
+	}
+}
+

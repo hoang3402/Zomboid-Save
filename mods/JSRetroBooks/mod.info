@@ -1,0 +1,4 @@
+name=Retroactive Skill Books
+poster=poster.png
+id=JSRetroBooks
+description=A simple mod that saves missed XP earned while a skill book is unread or partially read, then returns that XP upon finishing the skill book. The XP return and other options can be adjusted in the 'Character' page in sandbox options.

@@ -1,0 +1,20 @@
+Sandbox_EN = {
+
+	Sandbox_JSRetroBooks = "Retroactive Skill Books",
+
+	Sandbox_JSRetroBooks_Return = "Skill Book XP Return Percent",
+	Sandbox_JSRetroBooks_Return_tooltip = "Determines what percent of the boosted XP that was missed is returned by reading a skill book.",
+	
+	Sandbox_JSRetroBooks_Capped = "Skill Book XP Return Capped",
+	Sandbox_JSRetroBooks_Capped_tooltip = "Sets whether XP returned by reading is capped at the max trainable level of the skill book.",
+	
+	Sandbox_JSRetroBooks_ObsoleteStyle = "Obsolete Skill Book XP Return",
+	Sandbox_JSRetroBooks_ObsoleteStyle_tooltip = "Sets how to handle XP return for obsolete skill books (meaning the player is beyond the trainable level).\nCapped = returns, at most, max XP returnable by a capped, non-obsolete skill book\nFull = returns all missed XP (much higher than vanilla would allow)\nAll obsolete XP is also multiplied by the skill book return percent.",
+	
+	Sandbox_JSRetroBooks_ObsoleteStyleEnum_option1 = "None",
+	Sandbox_JSRetroBooks_ObsoleteStyleEnum_option2 = "Capped",
+	Sandbox_JSRetroBooks_ObsoleteStyleEnum_option3 = "Full",
+	
+	Sandbox_JSRetroBooks_MuteWhileReading = "XP Tracking Paused While Reading",
+	Sandbox_JSRetroBooks_MuteWhileReading_tooltip = "This is a compatibility option for mods that grant XP for reading skill books that causes all\nXP gained while reading a skill book to not be considered \"missed\" and not add to returnable XP.\nNote that this necessarily includes all sources of XP, including TV shows.",
+}

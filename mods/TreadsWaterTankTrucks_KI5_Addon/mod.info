@@ -1,0 +1,9 @@
+name=Tread's Water Tank Trucks - KI5 '82 Oshkosh M911 Addon [41.65]
+id=RS_WaterCistern_KI5_Addon
+description=<RGB:1,0.6,0.2>Made for Build 41.65 <RGB:0.3,1,0.6><LINE><LINE>This addon to my Water Tank Trucks adds Water Tank Trailer based off '82 Oshkosh M911 Fuel Trailer by KI5. <LINE>Compatibility is not guaranteed in case of updates of KI5s mod (His changes to fuel trailer script will not influence water tank trailer added by this sub-mod, but any changes to model will). <LINE>Big thank you to KI5 for allowing me to prepare water version of his trailer and for providing me with new textures.
+author=Tread (Steam: Trealak)
+require=RS_WaterCistern,82oshkoshM911
+icon=icon.png
+poster=poster.png
+modversion=1.0
+

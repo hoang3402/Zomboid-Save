@@ -1,0 +1,9 @@
+Sandbox_PL = {
+    Sandbox_CommonSense = "Zdrowy rozs¹dek",
+    Sandbox_CommonSense_PryingMechanic = "Mechanika £omu",
+    Sandbox_CommonSense_PryingMechanic_tooltip = "Prze³¹cza mo¿liwoœæ przez gracza podwa¿enia drzwi, okien, etc. za pomoc¹ £omu.",
+    Sandbox_CommonSense_PartsHighlighter = "Zakreœlacz stanu czêœci",
+    Sandbox_CommonSense_PartsHighlighter_tooltip = "Wyœwietla ikonê akumulatora i silnika na desce rozdzielczej pojazdu w ró¿nych kolorach w zale¿noœci od ich stanu. "
+    Sandbox_CommonSense_ColorFilter = "Filtr kolorów",
+    Sandbox_CommonSense_ColorFilter_tooltip = "Prze³¹cza przyjazne kolory dla osób dotkniêtych daltonizmem. ",
+}

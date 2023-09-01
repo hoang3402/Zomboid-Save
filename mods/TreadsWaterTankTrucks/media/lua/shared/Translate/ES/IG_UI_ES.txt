@@ -1,0 +1,26 @@
+IGUI_ES = {
+
+
+    IGUI_VehiclePart1500WaterTruckTank = "Tanque de agua",
+	IGUI_VehiclePart3000WaterTruckTank = "Tanque de agua",
+	IGUI_VehiclePart10000WaterTruckTank = "Tanque de agua",
+	IGUI_VehiclePart3000WaterTruckTankTainted = "Tanque séptico",
+	IGUI_VehiclePartRS_WaterFilter = "Filtro de agua",
+	IGUI_VehicleNamef700water = "Camión cisterna Franklin EF70",
+	IGUI_VehicleNamef700vacuum = "Camión aspirador de aguas residuales Franklin EF70",
+	IGUI_VehicleNameTrailerKbacRSWater = "Camión cisterna Autotsar KBAC",
+	IGUI_VehicleNamem50water = "Camión cisterna M50",
+	IGUI_VehicleNameTrailerM967Water = "Camión cisterna HBA201",
+	IGUI_Vehicle_ContainerCapacity_Water = "Agua: %1",
+	IGUI_Vehicle_ContainerCapacity_WaterTainted = "Agua contaminada: %1",
+	IGUI_PlayerText_NoWayToWaterTankInlet = "No puedo encontrar la manera de llegar a la entrada del tanque de agua de este auto. ",
+	IGUI_RS_Source = "Fuente: ",
+	IGUI_RS_TankWaterFromSource = "Bombear agua de",
+	IGUI_RS_TankWaterFromVehicle= "Bombear agua del vehículo"
+	IGUI_RS_PumpWaterTo = "Bombear agua a",
+	IGUI_RS_AddWaterFrom = "Anadir agua de",
+	IGUI_RS_EmptyWaterTank = "Vaciar el tanque de agua",
+	IGUI_RS_FilterGood = "Filtro de agua: Operativo",
+	IGUI_RS_FilterOK = "Filtro de agua: Requiere mantenimiento",
+	IGUI_RS_FilterBad = "Filtro de agua: Contaminado",
+}

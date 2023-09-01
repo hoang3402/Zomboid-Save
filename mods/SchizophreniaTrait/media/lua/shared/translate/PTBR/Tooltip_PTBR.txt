@@ -1,0 +1,3 @@
+Tooltip_PTBR = {
+    Tooltip_Chlorpromazine = "Um medicamento antipsicótico que é amplamente utilizado para tratar transtornos psicóticos como esquizofrenia, Tome um comprimido a cada 24 horas. Não exceda o limite recomendado na bula."
+}

@@ -1,0 +1,3 @@
+Recipes_DE = {
+    Recipe_Pop_pill = "Tablette entnehmen",
+}

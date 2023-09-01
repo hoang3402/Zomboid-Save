@@ -1,0 +1,15 @@
+ItemName_FR = {
+	ItemName_Base.1500_Water_Tank1 = "Citerne à eau",
+	ItemName_Base.1500_Water_Tank2 = "Citerne à eau",
+	ItemName_Base.1500_Water_Tank3 = "Citerne à eau",
+	ItemName_Base.3000_Water_Tank1 = "Citerne à eau",
+	ItemName_Base.3000_Water_Tank2 = "Citerne à eau",
+	ItemName_Base.3000_Water_Tank3 = "Citerne à eau",
+	ItemName_Base.10000_Water_Tank1 = "Citerne à eau",
+	ItemName_Base.10000_Water_Tank2 = "Citerne à eau",
+	ItemName_Base.10000_Water_Tank3 = "Citerne à eau",
+	ItemName_Base.3000_Water_Tank_Tainted1 = "Citerne à eaux usées",
+	ItemName_Base.3000_Water_Tank_Tainted2 = "Citerne à eaux usées",
+	ItemName_Base.3000_Water_Tank_Tainted3 = "Citerne à eaux usées",
+	ItemName_Base.RS_WaterFilter  = "Filtre à eau",
+)

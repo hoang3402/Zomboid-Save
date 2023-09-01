@@ -1,0 +1,4 @@
+ItemName_PTBR = {
+   	ItemName_SchizophreniaTrait.Chlorpromazine = "Clorpromazina",
+	ItemName_SchizophreniaTrait.ChlorpromazinePill = "Comprimido de Clorpromazina",
+}

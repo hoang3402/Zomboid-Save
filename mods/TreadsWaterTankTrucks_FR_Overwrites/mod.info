@@ -1,0 +1,9 @@
+name=Tread's Water Tank Trucks - FR Firetruck overwrite [41.65]
+id=RS_WaterCistern_FR_Overwrite
+description=<RGB:1,0.6,0.2>Made for Build 41.65 <RGB:0.3,1,0.6><LINE><LINE>This addon to my Water Tank Trucks adds Water Tank part to Firetruck form Filibuster Rhymes' Used Cars mod. <LINE>Compatibility is not guaranteed in case of updates of Filibusters mod (His changes to Firetruck will be overwriten by this mod). <LINE>Big thank you to Filibuster Rhymes' for allowing me to use parts of his great mod.
+author=Tread (Steam: Trealak)
+require=RS_WaterCistern,FRUsedCars
+icon=icon.png
+poster=poster.png
+modversion=1.0
+

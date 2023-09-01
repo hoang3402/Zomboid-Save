@@ -1,0 +1,10 @@
+UI_CN = {
+	UI_legendCommunity = "公共设施",
+	UI_legendRetail = "零售 & 商业设施",
+	UI_legendIndustrial = "工业",
+	UI_legendResidential = "住宅",
+	UI_legendRestaurants = "餐饮 & 娱乐",
+	UI_legendHospitality = "旅馆设施",
+	UI_legendMedical = "医疗",
+	UI_legendParks = "公园",
+}

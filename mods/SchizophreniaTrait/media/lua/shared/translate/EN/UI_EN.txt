@@ -1,0 +1,8 @@
+UI_EN = {
+    UI_trait_Schizophrenia = "Schizophrenia",
+    UI_trait_Schizophreniaheader = "Messes with your perception of reality.",
+    UI_trait_Schizophreniapoint1 = "- Hear sounds that may not be real,",
+    UI_trait_Schizophreniapoint2 = "- May find it hard to sleep,",
+    UI_trait_Schizophreniapoint3 = "- Tied to your stress level,",
+    UI_trait_Schizophreniapoint4 = "- Mentally unstable.",
+}

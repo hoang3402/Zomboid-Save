@@ -1,0 +1,10 @@
+UI_CS = {
+    UI_legendCommunity = "Komunitní služby",
+    UI_legendHospitality = "Pohostinství",
+    UI_legendIndustrial = "Prùmysl",
+    UI_legendMedical = "Zdravotní",
+    UI_legendParks = "Parky",
+    UI_legendResidential = "Rezidenèní",
+    UI_legendRestaurants = "Restaurace a zábava",
+    UI_legendRetail = "Maloobchodní a komerèní",
+}

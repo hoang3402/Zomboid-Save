@@ -1,0 +1,26 @@
+IGUI_PL = {
+
+
+    IGUI_VehiclePart1500WaterTruckTank = "Zbiornik na wodÍ",
+	IGUI_VehiclePart3000WaterTruckTank = "Zbiornik na wodÍ",
+	IGUI_VehiclePart10000WaterTruckTank = "Zbiornik na wodÍ",
+	IGUI_VehiclePart3000WaterTruckTankTainted = "Zbiornik na nieczystoúci",
+	IGUI_VehiclePartRS_WaterFilter = "Filtr wody",
+	IGUI_VehicleNamef700water = "Franklin EF70 Woda",
+	IGUI_VehicleNamef700vacuum = "Franklin EF70 Szambiarka",
+	IGUI_VehicleNameTrailerKbacRSWater = "Autotsar KBAC Woda",
+	IGUI_VehicleNameTrailerM967Water = "Naczepa HBA201 Woda",
+	IGUI_VehicleNamem50water = "M50 Woda",
+	IGUI_Vehicle_ContainerCapacity_Water = "Woda: %1",
+	IGUI_Vehicle_ContainerCapacity_WaterTainted = "Brudna woda: %1",
+	IGUI_PlayerText_NoWayToWaterTankInlet = "Zastawiony wlew zbiornika wody pojazdu.",
+	IGUI_RS_Source = "èrÛd≥o: ",
+	IGUI_RS_TankWaterFromSource = "Wpompuj wodÍ z",
+	IGUI_RS_TankWaterFromVehicle= "Wpompuj wodÍ z pojazdu"
+	IGUI_RS_PumpWaterTo = "Pompuj wodÍ do",
+	IGUI_RS_AddWaterFrom = "Przelej wodÍ z",
+	IGUI_RS_EmptyWaterTank = "OprÛønij zbiornik wody",
+	IGUI_RS_FilterGood = "Filtr wody: Sprawny",
+	IGUI_RS_FilterOK = "Filtr wody: Wymaga serwisu",
+	IGUI_RS_FilterBad = "Filtr wody: Skaøony",
+}

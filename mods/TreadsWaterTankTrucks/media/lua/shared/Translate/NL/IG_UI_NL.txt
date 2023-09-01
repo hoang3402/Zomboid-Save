@@ -1,0 +1,25 @@
+IGUI_NL = {
+
+    IGUI_VehiclePart1500WaterTruckTank = "Watertank",
+	IGUI_VehiclePart3000WaterTruckTank = "Watertank",
+	IGUI_VehiclePart10000WaterTruckTank = "Watertank",
+	IGUI_VehiclePart3000WaterTruckTankTainted = "Septic Tank",
+	IGUI_VehiclePartRS_WaterFilter = "Waterfilter",
+	IGUI_VehicleNamef700water = "Franklin EF70 Water",
+	IGUI_VehicleNamef700vacuum = "Franklin EF70 Vacuümwagen",
+	IGUI_VehicleNameTrailerKbacRSWater = "Autotsar KBAC Water",
+	IGUI_VehicleNameTrailerM967Water = "HBA201 Water Tankoplegger",
+	IGUI_VehicleNamem50water = "M50 Water",
+	IGUI_Vehicle_ContainerCapacity_Water = "Water: %1",
+	IGUI_Vehicle_ContainerCapacity_WaterTainted = "Besmet water: %1",
+	IGUI_PlayerText_NoWayToWaterTankInlet = "Ik kan geen weg vinden naar de watertank inlaat van deze auto.",
+	IGUI_RS_Source = "Bron: ",
+	IGUI_RS_TankWaterFromSource = "Pomp Water vanuit",
+	IGUI_RS_TankWaterFromVehicle= "Pomp Water uit het Voertuig"
+	IGUI_RS_PumpWaterTo = "Water Pompen naar",
+	IGUI_RS_AddWaterFrom = "Voeg Water Toe vanuit",
+	IGUI_RS_EmptyWaterTank = "Maak de Watertank Leeg",
+	IGUI_RS_FilterGood = "Waterfilter: operationeel",
+	IGUI_RS_FilterOK = "Waterfilter: vereist onderhoud",
+	IGUI_RS_FilterBad = "Waterfilter: vervuild",
+}

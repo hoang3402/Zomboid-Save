@@ -1,0 +1,3 @@
+Tooltip_CN = {
+	Tooltip_Chlorpromazine = "一种抗精神病药物,主要用于治疗精神分裂症等精神病<br>每 24 小时服用一次<br>不要超过推荐量"
+}

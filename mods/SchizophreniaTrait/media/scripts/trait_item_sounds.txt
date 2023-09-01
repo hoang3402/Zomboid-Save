@@ -1,0 +1,20 @@
+module Base
+{
+	sound PopSchPill
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/poppill.ogg,
+		}
+	}
+
+	sound SwallowSchPill
+	{
+		category = Item,
+		clip
+		{
+			file = media/sound/swallowpill.ogg,
+		}
+	}
+}

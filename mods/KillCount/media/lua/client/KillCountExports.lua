@@ -8,7 +8,6 @@ end
 
 if KillCount.Verbose then print ('KillCountExports export loading.') end
 function KillCount.doExport()
-    
     return SandboxVars.KillCount and SandboxVars.KillCount.doExport
 end
 

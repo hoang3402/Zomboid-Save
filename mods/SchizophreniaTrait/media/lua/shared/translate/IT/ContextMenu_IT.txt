@@ -1,0 +1,3 @@
+ContextMenu_IT = {
+    ContextMenu_Take_Pill = "Prendi pillola",
+}

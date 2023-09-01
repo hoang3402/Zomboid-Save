@@ -1,0 +1,3 @@
+Tooltip_RO = {
+    Tooltip_Chlorpromazine = "Un medicament anipsihotic, utilizat în principal pentru tratarea tulburările psihotice precum schizofrenia, luați o pilulă la fiecare 24 de ore. Nu depășiți cantitatea recomandată."
+}

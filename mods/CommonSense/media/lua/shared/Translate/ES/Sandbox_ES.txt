@@ -1,0 +1,9 @@
+Sandbox_ES = {
+    Sandbox_CommonSense = "Sentido Común",
+    Sandbox_CommonSense_PryingMechanic = "Mecánica de Palanca",
+    Sandbox_CommonSense_PryingMechanic_tooltip = "Alterna si los jugadores pueden forzar las puertas, ventanas, etc. uitilizando una palanca ",
+    Sandbox_CommonSense_PartsHighlighter = "Resaltador del estado de las piezas",
+    Sandbox_CommonSense_PartsHighlighter_tooltip = "Muestra el ícono de la batería y el motor en los tableros del vehículo en varios colores según su condición. "
+    Sandbox_CommonSense_ColorFilter = "Filtro de Color",
+    Sandbox_CommonSense_ColorFilter_tooltip = "Alterna colores amigables para aquellos afectados por el daltonismo. ",
+}

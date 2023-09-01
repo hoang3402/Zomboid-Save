@@ -1,0 +1,10 @@
+UI_RU = {
+	UI_legendCommunity = "Общественные учреждения",
+	UI_legendRetail = "Торговля и коммерция",
+	UI_legendIndustrial = "Промышленность",
+	UI_legendResidential = "Жилые дома",
+	UI_legendRestaurants = "Рестораны и развлечения",
+	UI_legendHospitality = "Гостиницы",
+	UI_legendMedical = "Медучреждения",
+	UI_legendParks = "Парки",
+}

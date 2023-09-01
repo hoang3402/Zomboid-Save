@@ -1,0 +1,3 @@
+Recipes_PTBR = {
+	Recipe_Pop_pill = "Remover da embalagem",
+}

@@ -1,0 +1,9 @@
+Sandbox_DE = {
+    Sandbox_CommonSense = "Gesunder Menschenverstand",
+    Sandbox_CommonSense_PryingMechanic = "Brecheisenmechanik",
+    Sandbox_CommonSense_PryingMechanic_tooltip = "Schaltet um, ob Spieler Türen, Fenster usw. mit einem Brecheisen öffnen können. ",
+    Sandbox_CommonSense_PartsHighlighter = "Marker für Teilezustand",
+    Sandbox_CommonSense_PartsHighlighter_tooltip = "Zeigt das Symbol für Batterie und Motor im Armaturenbrett des Fahrzeugs je nach Zustand in verschiedenen Farben an. "
+    Sandbox_CommonSense_ColorFilter = "Farbfilter",
+    Sandbox_CommonSense_ColorFilter_tooltip = "Schaltet freundliche Farben für Menschen mit Farbenblindheit um. ",
+}

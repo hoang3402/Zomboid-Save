@@ -25,3 +25,19 @@ option KillCount.MaxUpdateDelay
     page = KillCount,
     translation = KillCount_MaxUpdateDelay,
 }
+
+option KillCount.shareOnServer
+{
+    type = boolean,
+    default = true,
+    page = KillCount,
+    translation = KillCount_shareOnServer,
+}
+
+option KillCount.keepTrackOfDead
+{
+    type = boolean,
+    default = true,
+    page = KillCount,
+    translation = KillCount_keepTrackOfDead,
+}

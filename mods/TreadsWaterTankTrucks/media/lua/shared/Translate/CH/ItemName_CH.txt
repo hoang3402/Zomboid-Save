@@ -1,0 +1,15 @@
+ItemName_CH = {
+	ItemName_Base.1500_Water_Tank1 = "水箱",
+	ItemName_Base.1500_Water_Tank2 = "水箱",
+	ItemName_Base.1500_Water_Tank3 = "水箱",
+	ItemName_Base.3000_Water_Tank1 = "水箱",
+	ItemName_Base.3000_Water_Tank2 = "水箱",
+	ItemName_Base.3000_Water_Tank3 = "水箱",
+	ItemName_Base.10000_Water_Tank1 = "水箱",
+	ItemName_Base.10000_Water_Tank2 = "水箱",
+	ItemName_Base.10000_Water_Tank3 = "水箱",
+	ItemName_Base.3000_Water_Tank_Tainted1 = "污水箱",
+	ItemName_Base.3000_Water_Tank_Tainted2 = "污水箱",
+	ItemName_Base.3000_Water_Tank_Tainted3 = "污水箱",
+	ItemName_Base.RS_WaterFilter  = "濾水器",
+)

@@ -1,0 +1,15 @@
+ItemName_RU = {
+	ItemName_Base.1500_Water_Tank1 = "Водяная цистерна",
+	ItemName_Base.1500_Water_Tank2 = "Водяная цистерна",
+	ItemName_Base.1500_Water_Tank3 = "Водяная цистерна",
+	ItemName_Base.3000_Water_Tank1 = "Водяная цистерна",
+	ItemName_Base.3000_Water_Tank2 = "Водяная цистерна",
+	ItemName_Base.3000_Water_Tank3 = "Водяная цистерна",
+	ItemName_Base.10000_Water_Tank1 = "Водяная цистерна",
+	ItemName_Base.10000_Water_Tank2 = "Водяная цистерна",
+	ItemName_Base.10000_Water_Tank3 = "Водяная цистерна",
+	ItemName_Base.3000_Water_Tank_Tainted1 = "Грязная цистерна",
+	ItemName_Base.3000_Water_Tank_Tainted2 = "Грязная цистерна",
+	ItemName_Base.3000_Water_Tank_Tainted3 = "Грязная цистерна",
+	ItemName_Base.RS_WaterFilter  = "Водяной фильтр",
+)

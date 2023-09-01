@@ -19,17 +19,38 @@ function KCServer.OnClientCommand(mod, command, player, args)
             end
         end
         
-        gmd[command] = args--override last values
+        if gmd then
+            gmd[command] = args--override last values
+        end
         
-        ModData.transmit(KCShared.Key);--share with all subscribed clients --TODO limit server emition frequency
+        if SandboxVars.KillCount.shareOnServer then
+            ModData.transmit(KCShared.Key);--share with all subscribed clients --TODO limit server emition frequency
+        end
     end
 end
 Events.OnClientCommand.Add(KCServer.OnClientCommand)
 
 --we use Global Mod Data to save and load, let's log it at load time for debug
 function KCServer.OnInitGlobalModData()
-    ModData.getOrCreate(KCShared.Key)--create for valid register of clients
-    if KCServer.Verbose then print ("KCServer.OnInitGlobalModData "..tab2str(ModData.getOrCreate(KCShared.Key))) end
+    --clear on sandbox option change
+    if not SandboxVars.KillCount.shareOnServer then
+        ModData.remove(KCShared.Key)
+    elseif not SandboxVars.KillCount.keepTrackOfDead then
+        local gmd = ModData.getOrCreate(KCShared.Key)--create for valid register of clients
+        local toRemove = {}
+        for userName,data in pairs(gmd) do
+            if string.find(userName,'%.') then
+                table.insert(toRemove,userName)
+            end
+        end
+        for i=1, #toRemove do
+            gmd[toRemove[i]] = nil
+        end
+    else
+        ModData.getOrCreate(KCShared.Key)--create for valid register of clients
+    end
+
+    if KCServer.Verbose then print ("KCServer.OnInitGlobalModData "..tab2str(ModData.get(KCShared.Key))) end
 end
 
 Events.OnInitGlobalModData.Add(KCServer.OnInitGlobalModData)--this is used in solo: todo remove?
@@ -43,11 +64,15 @@ function KCServer.OnCharacterDeath(character)
             local pmd = gmd[name]
             if pmd then
                 gmd[name] = nil--disconnect from db
-                local deadName = KCServer.geNextDeadName(gmd,name)
-                if deadName then
-                    gmd[deadName] = pmd
+                if SandboxVars.KillCount.keepTrackOfDead then
+                    local deadName = KCServer.geNextDeadName(gmd,name)
+                    if deadName then
+                        gmd[deadName] = pmd
+                    end
                 end
-                ModData.transmit(KCShared.Key);--share with all subscribed clients someone is dead
+                if SandboxVars.KillCount.shareOnServer then
+                    ModData.transmit(KCShared.Key);--share with all subscribed clients someone is dead
+                end
             end
         end
     end

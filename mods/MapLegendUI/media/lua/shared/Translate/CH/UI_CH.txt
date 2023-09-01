@@ -1,0 +1,10 @@
+UI_CH = {
+	UI_legendCommunity = "公共設施",
+	UI_legendRetail = "零售 & 商業設施",
+	UI_legendIndustrial = "工業區",
+	UI_legendResidential = "住宅區",
+	UI_legendRestaurants = "餐飲 & 娛樂區",
+	UI_legendHospitality = "旅館設施",
+	UI_legendMedical = "醫療服務設施",
+	UI_legendParks = "公園區域",
+}

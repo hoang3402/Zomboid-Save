@@ -1,0 +1,37 @@
+ADDITIONAL SKILL BOOKS MOD 2
+
+Original version called Additional Skill Books v1.3 by Pravus
+
+Updated to work with Build 32 by Plognark, then expanded with many new books.
+
+And updated to work with Build 41 by Archi9.
+
+Installation Instructions:
+--------------------------------------------
+Cut/copy the "Additional Skill Books" folder containing mod.info and media folder.  Then place it in the directory C:/Users/*YOUR_NAME*/Zomboid/mods.  Make sure to double-click the mod in the Mod Loader (click Mods next to Options on the main title screen) to activate it and keep it activated next time you open Project Zomboid.  That's it!  Then start a game and have fun!
+
+Description:
+--------------------------------------------
+This mod adds a few extra skill books to the world for players to find and use to increase the speed of their learning!
+
+Version History:
+--------------------------------------------
+1.0 - Initial Release
+
+1.1 - Removed Sneaking for now as it caused severe null errors whenever a player attempted to read its appropriate books.
+
+1.2 - Added in Blade and Blunt skill books to round out training books for the active skills
+
+1.3 - Fixed Blade skill books not working correctly (I overlooked a typo *blush*).  All books should be 100% functional and properly distributed now.
+
+2.0 - Plognark - fixed the book entries for build 32. Removed redundant trapping books. 
+Added first aid, guard, maintenance, and others. This (non-working) version was released as 1.0.
+
+2.1 - Plognark - After changing mod name to AdditonalBooks2, forgot to update the Lua files for item spawning.
+      Now corrected, and should be working again. Changed versioning to start at 2.
+
+2.2 - Archi9 - Fix compatibility to Build 36. Added RU translation. Removed electrical, foraging and first aid books.
+
+2.3 - Archi9 - Combine books.
+
+2.4 - Archi9 - Update for IWBUMS 41 build

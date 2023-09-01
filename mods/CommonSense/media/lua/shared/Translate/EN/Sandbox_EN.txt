@@ -1,0 +1,9 @@
+    Sandbox_EN = {
+    Sandbox_CommonSense = "Common Sense",
+    Sandbox_CommonSense_PryingMechanic = "Crowbar Mechanic",
+    Sandbox_CommonSense_PryingMechanic_tooltip = "Toggles whether Players can pry open doors, windows, etc. using a Crowbar. ",
+    Sandbox_CommonSense_PartsHighlighter = "Parts Condition Highlighter",
+    Sandbox_CommonSense_PartsHighlighter_tooltip = "Displays the icon for Battery and Engine in vehicle dashboards in various colors depending on their condition. "
+    Sandbox_CommonSense_ColorFilter = "Color Filter",
+    Sandbox_CommonSense_ColorFilter_tooltip = "Toggles friendly colors for those affected by color blindness. ",
+}

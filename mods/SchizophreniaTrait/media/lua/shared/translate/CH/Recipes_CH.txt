@@ -1,0 +1,3 @@
+Recipes_CH = {
+    Recipe_Pop_pill = "取出藥物",
+}

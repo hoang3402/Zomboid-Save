@@ -1,0 +1,9 @@
+Sandbox_FR = {
+    Sandbox_CommonSense = "Bon Sens",
+    Sandbox_CommonSense_PryingMechanic = "Mécanique du Pied-de-biche",
+    Sandbox_CommonSense_PryingMechanic_tooltip = "Indique si les joueurs peuvent ouvrir des portes, des fenêtres, etc. à l'aide d'un pied-de-biche. ",
+    Sandbox_CommonSense_PartsHighlighter = "Surligneur de l'état des pièces",
+    Sandbox_CommonSense_PartsHighlighter_tooltip = "Affiche l'icône de la batterie et du moteur dans les tableaux de bord des véhicules dans différentes couleurs en fonction de leur état. "
+    Sandbox_CommonSense_ColorFilter = "Filtre de couleur",
+    Sandbox_CommonSense_ColorFilter_tooltip = "Bascule les couleurs amicales pour les personnes affectées par le daltonisme. ",
+}

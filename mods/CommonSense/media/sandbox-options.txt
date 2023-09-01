@@ -1,0 +1,25 @@
+VERSION = 1,
+
+option CommonSense.PryingMechanic
+{
+    type = boolean,
+    default = true,
+    page = CommonSense,
+    translation = CommonSense_PryingMechanic,
+}
+
+option CommonSense.PartsHighlighter
+{
+    type = boolean,
+    default = true,
+    page = CommonSense,
+    translation = CommonSense_PartsHighlighter,
+}
+
+option CommonSense.ColorFilter
+{
+    type = boolean,
+    default = false,
+    page = CommonSense,
+    translation = CommonSense_ColorFilter,
+}

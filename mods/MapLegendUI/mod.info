@@ -1,0 +1,6 @@
+id=MapLegendUI
+name=Map Legend UI
+description=Adds a legend from town maps to in-game world map.
+poster=poster.png
+modversion=2.0.11
+versionMin=41.65

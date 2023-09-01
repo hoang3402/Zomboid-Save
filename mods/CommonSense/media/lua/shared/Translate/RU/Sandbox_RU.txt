@@ -1,0 +1,9 @@
+Sandbox_RU = {
+    Sandbox_CommonSense = "Здравый смысл",
+    Sandbox_CommonSense_PryingMechanic = "Лом Механика",
+    Sandbox_CommonSense_PryingMechanic_tooltip = "Переключает, могут ли игроки открывать двери, окна и т. д. с помощью лома. ",
+    Sandbox_CommonSense_PartsHighlighter = "Подсветка состояния детали",
+    Sandbox_CommonSense_PartsHighlighter_tooltip = "Отображает значок аккумулятора и двигателя на приборных панелях автомобиля разными цветами в зависимости от их состояния. "
+    Sandbox_CommonSense_ColorFilter = "Цветовой фильтр",
+    Sandbox_CommonSense_ColorFilter_tooltip = "Переключает дружественные цвета для тех, кто страдает дальтонизмом. ",
+}

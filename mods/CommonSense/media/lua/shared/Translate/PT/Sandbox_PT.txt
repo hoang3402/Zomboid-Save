@@ -1,0 +1,9 @@
+Sandbox_PT = {
+    Sandbox_CommonSense = "Bom Senso",
+    Sandbox_CommonSense_PryingMechanic = "Mecânica do Pé-de-cabra",
+    Sandbox_CommonSense_PryingMechanic_tooltip = "Alterna se os jogadores podem abrir portas, janelas, etc. usando um pé de cabra. ",
+    Sandbox_CommonSense_PartsHighlighter = "Marcador de condição de peças",
+    Sandbox_CommonSense_PartsHighlighter_tooltip = "Exibe o ícone da bateria e do motor nos painéis dos veículos em várias cores, dependendo de suas condições. "
+    Sandbox_CommonSense_ColorFilter = "Filtro de Cor",
+    Sandbox_CommonSense_ColorFilter_tooltip = "Alterna cores amigáveis para aqueles afetados pelo daltonismo. ",
+}

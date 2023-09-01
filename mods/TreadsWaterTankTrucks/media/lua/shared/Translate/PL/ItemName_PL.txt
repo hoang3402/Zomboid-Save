@@ -1,0 +1,15 @@
+ItemName_PL = {
+	ItemName_Base.1500_Water_Tank1 = "Zbiornik na wodê",
+	ItemName_Base.1500_Water_Tank2 = "Zbiornik na wodê",
+	ItemName_Base.1500_Water_Tank3 = "Zbiornik na wodê",
+	ItemName_Base.3000_Water_Tank1 = "Zbiornik na wodê",
+	ItemName_Base.3000_Water_Tank2 = "Zbiornik na wodê",
+	ItemName_Base.3000_Water_Tank3 = "Zbiornik na wodê",
+	ItemName_Base.10000_Water_Tank1 = "Zbiornik na wodê",
+	ItemName_Base.10000_Water_Tank2 = "Zbiornik na wodê",
+	ItemName_Base.10000_Water_Tank3 = "Zbiornik na wodê",
+	ItemName_Base.3000_Water_Tank_Tainted1 = "Zbiornik na nieczystoœci",
+	ItemName_Base.3000_Water_Tank_Tainted2 = "Zbiornik na nieczystoœci",
+	ItemName_Base.3000_Water_Tank_Tainted3 = "Zbiornik na nieczystoœci",
+	ItemName_Base.RS_WaterFilter  = "Filtr wody",
+)

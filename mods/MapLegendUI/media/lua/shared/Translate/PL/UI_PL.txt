@@ -1,0 +1,10 @@
+UI_PL = {
+    UI_legendCommunity = "Us³ugi Publiczne",
+    UI_legendHospitality = "Hotele i Noclegi",
+    UI_legendIndustrial = "Obiekty Przemys³owe",
+    UI_legendMedical = "S³u¿ba Zdrowia",
+    UI_legendParks = "Tereny Zielone",
+    UI_legendResidential = "Budynki Mieszkalne",
+    UI_legendRestaurants = "Gastronomia i Rozrywka",
+    UI_legendRetail = "Handel i Us³ugi",
+}

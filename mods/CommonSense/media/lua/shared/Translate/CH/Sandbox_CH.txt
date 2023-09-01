@@ -1,0 +1,9 @@
+Sandbox_CH = {
+    Sandbox_CommonSense = "常识",
+    Sandbox_CommonSense_PryingMechanic = "撬棍机制",
+    Sandbox_CommonSense_PryingMechanic_tooltip = "切换玩家是否可以使用撬棍打开门、窗等。",
+    Sandbox_CommonSense_PartsHighlighter = "零件状态荧光笔",
+    Sandbox_CommonSense_PartsHighlighter_tooltip = "根据其状况，以各种颜色在车辆仪表板中显示电池和引擎图标。"
+    Sandbox_CommonSense_ColorFilter = "彩色滤镜",
+    Sandbox_CommonSense_ColorFilter_tooltip = "为受色盲影响的人切换友好颜色。",
+}

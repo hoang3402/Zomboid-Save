@@ -1,0 +1,8 @@
+UI_CH = {
+    UI_trait_Schizophrenia = "思覺失調症",
+    UI_trait_Schizophreniaheader = "對現實的認知出現混亂. ",
+    UI_trait_Schizophreniapoint1 = "- 幻聽, 會聽見不存在的聲音",
+    UI_trait_Schizophreniapoint2 = "- 有時會難以入睡",
+    UI_trait_Schizophreniapoint3 = "- 症狀受壓力程度影響",
+    UI_trait_Schizophreniapoint4 = "- 情緒不穩定",
+}

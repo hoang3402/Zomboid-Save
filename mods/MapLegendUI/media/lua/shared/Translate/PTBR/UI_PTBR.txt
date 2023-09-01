@@ -1,0 +1,10 @@
+UI_PTBR = {
+	UI_legendCommunity = "Servicos Comunitarios",
+	UI_legendRetail = "Varejo & Comercial",
+	UI_legendIndustrial = "Industrial",
+	UI_legendResidential = "Residencial",
+	UI_legendRestaurants = "Restaurantes & Entretenimento",
+	UI_legendHospitality = "Hotelaria",
+	UI_legendMedical = "Medico",
+	UI_legendParks = "Parques",
+}
