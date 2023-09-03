@@ -2881,3 +2881,44 @@ table.insert(log, {
 	{ type = "removed_item", scriptMissing = false, fulltype = "SpiffUI.Bag", registeryID = 2449, existsVanilla = false, isModded = true, modID = "SpiffUI-Inv", obsolete = false, removed = true, isLoaded = false }
 	{ type = "removed_item", scriptMissing = true, fulltype = "SpiffUI.Bag", registeryID = 2449, existsVanilla = false, isModded = true, modID = "SpiffUI-Inv", obsolete = false, removed = true, isLoaded = false }
 };
+log = log or {};
+table.insert(log, {
+	-- -------------------------------------------------------
+	-- Time: 2023/09/04 01:31:41
+	{
+		type = "info",
+		timeStamp = "2023/09/04 01:31:41",
+		saveWorld = "MyWorld",
+		worldVersion = 195,
+		hasErrored = false,
+		itemMods = {
+			"pz-vanilla",
+			"ToadTraits",
+			"tsarslib",
+			"isoContainers",
+			"BB_CommonSense",
+			"Onifurniture",
+			"rSemiTruck",
+			"LazoloDynamicBackpackUpgrades",
+			"manageContainers",
+			"ReducedPlank",
+			"BCGTools",
+			"autotsartrailers",
+			"BCGRareWeapons",
+			"BetterFlashlights",
+			"BasedBackpack",
+			"82oshkoshM911",
+			"MoreSkillBooks",
+			"Amputation",
+			"SpiffUI-Inv",
+			"AdditionalBooks2",
+			"RS_WaterCistern",
+			"BrutalHandwork",
+			"67commando",
+			"SchizophreniaTrait",
+			"DrivingSkill",
+		},
+	},
+	{ type = "removed_item", scriptMissing = false, fulltype = "SpiffUI.Bag", registeryID = 2449, existsVanilla = false, isModded = true, modID = "SpiffUI-Inv", obsolete = false, removed = true, isLoaded = false }
+	{ type = "removed_item", scriptMissing = true, fulltype = "SpiffUI.Bag", registeryID = 2449, existsVanilla = false, isModded = true, modID = "SpiffUI-Inv", obsolete = false, removed = true, isLoaded = false }
+};
