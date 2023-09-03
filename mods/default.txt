@@ -85,7 +85,7 @@ mods
 	mod = RS_WaterCistern_KI5_Addon,
 	mod = RS_WaterCistern,
 	mod = Amputation,
-	mod = SpiffUI-Inv,
+	mod = PlayersOnMap,
 }
 
 maps
