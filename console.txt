@@ -33356,3 +33356,32 @@ LOG  : General     , 1694000175801> reading C:\Users\Administrator\Zomboid\Sandb
 LOG  : Lua         , 1694000175826> Loading: media/lua/shared/Sandbox/Apocalypse.lua
 LOG  : General     , 1694000175950> ECC: OnMainMenuEnter
 LOG  : General     , 1694000175974> EXITDEBUG: MainScreenState.enter 2
+LOG  : General     , 1694000344525> EXITDEBUG: onMenuItemMouseDownMainMenu 1 (item=OPTIONS)
+LOG  : General     , 1694000395269> LightingFPS set to 15
+LOG  : General     , 1694000395306> LightingFPS set to 15
+LOG  : General     , 1694000404536> LightingFPS set to 15
+LOG  : General     , 1694000404575> LightingFPS set to 15
+LOG  : General     , 1694000410153> LightingFPS set to 15
+LOG  : General     , 1694000410191> LightingFPS set to 15
+LOG  : General     , 1694000523704> LightingFPS set to 15
+LOG  : General     , 1694000523763> LightingFPS set to 15
+LOG  : General     , 1694000537093> LightingFPS set to 15
+LOG  : General     , 1694000537130> LightingFPS set to 15
+LOG  : General     , 1694000558170> LightingFPS set to 15
+LOG  : General     , 1694000558211> LightingFPS set to 15
+LOG  : General     , 1694000646767> EXITDEBUG: onMenuItemMouseDownMainMenu 1 (item=EXIT)
+LOG  : General     , 1694000646767> EXITDEBUG: onMenuItemMouseDownMainMenu 2
+LOG  : General     , 1694000646768> EXITDEBUG: onMenuItemMouseDownMainMenu 3
+LOG  : General     , 1694000647834> EXITDEBUG: setGameSpeed 1
+LOG  : General     , 1694000647834> EXITDEBUG: setGameSpeed 3
+LOG  : General     , 1694000647834> EXITDEBUG: pauseSoundAndMusic 1
+LOG  : General     , 1694000647834> EXITDEBUG: pauseSoundAndMusic 2
+LOG  : General     , 1694000647834> EXITDEBUG: setShowPausedMessage 1
+LOG  : General     , 1694000647834> EXITDEBUG: setShowPausedMessage 2
+LOG  : General     , 1694000647835> EXITDEBUG: Core.quitToDesktop
+LOG  : General     , 1694000647835> EXITDEBUG: GameWindow.exit 1
+LOG  : General     , 1694000647836> EXITDEBUG: GameWindow.exit 2
+LOG  : General     , 1694000647836> EXITDEBUG: GameWindow.exit 3
+LOG  : General     , 1694000647836> EXITDEBUG: GameWindow.exit 4
+LOG  : General     , 1694000648213> GameThread exited.
+LOG  : General     , 1694000648213> EXITDEBUG: GameWindow.exit 5
