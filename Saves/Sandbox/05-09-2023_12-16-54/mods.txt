@@ -45,8 +45,6 @@ mods
 	mod = BetterSortCC,
 	mod = BetterFPS,
 	mod = ReducedPlank,
-	mod = BrutalHandwork,
-	mod = FancyHandwork,
 	mod = VISIBLE_BACKPACK_BACKGROUND,
 	mod = Kaldo_CarDashboardRadioButton,
 	mod = CleanDirt,
@@ -70,7 +68,6 @@ mods
 	mod = SchizophreniaTrait,
 	mod = UIAPI,
 	mod = SleepWithFriends,
-	mod = SpnHair,
 	mod = SwapIt,
 	mod = tsarslib,
 	mod = rSemiTruck,
@@ -85,7 +82,8 @@ mods
 	mod = RS_WaterCistern_KI5_Addon,
 	mod = RS_WaterCistern,
 	mod = Amputation,
-	mod = PlayersOnMap,
+	mod = BrutalHandwork,
+	mod = FancyHandwork,
 }
 
 maps
